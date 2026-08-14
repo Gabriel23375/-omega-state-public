@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-14T20:58:23Z",
+  "source": {
+    "branch": "main",
+    "head_sha": "cb2cc4e73c7264fee5cdc5b947d822d18d79f847",
+    "publisher_run_id": 31840335823,
+    "publisher_run_number": 2
+  },
+  "runtime": {
+    "canonical_execution_runtime": "github-actions",
+    "railway_required": false
+  },
+  "code": {
+    "main_py_sha256": "ddcba1a4404c9d3fa34297dbf3d98b7e2edcef3bb41f1500086d4896ff84cd21",
+    "main_yml_sha256": "86b39cc311e106e0a148bdf8aa6f3ab3321064874ebfc3f28ac1bd8cd2972302"
+  },
+  "workflow_runs": [
+    {
+      "name": "OMEGA Public State Bridge",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 2,
+      "event": "workflow_dispatch",
+      "head_sha": "cb2cc4e73c7264fee5cdc5b947d822d18d79f847",
+      "created_at": "2026-08-14T20:58:16Z",
+      "updated_at": "2026-08-14T20:58:20Z"
+    },
+    {
+      "name": "OMEGA PIT Identity & Event Reconciliation V3",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 13,
+      "event": "push",
+      "head_sha": "cb2cc4e73c7264fee5cdc5b947d822d18d79f847",
+      "created_at": "2026-08-14T20:42:16Z",
+      "updated_at": "2026-08-14T20:42:31Z"
+    },
+    {
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "failure",
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "cb2cc4e73c7264fee5cdc5b947d822d18d79f847",
+      "created_at": "2026-08-14T20:42:16Z",
+      "updated_at": "2026-08-14T20:42:27Z"
+    },
+    {
+      "name": "OMEGA PIT Identity & Event Reconciliation V3",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 12,
+      "event": "push",
+      "head_sha": "5c1873d325e320d1e733c6ae70e0903ba9b6abe6",
+      "created_at": "2026-08-14T19:24:12Z",
+      "updated_at": "2026-08-14T19:24:28Z"
+    },
+    {
+      "name": ".github/workflows/main.yml",
+      "status": "completed",
+      "conclusion": "failure",
+      "run_number": 11,
+      "event": "push",
+      "head_sha": "de9d76e4182340e3a14b5f5de47a363c50e0499a",
+      "created_at": "2026-08-14T17:15:13Z",
+      "updated_at": "2026-08-14T17:15:13Z"
+    },
+    {
+      "name": "OMEGA Consolidated Evidence Pipeline V2",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "5302c7ce5425a50be2295af0d221b322db133e71",
+      "created_at": "2026-08-14T01:42:12Z",
+      "updated_at": "2026-08-14T01:42:52Z"
+    },
+    {
+      "name": "OMEGA PIT Identity & Event Reconciliation V3",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 10,
+      "event": "push",
+      "head_sha": "5302c7ce5425a50be2295af0d221b322db133e71",
+      "created_at": "2026-08-14T01:42:12Z",
+      "updated_at": "2026-08-14T01:42:28Z"
+    },
+    {
+      "name": "OMEGA PIT Identity & Event Reconciliation V3",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 9,
+      "event": "push",
+      "head_sha": "2422f760ac38765fcd01e05789a2ef3ce152c8ea",
+      "created_at": "2026-08-14T01:31:52Z",
+      "updated_at": "2026-08-14T01:32:06Z"
+    },
+    {
+      "name": "OMEGA Consolidated Evidence Pipeline",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "2422f760ac38765fcd01e05789a2ef3ce152c8ea",
+      "created_at": "2026-08-14T01:31:52Z",
+      "updated_at": "2026-08-14T01:34:24Z"
+    },
+    {
+      "name": "OMEGA PIT Identity & Event Reconciliation V3",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 8,
+      "event": "push",
+      "head_sha": "0930ee6679490b317d2c27724cf47e20009fe80b",
+      "created_at": "2026-08-14T01:01:18Z",
+      "updated_at": "2026-08-14T01:01:31Z"
+    },
+    {
+      "name": ".github/workflows/main.yml",
+      "status": "completed",
+      "conclusion": "failure",
+      "run_number": 7,
+      "event": "push",
+      "head_sha": "1acf82b48582fc766798881c620e2c8e8c2612b9",
+      "created_at": "2026-08-14T00:58:32Z",
+      "updated_at": "2026-08-14T00:58:32Z"
+    },
+    {
+      "name": "OMEGA PIT Identity & Event Reconciliation V3",
+      "status": "completed",
+      "conclusion": "failure",
+      "run_number": 6,
+      "event": "push",
+      "head_sha": "df77c23067a617572c8eed7e4358ecc64a83334a",
+      "created_at": "2026-08-14T00:50:45Z",
+      "updated_at": "2026-08-14T00:51:36Z"
+    },
+    {
+      "name": "OMEGA PIT Identity & Event Reconciliation V3",
+      "status": "completed",
+      "conclusion": "failure",
+      "run_number": 5,
+      "event": "push",
+      "head_sha": "388a15a79bbabf0cfabb6332de9069a6f9168734",
+      "created_at": "2026-08-14T00:39:53Z",
+      "updated_at": "2026-08-14T00:43:16Z"
+    },
+    {
+      "name": "OMEGA PIT Security Master V2",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 4,
+      "event": "push",
+      "head_sha": "ee5c5cd06cadef6faf72888cac619f317d700195",
+      "created_at": "2026-08-14T00:31:00Z",
+      "updated_at": "2026-08-14T00:31:11Z"
+    },
+    {
+      "name": "OMEGA PIT Acquisition",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 3,
+      "event": "push",
+      "head_sha": "6f1623c1734ccdcf7d0f6fbafdd0e50aed63fd98",
+      "created_at": "2026-08-14T00:11:16Z",
+      "updated_at": "2026-08-14T00:11:24Z"
+    },
+    {
+      "name": "NYSE Network Test",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 2,
+      "event": "push",
+      "head_sha": "6e6a5530c9955a483392f668f01d1cb70e76fa43",
+      "created_at": "2026-08-14T00:05:59Z",
+      "updated_at": "2026-08-14T00:06:07Z"
+    },
+    {
+      "name": "NYSE Network Test",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "639cb0863792d2d0740380347ba94e4489992a19",
+      "created_at": "2026-08-14T00:03:44Z",
+      "updated_at": "2026-08-14T00:03:50Z"
+    }
+  ],
+  "omega_artifacts": [
+    {
+      "name": "omega-pit-identity-reconciliation-v3",
+      "size_in_bytes": 6147315,
+      "expired": false,
+      "created_at": "2026-08-14T20:42:28Z",
+      "updated_at": "2026-08-14T20:42:28Z"
+    },
+    {
+      "name": "omega-pit-identity-reconciliation-v3",
+      "size_in_bytes": 6147337,
+      "expired": false,
+      "created_at": "2026-08-14T19:24:24Z",
+      "updated_at": "2026-08-14T19:24:24Z"
+    },
+    {
+      "name": "omega-consolidated-v2-master-state",
+      "size_in_bytes": 4130,
+      "expired": false,
+      "created_at": "2026-08-14T01:42:50Z",
+      "updated_at": "2026-08-14T01:42:50Z"
+    },
+    {
+      "name": "omega-branch-drd-extractor-v2",
+      "size_in_bytes": 10720,
+      "expired": false,
+      "created_at": "2026-08-14T01:42:41Z",
+      "updated_at": "2026-08-14T01:42:41Z"
+    },
+    {
+      "name": "omega-branch-security-master-2024",
+      "size_in_bytes": 10899825,
+      "expired": false,
+      "created_at": "2026-08-14T01:42:35Z",
+      "updated_at": "2026-08-14T01:42:35Z"
+    },
+    {
+      "name": "omega-pit-identity-reconciliation-v3",
+      "size_in_bytes": 6147323,
+      "expired": false,
+      "created_at": "2026-08-14T01:42:25Z",
+      "updated_at": "2026-08-14T01:42:25Z"
+    },
+    {
+      "name": "omega-branch-pit-plumbing-replay",
+      "size_in_bytes": 31253914,
+      "expired": false,
+      "created_at": "2026-08-14T01:42:23Z",
+      "updated_at": "2026-08-14T01:42:23Z"
+    },
+    {
+      "name": "omega-branch-performance",
+      "size_in_bytes": 1631,
+      "expired": false,
+      "created_at": "2026-08-14T01:42:18Z",
+      "updated_at": "2026-08-14T01:42:18Z"
+    },
+    {
+      "name": "omega-consolidated-master-state",
+      "size_in_bytes": 3823,
+      "expired": false,
+      "created_at": "2026-08-14T01:34:20Z",
+      "updated_at": "2026-08-14T01:34:20Z"
+    },
+    {
+      "name": "omega-branch-drd-extractor-v2",
+      "size_in_bytes": 25551,
+      "expired": false,
+      "created_at": "2026-08-14T01:34:09Z",
+      "updated_at": "2026-08-14T01:34:09Z"
+    },
+    {
+      "name": "omega-branch-security-master-2024",
+      "size_in_bytes": 10899568,
+      "expired": false,
+      "created_at": "2026-08-14T01:32:05Z",
+      "updated_at": "2026-08-14T01:32:05Z"
+    },
+    {
+      "name": "omega-pit-identity-reconciliation-v3",
+      "size_in_bytes": 6147391,
+      "expired": false,
+      "created_at": "2026-08-14T01:32:02Z",
+      "updated_at": "2026-08-14T01:32:02Z"
+    },
+    {
+      "name": "omega-branch-pit-plumbing-replay",
+      "size_in_bytes": 1849,
+      "expired": false,
+      "created_at": "2026-08-14T01:32:00Z",
+      "updated_at": "2026-08-14T01:32:00Z"
+    },
+    {
+      "name": "omega-branch-performance",
+      "size_in_bytes": 1631,
+      "expired": false,
+      "created_at": "2026-08-14T01:32:00Z",
+      "updated_at": "2026-08-14T01:32:00Z"
+    },
+    {
+      "name": "omega-pit-identity-reconciliation-v3",
+      "size_in_bytes": 6148831,
+      "expired": false,
+      "created_at": "2026-08-14T01:01:28Z",
+      "updated_at": "2026-08-14T01:01:28Z"
+    },
+    {
+      "name": "omega-pit-v3-evidence",
+      "size_in_bytes": 351,
+      "expired": false,
+      "created_at": "2026-08-14T00:51:33Z",
+      "updated_at": "2026-08-14T00:51:33Z"
+    },
+    {
+      "name": "omega-pit-security-master-v2",
+      "size_in_bytes": 3102989,
+      "expired": false,
+      "created_at": "2026-08-14T00:31:09Z",
+      "updated_at": "2026-08-14T00:31:09Z"
+    },
+    {
+      "name": "omega-pit-acquisition",
+      "size_in_bytes": 1716100,
+      "expired": false,
+      "created_at": "2026-08-14T00:11:22Z",
+      "updated_at": "2026-08-14T00:11:22Z"
+    }
+  ]
+}
