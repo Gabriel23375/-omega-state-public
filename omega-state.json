@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T09:03:54Z",
+  "generated_at": "2026-08-15T09:40:59Z",
   "source": {
     "branch": "main",
-    "head_sha": "153110f64196acb05f21e0df059f9a6ce108f19a",
-    "publisher_run_id": 31876036461,
-    "publisher_run_number": 67,
-    "trigger_event": "schedule"
+    "head_sha": "ffbcb1d3830f0e7a1d979c9b40fdc333c721bf61",
+    "publisher_run_id": 31877610183,
+    "publisher_run_number": 68,
+    "trigger_event": "push"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -18,15 +18,63 @@
   },
   "workflow_runs": [
     {
-      "id": 31876036461,
+      "id": 31877610183,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 68,
+      "event": "push",
+      "head_sha": "ffbcb1d3830f0e7a1d979c9b40fdc333c721bf61",
+      "created_at": "2026-08-15T09:40:53Z",
+      "updated_at": "2026-08-15T09:40:56Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31877610183"
+    },
+    {
+      "id": 31877610181,
+      "name": "OMEGA Core Close Validator V5",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "ffbcb1d3830f0e7a1d979c9b40fdc333c721bf61",
+      "created_at": "2026-08-15T09:40:53Z",
+      "updated_at": "2026-08-15T09:40:58Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31877610181"
+    },
+    {
+      "id": 31877604697,
+      "name": "OMEGA Consolidated Evidence Pipeline",
+      "status": "pending",
+      "conclusion": null,
+      "run_number": 10,
+      "event": "push",
+      "head_sha": "497c73df04ea91f325423187a5d2ad580274fec3",
+      "created_at": "2026-08-15T09:40:46Z",
+      "updated_at": "2026-08-15T09:40:46Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31877604697"
+    },
+    {
+      "id": 31877604672,
+      "name": "OMEGA Consolidated Evidence Pipeline V2",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 10,
+      "event": "push",
+      "head_sha": "497c73df04ea91f325423187a5d2ad580274fec3",
+      "created_at": "2026-08-15T09:40:46Z",
+      "updated_at": "2026-08-15T09:40:50Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31877604672"
+    },
+    {
+      "id": 31876036461,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 67,
       "event": "schedule",
       "head_sha": "153110f64196acb05f21e0df059f9a6ce108f19a",
       "created_at": "2026-08-15T09:03:47Z",
-      "updated_at": "2026-08-15T09:03:50Z",
+      "updated_at": "2026-08-15T09:03:57Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31876036461"
     },
     {
@@ -568,57 +616,35 @@
       "created_at": "2026-08-15T01:51:44Z",
       "updated_at": "2026-08-15T01:51:55Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857649559"
-    },
-    {
-      "id": 31857649521,
-      "name": "OMEGA PIT Core Suspension V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 3,
-      "event": "push",
-      "head_sha": "578657ef666ee5d0600877f3055f68e7b44e5b8d",
-      "created_at": "2026-08-15T01:51:44Z",
-      "updated_at": "2026-08-15T01:52:13Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857649521"
-    },
-    {
-      "id": 31857584035,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 41,
-      "event": "push",
-      "head_sha": "acad5c659c9d9b92e028ee206b5a315b4de2051f",
-      "created_at": "2026-08-15T01:50:19Z",
-      "updated_at": "2026-08-15T01:50:31Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857584035"
-    },
-    {
-      "id": 31857584033,
-      "name": "OMEGA PIT Core Suspension V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 2,
-      "event": "push",
-      "head_sha": "acad5c659c9d9b92e028ee206b5a315b4de2051f",
-      "created_at": "2026-08-15T01:50:19Z",
-      "updated_at": "2026-08-15T01:50:46Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857584033"
-    },
-    {
-      "id": 31857535599,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 40,
-      "event": "push",
-      "head_sha": "2a4444ff6e8dba9167a84377d1889f10fcd61b9d",
-      "created_at": "2026-08-15T01:49:15Z",
-      "updated_at": "2026-08-15T01:49:27Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857535599"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9245155700,
+      "name": "omega-branch-pit-plumbing-replay",
+      "size_in_bytes": 31254177,
+      "digest": "sha256:94249987d4c50c41308d1b944a533045267c1a8c402c3ebf8dad13802e992106",
+      "expired": false,
+      "created_at": "2026-08-15T09:40:56Z",
+      "updated_at": "2026-08-15T09:40:56Z",
+      "workflow_run": {
+        "id": 31877604672,
+        "head_sha": "497c73df04ea91f325423187a5d2ad580274fec3"
+      }
+    },
+    {
+      "id": 9245155361,
+      "name": "omega-branch-performance",
+      "size_in_bytes": 1628,
+      "digest": "sha256:b2ee84a3175908990f026fa4463e9da137aa7b9cb0a65cbee298127acd8fedf4",
+      "expired": false,
+      "created_at": "2026-08-15T09:40:54Z",
+      "updated_at": "2026-08-15T09:40:54Z",
+      "workflow_run": {
+        "id": 31877604672,
+        "head_sha": "497c73df04ea91f325423187a5d2ad580274fec3"
+      }
+    },
     {
       "id": 9244661332,
       "name": "omega-simulation-telemetry-31875687380",
@@ -1891,32 +1917,6 @@
       "workflow_run": {
         "id": 31854570581,
         "head_sha": "cbc3729bc19db7070e66bb1aeaabc5245eb32f76"
-      }
-    },
-    {
-      "id": 9233590911,
-      "name": "omega-pit-identity-reconciliation-v3",
-      "size_in_bytes": 6147315,
-      "digest": "sha256:68d93135873f13dc13cc18031b1ca4b6d04dc3e70960a9e530370fb88c0b781a",
-      "expired": false,
-      "created_at": "2026-08-14T20:42:28Z",
-      "updated_at": "2026-08-14T20:42:28Z",
-      "workflow_run": {
-        "id": 31839115705,
-        "head_sha": "cb2cc4e73c7264fee5cdc5b947d822d18d79f847"
-      }
-    },
-    {
-      "id": 9231433277,
-      "name": "omega-pit-identity-reconciliation-v3",
-      "size_in_bytes": 6147337,
-      "digest": "sha256:0845b804a2c003f90e6121f31fdcf1ca72daaf5894886e80c81ffccbc20aadce",
-      "expired": false,
-      "created_at": "2026-08-14T19:24:24Z",
-      "updated_at": "2026-08-14T19:24:24Z",
-      "workflow_run": {
-        "id": 31833083859,
-        "head_sha": "5c1873d325e320d1e733c6ae70e0903ba9b6abe6"
       }
     }
   ]
