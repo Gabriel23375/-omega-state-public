@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T12:20:51Z",
+  "generated_at": "2026-08-15T12:21:06Z",
   "source": {
     "branch": "main",
-    "head_sha": "db96f2db838d2de9f6f96eaf857c997593ecdff0",
-    "publisher_run_id": 31884361160,
-    "publisher_run_number": 137,
-    "trigger_event": "workflow_run"
+    "head_sha": "4cbd7f3f4bcec7c7154fb07d27101c2a4dfac5b3",
+    "publisher_run_id": 31884370520,
+    "publisher_run_number": 138,
+    "trigger_event": "push"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -18,15 +18,39 @@
   },
   "workflow_runs": [
     {
-      "id": 31884361160,
+      "id": 31884370551,
+      "name": "OMEGA Nasdaq Core Pilot Session Semantics V2",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "4cbd7f3f4bcec7c7154fb07d27101c2a4dfac5b3",
+      "created_at": "2026-08-15T12:20:56Z",
+      "updated_at": "2026-08-15T12:20:59Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884370551"
+    },
+    {
+      "id": 31884370520,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 138,
+      "event": "push",
+      "head_sha": "4cbd7f3f4bcec7c7154fb07d27101c2a4dfac5b3",
+      "created_at": "2026-08-15T12:20:56Z",
+      "updated_at": "2026-08-15T12:21:01Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884370520"
+    },
+    {
+      "id": 31884361160,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 137,
       "event": "workflow_run",
       "head_sha": "db96f2db838d2de9f6f96eaf857c997593ecdff0",
       "created_at": "2026-08-15T12:20:42Z",
-      "updated_at": "2026-08-15T12:20:46Z",
+      "updated_at": "2026-08-15T12:20:55Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884361160"
     },
     {
@@ -592,33 +616,22 @@
       "created_at": "2026-08-15T11:30:05Z",
       "updated_at": "2026-08-15T11:30:14Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31882191044"
-    },
-    {
-      "id": 31882190980,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 112,
-      "event": "push",
-      "head_sha": "34210965b477ee84343c6a042fd2fb0d88a69b9a",
-      "created_at": "2026-08-15T11:30:05Z",
-      "updated_at": "2026-08-15T11:30:15Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31882190980"
-    },
-    {
-      "id": 31882154948,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 111,
-      "event": "push",
-      "head_sha": "5c612ba2da534e412e97344ecaae068df63a4550",
-      "created_at": "2026-08-15T11:29:10Z",
-      "updated_at": "2026-08-15T11:29:20Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31882154948"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9246852324,
+      "name": "omega-nasdaq-core-pilot-session-semantics-v2-31884370551",
+      "size_in_bytes": 1343,
+      "digest": "sha256:7e907f3e2dabcb9dfc2ee95a69d8cb980ee5945efe830268f1229faa7a78bfb0",
+      "expired": false,
+      "created_at": "2026-08-15T12:21:04Z",
+      "updated_at": "2026-08-15T12:21:04Z",
+      "workflow_run": {
+        "id": 31884370551,
+        "head_sha": "4cbd7f3f4bcec7c7154fb07d27101c2a4dfac5b3"
+      }
+    },
     {
       "id": 9246849747,
       "name": "omega-branch-security-master-2024",
@@ -1898,19 +1911,6 @@
       "name": "omega-branch-performance",
       "size_in_bytes": 1629,
       "digest": "sha256:6be6aebbac3ef0e56872c56c7811b99992417986040d0f703a5ab7265ae1236c",
-      "expired": false,
-      "created_at": "2026-08-15T10:47:56Z",
-      "updated_at": "2026-08-15T10:47:56Z",
-      "workflow_run": {
-        "id": 31880385473,
-        "head_sha": "8f8b6292f628685797f3fd91357bdd73e124522c"
-      }
-    },
-    {
-      "id": 9245862733,
-      "name": "omega-branch-pit-plumbing-replay",
-      "size_in_bytes": 1853,
-      "digest": "sha256:db1bbaac9ae9f77ef8453890920cdb1b59105983aeb8dbce7ca8f8648130a047",
       "expired": false,
       "created_at": "2026-08-15T10:47:56Z",
       "updated_at": "2026-08-15T10:47:56Z",
