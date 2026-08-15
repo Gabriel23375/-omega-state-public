@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T12:28:17Z",
+  "generated_at": "2026-08-15T12:28:30Z",
   "source": {
     "branch": "main",
     "head_sha": "492b7dc8e5e7dac6dbac2eaa100f77101dd99fb2",
-    "publisher_run_id": 31884676462,
-    "publisher_run_number": 145,
-    "trigger_event": "push"
+    "publisher_run_id": 31884685544,
+    "publisher_run_number": 147,
+    "trigger_event": "workflow_run"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -18,15 +18,51 @@
   },
   "workflow_runs": [
     {
-      "id": 31884676488,
-      "name": "OMEGA Financial Runtime V1",
+      "id": 31884686511,
+      "name": "OMEGA Simulation Telemetry Integrity V2",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 12,
+      "event": "workflow_run",
+      "head_sha": "492b7dc8e5e7dac6dbac2eaa100f77101dd99fb2",
+      "created_at": "2026-08-15T12:28:22Z",
+      "updated_at": "2026-08-15T12:28:25Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884686511"
+    },
+    {
+      "id": 31884685544,
+      "name": "OMEGA Public State Bridge",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 147,
+      "event": "workflow_run",
+      "head_sha": "492b7dc8e5e7dac6dbac2eaa100f77101dd99fb2",
+      "created_at": "2026-08-15T12:28:21Z",
+      "updated_at": "2026-08-15T12:28:25Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884685544"
+    },
+    {
+      "id": 31884683086,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "run_number": 146,
+      "event": "workflow_run",
+      "head_sha": "492b7dc8e5e7dac6dbac2eaa100f77101dd99fb2",
+      "created_at": "2026-08-15T12:28:18Z",
+      "updated_at": "2026-08-15T12:28:22Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884683086"
+    },
+    {
+      "id": 31884676488,
+      "name": "OMEGA Financial Runtime V1",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 4,
       "event": "push",
       "head_sha": "492b7dc8e5e7dac6dbac2eaa100f77101dd99fb2",
       "created_at": "2026-08-15T12:28:08Z",
-      "updated_at": "2026-08-15T12:28:12Z",
+      "updated_at": "2026-08-15T12:28:21Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884676488"
     },
     {
@@ -44,25 +80,25 @@
     {
       "id": 31884676462,
       "name": "OMEGA Public State Bridge",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "cancelled",
       "run_number": 145,
       "event": "push",
       "head_sha": "492b7dc8e5e7dac6dbac2eaa100f77101dd99fb2",
       "created_at": "2026-08-15T12:28:08Z",
-      "updated_at": "2026-08-15T12:28:13Z",
+      "updated_at": "2026-08-15T12:28:23Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884676462"
     },
     {
       "id": 31884676451,
       "name": "OMEGA DATA-GATE Scorecard V1",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 4,
       "event": "push",
       "head_sha": "492b7dc8e5e7dac6dbac2eaa100f77101dd99fb2",
       "created_at": "2026-08-15T12:28:08Z",
-      "updated_at": "2026-08-15T12:28:11Z",
+      "updated_at": "2026-08-15T12:28:19Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884676451"
     },
     {
@@ -580,45 +616,22 @@
       "created_at": "2026-08-15T12:07:48Z",
       "updated_at": "2026-08-15T12:07:59Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31883813427"
-    },
-    {
-      "id": 31883805990,
-      "name": "OMEGA Financial Replay Guard V1",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 3,
-      "event": "push",
-      "head_sha": "363253b6b2cb558b8c3d8cabe85c70300f30e9ac",
-      "created_at": "2026-08-15T12:07:37Z",
-      "updated_at": "2026-08-15T12:07:46Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31883805990"
-    },
-    {
-      "id": 31883401071,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 122,
-      "event": "workflow_run",
-      "head_sha": "80268c683de6ae0f8ed705325cc35e00ba8b424b",
-      "created_at": "2026-08-15T11:58:13Z",
-      "updated_at": "2026-08-15T11:58:25Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31883401071"
-    },
-    {
-      "id": 31883392270,
-      "name": "OMEGA Simulation Telemetry Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 9,
-      "event": "schedule",
-      "head_sha": "80268c683de6ae0f8ed705325cc35e00ba8b424b",
-      "created_at": "2026-08-15T11:57:58Z",
-      "updated_at": "2026-08-15T11:58:11Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31883392270"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9246934146,
+      "name": "omega-simulation-telemetry-integrity-v2-31884686511",
+      "size_in_bytes": 2031,
+      "digest": "sha256:1d1e8ee43fa1f96205bda4d98f18987cbb90cfe414aac7d53618923434cbe1c7",
+      "expired": false,
+      "created_at": "2026-08-15T12:28:28Z",
+      "updated_at": "2026-08-15T12:28:28Z",
+      "workflow_run": {
+        "id": 31884686511,
+        "head_sha": "492b7dc8e5e7dac6dbac2eaa100f77101dd99fb2"
+      }
+    },
     {
       "id": 9246931896,
       "name": "omega-financial-runtime-v1-31884676488",
@@ -1901,19 +1914,6 @@
       "expired": false,
       "created_at": "2026-08-15T11:00:34Z",
       "updated_at": "2026-08-15T11:00:34Z",
-      "workflow_run": {
-        "id": 31880832734,
-        "head_sha": "502a5fd929c38a3519cdb08969c83f9f012565f5"
-      }
-    },
-    {
-      "id": 9245992438,
-      "name": "omega-branch-performance",
-      "size_in_bytes": 1628,
-      "digest": "sha256:61f1f7d4cc54c6171260bc7f1f7e006dcb2cc60290ed44e7bf655e26fe5c8f92",
-      "expired": false,
-      "created_at": "2026-08-15T11:00:33Z",
-      "updated_at": "2026-08-15T11:00:33Z",
       "workflow_run": {
         "id": 31880832734,
         "head_sha": "502a5fd929c38a3519cdb08969c83f9f012565f5"
