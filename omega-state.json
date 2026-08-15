@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T01:52:23Z",
+  "generated_at": "2026-08-15T01:53:45Z",
   "source": {
     "branch": "main",
-    "head_sha": "fc653ab0d73ed007662fe17a29e51c8df71d8507",
-    "publisher_run_id": 31857675255,
-    "publisher_run_number": 43,
+    "head_sha": "ca7eb6520288062b6268b0b490b395a9410c14b3",
+    "publisher_run_id": 31857735230,
+    "publisher_run_number": 44,
     "trigger_event": "push"
   },
   "runtime": {
@@ -18,27 +18,51 @@
   },
   "workflow_runs": [
     {
-      "id": 31857675255,
+      "id": 31857735230,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 44,
+      "event": "push",
+      "head_sha": "ca7eb6520288062b6268b0b490b395a9410c14b3",
+      "created_at": "2026-08-15T01:53:38Z",
+      "updated_at": "2026-08-15T01:53:42Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857735230"
+    },
+    {
+      "id": 31857735220,
+      "name": "OMEGA PIT Execution Cost Admissibility V1",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "ca7eb6520288062b6268b0b490b395a9410c14b3",
+      "created_at": "2026-08-15T01:53:38Z",
+      "updated_at": "2026-08-15T01:53:43Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857735220"
+    },
+    {
+      "id": 31857675255,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 43,
       "event": "push",
       "head_sha": "fc653ab0d73ed007662fe17a29e51c8df71d8507",
       "created_at": "2026-08-15T01:52:16Z",
-      "updated_at": "2026-08-15T01:52:19Z",
+      "updated_at": "2026-08-15T01:52:27Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857675255"
     },
     {
       "id": 31857675250,
       "name": "OMEGA PIT Core Suspension V2",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 1,
       "event": "push",
       "head_sha": "fc653ab0d73ed007662fe17a29e51c8df71d8507",
       "created_at": "2026-08-15T01:52:16Z",
-      "updated_at": "2026-08-15T01:52:19Z",
+      "updated_at": "2026-08-15T01:52:28Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857675250"
     },
     {
@@ -592,33 +616,22 @@
       "created_at": "2026-08-15T01:21:18Z",
       "updated_at": "2026-08-15T01:21:25Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856278252"
-    },
-    {
-      "id": 31856264248,
-      "name": "OMEGA Consolidated Evidence Pipeline",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 2,
-      "event": "push",
-      "head_sha": "0e8679a269449778f4e789e8af9eb980cd986889",
-      "created_at": "2026-08-15T01:20:59Z",
-      "updated_at": "2026-08-15T01:23:28Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856264248"
-    },
-    {
-      "id": 31856264241,
-      "name": "OMEGA Consolidated Evidence Pipeline V2",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "run_number": 2,
-      "event": "push",
-      "head_sha": "0e8679a269449778f4e789e8af9eb980cd986889",
-      "created_at": "2026-08-15T01:20:59Z",
-      "updated_at": "2026-08-15T01:21:49Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856264241"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9239540055,
+      "name": "omega-core-suspension-v2-31857675250",
+      "size_in_bytes": 4848,
+      "digest": "sha256:9629c7892b51b7b364e1fe074e6d1427a6e43be77adb1860c922ce4ab9c39248",
+      "expired": false,
+      "created_at": "2026-08-15T01:52:24Z",
+      "updated_at": "2026-08-15T01:52:24Z",
+      "workflow_run": {
+        "id": 31857675250,
+        "head_sha": "fc653ab0d73ed007662fe17a29e51c8df71d8507"
+      }
+    },
     {
       "id": 9239537019,
       "name": "omega-core-suspension-v1-31857649521",
