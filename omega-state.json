@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-15T01:31:58Z",
+  "generated_at": "2026-08-15T01:34:08Z",
   "source": {
     "branch": "main",
-    "head_sha": "65a7b5b03b8a34fa7c77b91cf7e354b5ba64a421",
-    "publisher_run_id": 31856761989,
-    "publisher_run_number": 28,
+    "head_sha": "bb62e941a5ca3f773e704726f2897df7f97f2d5c",
+    "publisher_run_id": 31856863058,
+    "publisher_run_number": 29,
     "trigger_event": "push"
   },
   "runtime": {
@@ -18,27 +18,51 @@
   },
   "workflow_runs": [
     {
-      "id": 31856761989,
+      "id": 31856863058,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 29,
+      "event": "push",
+      "head_sha": "bb62e941a5ca3f773e704726f2897df7f97f2d5c",
+      "created_at": "2026-08-15T01:34:00Z",
+      "updated_at": "2026-08-15T01:34:05Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856863058"
+    },
+    {
+      "id": 31856863053,
+      "name": "OMEGA PIT Nasdaq Removal Economics V1",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "bb62e941a5ca3f773e704726f2897df7f97f2d5c",
+      "created_at": "2026-08-15T01:34:00Z",
+      "updated_at": "2026-08-15T01:34:05Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856863053"
+    },
+    {
+      "id": 31856761989,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 28,
       "event": "push",
       "head_sha": "65a7b5b03b8a34fa7c77b91cf7e354b5ba64a421",
       "created_at": "2026-08-15T01:31:53Z",
-      "updated_at": "2026-08-15T01:31:56Z",
+      "updated_at": "2026-08-15T01:32:02Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856761989"
     },
     {
       "id": 31856761980,
       "name": "OMEGA PIT NYSE Corporate Actions V2",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 1,
       "event": "push",
       "head_sha": "65a7b5b03b8a34fa7c77b91cf7e354b5ba64a421",
       "created_at": "2026-08-15T01:31:53Z",
-      "updated_at": "2026-08-15T01:31:56Z",
+      "updated_at": "2026-08-15T01:32:05Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856761980"
     },
     {
@@ -352,33 +376,22 @@
       "created_at": "2026-08-15T01:14:05Z",
       "updated_at": "2026-08-15T01:14:17Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31855945104"
-    },
-    {
-      "id": 31855945103,
-      "name": "OMEGA PIT Price Volume Probe",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "fb0b4db4b60312a8b0cb79c9d33674cbdffa78da",
-      "created_at": "2026-08-15T01:14:05Z",
-      "updated_at": "2026-08-15T01:14:27Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31855945103"
-    },
-    {
-      "id": 31855785476,
-      "name": "OMEGA PIT Gap Closure V2",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 2,
-      "event": "push",
-      "head_sha": "c6aedf1f562a53da26df4ce6f97c1b8ef1188e7f",
-      "created_at": "2026-08-15T01:10:34Z",
-      "updated_at": "2026-08-15T01:10:49Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31855785476"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9239252945,
+      "name": "omega-pit-nyse-corporate-actions-v2-31856761980",
+      "size_in_bytes": 290510,
+      "digest": "sha256:5d9f9ff0685c1865047b0623165b634103247a3e166f7794f299052cf63309ee",
+      "expired": false,
+      "created_at": "2026-08-15T01:32:01Z",
+      "updated_at": "2026-08-15T01:32:01Z",
+      "workflow_run": {
+        "id": 31856761980,
+        "head_sha": "65a7b5b03b8a34fa7c77b91cf7e354b5ba64a421"
+      }
+    },
     {
       "id": 9239207206,
       "name": "omega-pit-nyse-corporate-actions-pilot-31856603766",
