@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-15T01:27:58Z",
+  "generated_at": "2026-08-15T01:28:42Z",
   "source": {
     "branch": "main",
-    "head_sha": "81dabc7700f3c77ce070d0e12fbfb722ace7c658",
-    "publisher_run_id": 31856570064,
-    "publisher_run_number": 26,
+    "head_sha": "3efae686b41b2a897f8718f25d765b0ab9605828",
+    "publisher_run_id": 31856603768,
+    "publisher_run_number": 27,
     "trigger_event": "push"
   },
   "runtime": {
@@ -18,27 +18,51 @@
   },
   "workflow_runs": [
     {
-      "id": 31856570064,
+      "id": 31856603768,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 27,
+      "event": "push",
+      "head_sha": "3efae686b41b2a897f8718f25d765b0ab9605828",
+      "created_at": "2026-08-15T01:28:35Z",
+      "updated_at": "2026-08-15T01:28:39Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856603768"
+    },
+    {
+      "id": 31856603766,
+      "name": "OMEGA PIT NYSE Corporate Actions Pilot",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 2,
+      "event": "push",
+      "head_sha": "3efae686b41b2a897f8718f25d765b0ab9605828",
+      "created_at": "2026-08-15T01:28:35Z",
+      "updated_at": "2026-08-15T01:28:38Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856603766"
+    },
+    {
+      "id": 31856570064,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 26,
       "event": "push",
       "head_sha": "81dabc7700f3c77ce070d0e12fbfb722ace7c658",
       "created_at": "2026-08-15T01:27:51Z",
-      "updated_at": "2026-08-15T01:27:54Z",
+      "updated_at": "2026-08-15T01:28:02Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856570064"
     },
     {
       "id": 31856570026,
       "name": "OMEGA PIT NYSE Corporate Actions Pilot",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 1,
       "event": "push",
       "head_sha": "81dabc7700f3c77ce070d0e12fbfb722ace7c658",
       "created_at": "2026-08-15T01:27:51Z",
-      "updated_at": "2026-08-15T01:27:54Z",
+      "updated_at": "2026-08-15T01:27:59Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856570026"
     },
     {
@@ -352,33 +376,22 @@
       "created_at": "2026-08-15T01:08:17Z",
       "updated_at": "2026-08-15T01:08:27Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31855677334"
-    },
-    {
-      "id": 31855676427,
-      "name": "OMEGA PIT Gap Closure V2",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "b6087ef8e30c402dcf7d2039f17dafd2e0764c5e",
-      "created_at": "2026-08-15T01:08:15Z",
-      "updated_at": "2026-08-15T01:08:31Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31855676427"
-    },
-    {
-      "id": 31855574611,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 12,
-      "event": "push",
-      "head_sha": "4276c72806895e589b07da87562680af048a7330",
-      "created_at": "2026-08-15T01:06:01Z",
-      "updated_at": "2026-08-15T01:06:11Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31855574611"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9239207206,
+      "name": "omega-pit-nyse-corporate-actions-pilot-31856603766",
+      "size_in_bytes": 23619,
+      "digest": "sha256:3b3ee46ae6c11e40d2a760979adc99136d02547d4a44fd47bf9f19bc7b101e8a",
+      "expired": false,
+      "created_at": "2026-08-15T01:28:42Z",
+      "updated_at": "2026-08-15T01:28:42Z",
+      "workflow_run": {
+        "id": 31856603766,
+        "head_sha": "3efae686b41b2a897f8718f25d765b0ab9605828"
+      }
+    },
     {
       "id": 9239197859,
       "name": "omega-pit-nyse-corporate-actions-pilot-31856570026",
