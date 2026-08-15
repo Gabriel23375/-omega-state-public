@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T10:52:27Z",
+  "generated_at": "2026-08-15T10:58:00Z",
   "source": {
     "branch": "main",
-    "head_sha": "f3768e537357a91b897ac3950a79b516a0b91b00",
-    "publisher_run_id": 31880607784,
-    "publisher_run_number": 78,
+    "head_sha": "45403f79878c7eb65aad7969d70dc173880bf82d",
+    "publisher_run_id": 31880840822,
+    "publisher_run_number": 81,
     "trigger_event": "push"
   },
   "runtime": {
@@ -18,27 +18,99 @@
   },
   "workflow_runs": [
     {
-      "id": 31880607786,
-      "name": "OMEGA MEF Residual Taxonomy Closure V1",
+      "id": 31880840822,
+      "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 81,
+      "event": "push",
+      "head_sha": "45403f79878c7eb65aad7969d70dc173880bf82d",
+      "created_at": "2026-08-15T10:57:52Z",
+      "updated_at": "2026-08-15T10:57:57Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31880840822"
+    },
+    {
+      "id": 31880840817,
+      "name": "OMEGA DATA-GATE Scorecard V1",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "45403f79878c7eb65aad7969d70dc173880bf82d",
+      "created_at": "2026-08-15T10:57:52Z",
+      "updated_at": "2026-08-15T10:57:56Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31880840817"
+    },
+    {
+      "id": 31880835812,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "run_number": 80,
+      "event": "workflow_run",
+      "head_sha": "502a5fd929c38a3519cdb08969c83f9f012565f5",
+      "created_at": "2026-08-15T10:57:45Z",
+      "updated_at": "2026-08-15T10:57:55Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31880835812"
+    },
+    {
+      "id": 31880835615,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "run_number": 79,
+      "event": "workflow_run",
+      "head_sha": "502a5fd929c38a3519cdb08969c83f9f012565f5",
+      "created_at": "2026-08-15T10:57:45Z",
+      "updated_at": "2026-08-15T10:57:47Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31880835615"
+    },
+    {
+      "id": 31880832735,
+      "name": "OMEGA Consolidated Evidence Pipeline V2",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "run_number": 13,
+      "event": "push",
+      "head_sha": "502a5fd929c38a3519cdb08969c83f9f012565f5",
+      "created_at": "2026-08-15T10:57:41Z",
+      "updated_at": "2026-08-15T10:57:43Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31880832735"
+    },
+    {
+      "id": 31880832734,
+      "name": "OMEGA Consolidated Evidence Pipeline",
+      "status": "pending",
+      "conclusion": null,
+      "run_number": 13,
+      "event": "push",
+      "head_sha": "502a5fd929c38a3519cdb08969c83f9f012565f5",
+      "created_at": "2026-08-15T10:57:41Z",
+      "updated_at": "2026-08-15T10:57:42Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31880832734"
+    },
+    {
+      "id": 31880607786,
+      "name": "OMEGA MEF Residual Taxonomy Closure V1",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 2,
       "event": "push",
       "head_sha": "f3768e537357a91b897ac3950a79b516a0b91b00",
       "created_at": "2026-08-15T10:52:21Z",
-      "updated_at": "2026-08-15T10:52:25Z",
+      "updated_at": "2026-08-15T10:52:51Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31880607786"
     },
     {
       "id": 31880607784,
       "name": "OMEGA Public State Bridge",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 78,
       "event": "push",
       "head_sha": "f3768e537357a91b897ac3950a79b516a0b91b00",
       "created_at": "2026-08-15T10:52:21Z",
-      "updated_at": "2026-08-15T10:52:23Z",
+      "updated_at": "2026-08-15T10:52:31Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31880607784"
     },
     {
@@ -92,13 +164,13 @@
     {
       "id": 31880522166,
       "name": "OMEGA Consolidated Evidence Pipeline V2",
-      "status": "pending",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "cancelled",
       "run_number": 12,
       "event": "push",
       "head_sha": "bd6a2647a3fd5c3a5fc8604094b8918a295b2393",
       "created_at": "2026-08-15T10:50:22Z",
-      "updated_at": "2026-08-15T10:50:23Z",
+      "updated_at": "2026-08-15T10:57:43Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31880522166"
     },
     {
@@ -544,81 +616,48 @@
       "created_at": "2026-08-15T06:00:40Z",
       "updated_at": "2026-08-15T06:00:49Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31868369648"
-    },
-    {
-      "id": 31867694893,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 56,
-      "event": "workflow_run",
-      "head_sha": "9fe9812edc76a73112b8cd65b39b45b023aaaa67",
-      "created_at": "2026-08-15T05:44:31Z",
-      "updated_at": "2026-08-15T05:44:45Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31867694893"
-    },
-    {
-      "id": 31867662376,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 55,
-      "event": "workflow_run",
-      "head_sha": "9fe9812edc76a73112b8cd65b39b45b023aaaa67",
-      "created_at": "2026-08-15T05:43:47Z",
-      "updated_at": "2026-08-15T05:44:04Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31867662376"
-    },
-    {
-      "id": 31867562251,
-      "name": "OMEGA Consolidated Evidence Pipeline V2",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 7,
-      "event": "push",
-      "head_sha": "9fe9812edc76a73112b8cd65b39b45b023aaaa67",
-      "created_at": "2026-08-15T05:41:18Z",
-      "updated_at": "2026-08-15T05:44:29Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31867562251"
-    },
-    {
-      "id": 31867562246,
-      "name": "OMEGA Consolidated Evidence Pipeline",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 7,
-      "event": "push",
-      "head_sha": "9fe9812edc76a73112b8cd65b39b45b023aaaa67",
-      "created_at": "2026-08-15T05:41:18Z",
-      "updated_at": "2026-08-15T05:43:45Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31867562246"
-    },
-    {
-      "id": 31865768929,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 54,
-      "event": "workflow_run",
-      "head_sha": "6c99674d3d6cb12eb0aabf4a20fbd0fed4119715",
-      "created_at": "2026-08-15T04:58:26Z",
-      "updated_at": "2026-08-15T04:58:35Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31865768929"
-    },
-    {
-      "id": 31865760611,
-      "name": "OMEGA Simulation Telemetry Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 4,
-      "event": "schedule",
-      "head_sha": "6c99674d3d6cb12eb0aabf4a20fbd0fed4119715",
-      "created_at": "2026-08-15T04:58:14Z",
-      "updated_at": "2026-08-15T04:58:24Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31865760611"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9245966612,
+      "name": "omega-data-gate-scorecard-v1-31880840817",
+      "size_in_bytes": 2243,
+      "digest": "sha256:dc5c79d944ad70ce94a5b4e45e3012b2e8308fb81f388a64c8b0b007305152d0",
+      "expired": false,
+      "created_at": "2026-08-15T10:57:59Z",
+      "updated_at": "2026-08-15T10:57:59Z",
+      "workflow_run": {
+        "id": 31880840817,
+        "head_sha": "45403f79878c7eb65aad7969d70dc173880bf82d"
+      }
+    },
+    {
+      "id": 9245912457,
+      "name": "omega-mef-residual-taxonomy-closure-v1-31880607786",
+      "size_in_bytes": 1799616,
+      "digest": "sha256:787eb1bb094f816e459b00edd88dd1ff57eb9c538d12e72f62a3937a066abb09",
+      "expired": false,
+      "created_at": "2026-08-15T10:52:49Z",
+      "updated_at": "2026-08-15T10:52:49Z",
+      "workflow_run": {
+        "id": 31880607786,
+        "head_sha": "f3768e537357a91b897ac3950a79b516a0b91b00"
+      }
+    },
+    {
+      "id": 9245910133,
+      "name": "omega-branch-drd-extractor-v2",
+      "size_in_bytes": 25564,
+      "digest": "sha256:1f1d1ee388eb3054a331510ce9a58574068af45262f03ad1f1ef8f8a63d9330e",
+      "expired": false,
+      "created_at": "2026-08-15T10:52:36Z",
+      "updated_at": "2026-08-15T10:52:36Z",
+      "workflow_run": {
+        "id": 31880522155,
+        "head_sha": "bd6a2647a3fd5c3a5fc8604094b8918a295b2393"
+      }
+    },
     {
       "id": 9245892954,
       "name": "omega-rule605-legacy26-semantic-audit-v2-31880539774",
@@ -1878,45 +1917,6 @@
       "workflow_run": {
         "id": 31856570026,
         "head_sha": "81dabc7700f3c77ce070d0e12fbfb722ace7c658"
-      }
-    },
-    {
-      "id": 9239175798,
-      "name": "omega-pit-session-plumbing-replay-v2-31856486209",
-      "size_in_bytes": 632404,
-      "digest": "sha256:2b65fa73a36114d0da064422537369c1e3301aa5959cc3cad31dd0c1072b8852",
-      "expired": false,
-      "created_at": "2026-08-15T01:26:11Z",
-      "updated_at": "2026-08-15T01:26:11Z",
-      "workflow_run": {
-        "id": 31856486209,
-        "head_sha": "5bcfe9dd57c8837aa04ec0064e5abca1c99e1b06"
-      }
-    },
-    {
-      "id": 9239148906,
-      "name": "omega-consolidated-v2-master-state",
-      "size_in_bytes": 4140,
-      "digest": "sha256:59148918c96fc28041269d00836019eb333669ddbf6a167c3fe37e2867dce457",
-      "expired": false,
-      "created_at": "2026-08-15T01:24:07Z",
-      "updated_at": "2026-08-15T01:24:07Z",
-      "workflow_run": {
-        "id": 31856299124,
-        "head_sha": "ee00dcd3a47f2804c475585177b3c96e4b0a3186"
-      }
-    },
-    {
-      "id": 9239147027,
-      "name": "omega-branch-drd-extractor-v2",
-      "size_in_bytes": 10707,
-      "digest": "sha256:18022774b3084377089d71566b690dd97ff4a6bbbecdf7479328511732362137",
-      "expired": false,
-      "created_at": "2026-08-15T01:23:59Z",
-      "updated_at": "2026-08-15T01:23:59Z",
-      "workflow_run": {
-        "id": 31856299124,
-        "head_sha": "ee00dcd3a47f2804c475585177b3c96e4b0a3186"
       }
     }
   ]
