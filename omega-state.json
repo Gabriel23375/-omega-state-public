@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T07:47:30Z",
+  "generated_at": "2026-08-15T08:40:53Z",
   "source": {
     "branch": "main",
-    "head_sha": "148532c2fbdb294860ed1534eb137eb13bf00f75",
-    "publisher_run_id": 31872847047,
-    "publisher_run_number": 59,
-    "trigger_event": "schedule"
+    "head_sha": "96a97993db709a0316f5c6a406a573d62805185f",
+    "publisher_run_id": 31875072801,
+    "publisher_run_number": 60,
+    "trigger_event": "push"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -18,15 +18,63 @@
   },
   "workflow_runs": [
     {
-      "id": 31872847047,
+      "id": 31875072924,
+      "name": "OMEGA Core Close Validator V4",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "96a97993db709a0316f5c6a406a573d62805185f",
+      "created_at": "2026-08-15T08:40:46Z",
+      "updated_at": "2026-08-15T08:40:50Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31875072924"
+    },
+    {
+      "id": 31875072801,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 60,
+      "event": "push",
+      "head_sha": "96a97993db709a0316f5c6a406a573d62805185f",
+      "created_at": "2026-08-15T08:40:46Z",
+      "updated_at": "2026-08-15T08:40:50Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31875072801"
+    },
+    {
+      "id": 31875056434,
+      "name": "OMEGA Consolidated Evidence Pipeline",
+      "status": "pending",
+      "conclusion": null,
+      "run_number": 8,
+      "event": "push",
+      "head_sha": "bdfa90538d0d342698e93ec1c5e7b07375f96352",
+      "created_at": "2026-08-15T08:40:24Z",
+      "updated_at": "2026-08-15T08:40:25Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31875056434"
+    },
+    {
+      "id": 31875056389,
+      "name": "OMEGA Consolidated Evidence Pipeline V2",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 8,
+      "event": "push",
+      "head_sha": "bdfa90538d0d342698e93ec1c5e7b07375f96352",
+      "created_at": "2026-08-15T08:40:24Z",
+      "updated_at": "2026-08-15T08:40:28Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31875056389"
+    },
+    {
+      "id": 31872847047,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 59,
       "event": "schedule",
       "head_sha": "148532c2fbdb294860ed1534eb137eb13bf00f75",
       "created_at": "2026-08-15T07:47:22Z",
-      "updated_at": "2026-08-15T07:47:26Z",
+      "updated_at": "2026-08-15T07:47:35Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31872847047"
     },
     {
@@ -568,57 +616,61 @@
       "created_at": "2026-08-15T01:41:00Z",
       "updated_at": "2026-08-15T01:41:07Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857167217"
-    },
-    {
-      "id": 31857107777,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 32,
-      "event": "push",
-      "head_sha": "aa5f8095e0dd0e17a12a89cf441996dc3d6e337d",
-      "created_at": "2026-08-15T01:39:41Z",
-      "updated_at": "2026-08-15T01:39:56Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857107777"
-    },
-    {
-      "id": 31857107755,
-      "name": "OMEGA PIT Position Event Engine",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 3,
-      "event": "push",
-      "head_sha": "aa5f8095e0dd0e17a12a89cf441996dc3d6e337d",
-      "created_at": "2026-08-15T01:39:41Z",
-      "updated_at": "2026-08-15T01:39:51Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857107755"
-    },
-    {
-      "id": 31857057533,
-      "name": "OMEGA PIT Position Event Engine",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 2,
-      "event": "push",
-      "head_sha": "5ca3a1129145ef1c40e22c581a8c2fda291accc1",
-      "created_at": "2026-08-15T01:38:28Z",
-      "updated_at": "2026-08-15T01:38:36Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857057533"
-    },
-    {
-      "id": 31857057474,
-      "name": "OMEGA Consolidated Evidence Pipeline",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 4,
-      "event": "push",
-      "head_sha": "5ca3a1129145ef1c40e22c581a8c2fda291accc1",
-      "created_at": "2026-08-15T01:38:28Z",
-      "updated_at": "2026-08-15T01:41:01Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857057474"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9244505748,
+      "name": "omega-branch-drd-extractor-v2",
+      "size_in_bytes": 10723,
+      "digest": "sha256:99a5114cf3ec9c4034d211e99dc185454d8a24a085fde4dc9defd7ce034f83cf",
+      "expired": false,
+      "created_at": "2026-08-15T08:40:52Z",
+      "updated_at": "2026-08-15T08:40:52Z",
+      "workflow_run": {
+        "id": 31875056389,
+        "head_sha": "bdfa90538d0d342698e93ec1c5e7b07375f96352"
+      }
+    },
+    {
+      "id": 9244504742,
+      "name": "omega-branch-security-master-2024",
+      "size_in_bytes": 10901202,
+      "digest": "sha256:637acc6418c663d8c7e40907e9dc627576cfa4d2ac402a44e893819a9abfcd23",
+      "expired": false,
+      "created_at": "2026-08-15T08:40:47Z",
+      "updated_at": "2026-08-15T08:40:47Z",
+      "workflow_run": {
+        "id": 31875056389,
+        "head_sha": "bdfa90538d0d342698e93ec1c5e7b07375f96352"
+      }
+    },
+    {
+      "id": 9244502599,
+      "name": "omega-branch-pit-plumbing-replay",
+      "size_in_bytes": 31254052,
+      "digest": "sha256:31696f07dfb129becadf5278c7c6c190a8331f17dcfbfdaaf5b8b19bfb26ea21",
+      "expired": false,
+      "created_at": "2026-08-15T08:40:36Z",
+      "updated_at": "2026-08-15T08:40:36Z",
+      "workflow_run": {
+        "id": 31875056389,
+        "head_sha": "bdfa90538d0d342698e93ec1c5e7b07375f96352"
+      }
+    },
+    {
+      "id": 9244501701,
+      "name": "omega-branch-performance",
+      "size_in_bytes": 1629,
+      "digest": "sha256:627cbcbf2a99b6452070bba282e64041606ec2569f5d92be635a842bbcac7b71",
+      "expired": false,
+      "created_at": "2026-08-15T08:40:31Z",
+      "updated_at": "2026-08-15T08:40:31Z",
+      "workflow_run": {
+        "id": 31875056389,
+        "head_sha": "bdfa90538d0d342698e93ec1c5e7b07375f96352"
+      }
+    },
     {
       "id": 9243554189,
       "name": "omega-simulation-telemetry-31871547144",
@@ -1865,45 +1917,6 @@
       "workflow_run": {
         "id": 31759280820,
         "head_sha": "0930ee6679490b317d2c27724cf47e20009fe80b"
-      }
-    },
-    {
-      "id": 9203755506,
-      "name": "omega-pit-v3-evidence",
-      "size_in_bytes": 351,
-      "digest": "sha256:ff32c93ab1b777e49001a45510f302b28d603899e0acc3a127f49ca5e1073160",
-      "expired": false,
-      "created_at": "2026-08-14T00:51:33Z",
-      "updated_at": "2026-08-14T00:51:33Z",
-      "workflow_run": {
-        "id": 31758716806,
-        "head_sha": "df77c23067a617572c8eed7e4358ecc64a83334a"
-      }
-    },
-    {
-      "id": 9203323208,
-      "name": "omega-pit-security-master-v2",
-      "size_in_bytes": 3102989,
-      "digest": "sha256:68a720992c72ea20bf5b4896209452a1c09a43ba6ee90525fab74ac288d2c421",
-      "expired": false,
-      "created_at": "2026-08-14T00:31:09Z",
-      "updated_at": "2026-08-14T00:31:09Z",
-      "workflow_run": {
-        "id": 31757609343,
-        "head_sha": "ee5c5cd06cadef6faf72888cac619f317d700195"
-      }
-    },
-    {
-      "id": 9202899485,
-      "name": "omega-pit-acquisition",
-      "size_in_bytes": 1716100,
-      "digest": "sha256:c1f078de5cb134080ab925f4cfdb31a1fda99963add1cf780683bb269d429ffc",
-      "expired": false,
-      "created_at": "2026-08-14T00:11:22Z",
-      "updated_at": "2026-08-14T00:11:22Z",
-      "workflow_run": {
-        "id": 31756501916,
-        "head_sha": "6f1623c1734ccdcf7d0f6fbafdd0e50aed63fd98"
       }
     }
   ]
