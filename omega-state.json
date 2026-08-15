@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T01:45:47Z",
+  "generated_at": "2026-08-15T01:47:04Z",
   "source": {
     "branch": "main",
-    "head_sha": "dc1d46c8c0f19c926d57be29aea6d25b3ce855a6",
-    "publisher_run_id": 31857376450,
-    "publisher_run_number": 38,
+    "head_sha": "7b54decc6ef06c3f43c06231e993a1a069b392c6",
+    "publisher_run_id": 31857432163,
+    "publisher_run_number": 39,
     "trigger_event": "push"
   },
   "runtime": {
@@ -18,27 +18,51 @@
   },
   "workflow_runs": [
     {
-      "id": 31857376450,
+      "id": 31857432168,
+      "name": "OMEGA PIT Opening Auction Capacity Probe",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "7b54decc6ef06c3f43c06231e993a1a069b392c6",
+      "created_at": "2026-08-15T01:46:58Z",
+      "updated_at": "2026-08-15T01:47:01Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857432168"
+    },
+    {
+      "id": 31857432163,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 39,
+      "event": "push",
+      "head_sha": "7b54decc6ef06c3f43c06231e993a1a069b392c6",
+      "created_at": "2026-08-15T01:46:58Z",
+      "updated_at": "2026-08-15T01:47:01Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857432163"
+    },
+    {
+      "id": 31857376450,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 38,
       "event": "push",
       "head_sha": "dc1d46c8c0f19c926d57be29aea6d25b3ce855a6",
       "created_at": "2026-08-15T01:45:40Z",
-      "updated_at": "2026-08-15T01:45:43Z",
+      "updated_at": "2026-08-15T01:45:51Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857376450"
     },
     {
       "id": 31857376435,
       "name": "OMEGA PIT Core Halt Form Probe",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 2,
       "event": "push",
       "head_sha": "dc1d46c8c0f19c926d57be29aea6d25b3ce855a6",
       "created_at": "2026-08-15T01:45:40Z",
-      "updated_at": "2026-08-15T01:45:43Z",
+      "updated_at": "2026-08-15T01:45:49Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857376435"
     },
     {
@@ -592,30 +616,6 @@
       "created_at": "2026-08-15T01:14:05Z",
       "updated_at": "2026-08-15T01:14:27Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31855945103"
-    },
-    {
-      "id": 31855785476,
-      "name": "OMEGA PIT Gap Closure V2",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 2,
-      "event": "push",
-      "head_sha": "c6aedf1f562a53da26df4ce6f97c1b8ef1188e7f",
-      "created_at": "2026-08-15T01:10:34Z",
-      "updated_at": "2026-08-15T01:10:49Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31855785476"
-    },
-    {
-      "id": 31855785458,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 14,
-      "event": "push",
-      "head_sha": "c6aedf1f562a53da26df4ce6f97c1b8ef1188e7f",
-      "created_at": "2026-08-15T01:10:34Z",
-      "updated_at": "2026-08-15T01:10:45Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31855785458"
     }
   ],
   "omega_artifacts": [
