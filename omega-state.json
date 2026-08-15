@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T08:46:07Z",
+  "generated_at": "2026-08-15T08:55:58Z",
   "source": {
     "branch": "main",
     "head_sha": "153110f64196acb05f21e0df059f9a6ce108f19a",
-    "publisher_run_id": 31875294792,
-    "publisher_run_number": 65,
+    "publisher_run_id": 31875696192,
+    "publisher_run_number": 66,
     "trigger_event": "workflow_run"
   },
   "runtime": {
@@ -18,15 +18,39 @@
   },
   "workflow_runs": [
     {
-      "id": 31875294792,
+      "id": 31875696192,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 66,
+      "event": "workflow_run",
+      "head_sha": "153110f64196acb05f21e0df059f9a6ce108f19a",
+      "created_at": "2026-08-15T08:55:48Z",
+      "updated_at": "2026-08-15T08:55:54Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31875696192"
+    },
+    {
+      "id": 31875687380,
+      "name": "OMEGA Simulation Telemetry Bridge",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 6,
+      "event": "schedule",
+      "head_sha": "153110f64196acb05f21e0df059f9a6ce108f19a",
+      "created_at": "2026-08-15T08:55:33Z",
+      "updated_at": "2026-08-15T08:55:45Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31875687380"
+    },
+    {
+      "id": 31875294792,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 65,
       "event": "workflow_run",
       "head_sha": "153110f64196acb05f21e0df059f9a6ce108f19a",
       "created_at": "2026-08-15T08:45:58Z",
-      "updated_at": "2026-08-15T08:46:01Z",
+      "updated_at": "2026-08-15T08:46:11Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31875294792"
     },
     {
@@ -592,33 +616,22 @@
       "created_at": "2026-08-15T01:49:15Z",
       "updated_at": "2026-08-15T01:49:26Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857535593"
-    },
-    {
-      "id": 31857432168,
-      "name": "OMEGA PIT Opening Auction Capacity Probe",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "7b54decc6ef06c3f43c06231e993a1a069b392c6",
-      "created_at": "2026-08-15T01:46:58Z",
-      "updated_at": "2026-08-15T01:49:29Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857432168"
-    },
-    {
-      "id": 31857432163,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 39,
-      "event": "push",
-      "head_sha": "7b54decc6ef06c3f43c06231e993a1a069b392c6",
-      "created_at": "2026-08-15T01:46:58Z",
-      "updated_at": "2026-08-15T01:47:09Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857432163"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9244661332,
+      "name": "omega-simulation-telemetry-31875687380",
+      "size_in_bytes": 981,
+      "digest": "sha256:188453e3a7595466d21c1a2fcd58b3550a9f0a6a5ae44aae8912c2c55773044b",
+      "expired": false,
+      "created_at": "2026-08-15T08:55:42Z",
+      "updated_at": "2026-08-15T08:55:42Z",
+      "workflow_run": {
+        "id": 31875687380,
+        "head_sha": "153110f64196acb05f21e0df059f9a6ce108f19a"
+      }
+    },
     {
       "id": 9244561070,
       "name": "omega-consolidated-master-state",
@@ -1904,19 +1917,6 @@
       "workflow_run": {
         "id": 31833083859,
         "head_sha": "5c1873d325e320d1e733c6ae70e0903ba9b6abe6"
-      }
-    },
-    {
-      "id": 9204750529,
-      "name": "omega-consolidated-v2-master-state",
-      "size_in_bytes": 4130,
-      "digest": "sha256:d41339a7fa00bc3861b15a076aac99949ec31097ac591d1af4f2ac2506f5271a",
-      "expired": false,
-      "created_at": "2026-08-14T01:42:50Z",
-      "updated_at": "2026-08-14T01:42:50Z",
-      "workflow_run": {
-        "id": 31761434221,
-        "head_sha": "5302c7ce5425a50be2295af0d221b322db133e71"
       }
     }
   ]
