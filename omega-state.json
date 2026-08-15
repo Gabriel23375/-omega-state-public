@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T08:42:42Z",
+  "generated_at": "2026-08-15T08:43:03Z",
   "source": {
     "branch": "main",
-    "head_sha": "e8267cf58bc20f594f7f3dd99443d0ccb2c7672a",
-    "publisher_run_id": 31875150869,
-    "publisher_run_number": 62,
-    "trigger_event": "workflow_run"
+    "head_sha": "9a4614d3370c5987b4bd4ad4658b80991541a3f8",
+    "publisher_run_id": 31875163506,
+    "publisher_run_number": 63,
+    "trigger_event": "push"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -18,15 +18,39 @@
   },
   "workflow_runs": [
     {
-      "id": 31875150869,
+      "id": 31875163508,
+      "name": "OMEGA Core Close Validator V4",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 3,
+      "event": "push",
+      "head_sha": "9a4614d3370c5987b4bd4ad4658b80991541a3f8",
+      "created_at": "2026-08-15T08:42:56Z",
+      "updated_at": "2026-08-15T08:43:00Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31875163508"
+    },
+    {
+      "id": 31875163506,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 63,
+      "event": "push",
+      "head_sha": "9a4614d3370c5987b4bd4ad4658b80991541a3f8",
+      "created_at": "2026-08-15T08:42:56Z",
+      "updated_at": "2026-08-15T08:42:59Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31875163506"
+    },
+    {
+      "id": 31875150869,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 62,
       "event": "workflow_run",
       "head_sha": "e8267cf58bc20f594f7f3dd99443d0ccb2c7672a",
       "created_at": "2026-08-15T08:42:33Z",
-      "updated_at": "2026-08-15T08:42:38Z",
+      "updated_at": "2026-08-15T08:42:46Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31875150869"
     },
     {
@@ -56,13 +80,13 @@
     {
       "id": 31875148620,
       "name": "OMEGA Core Close Validator V4",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "failure",
       "run_number": 2,
       "event": "push",
       "head_sha": "e8267cf58bc20f594f7f3dd99443d0ccb2c7672a",
       "created_at": "2026-08-15T08:42:30Z",
-      "updated_at": "2026-08-15T08:42:35Z",
+      "updated_at": "2026-08-15T08:42:42Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31875148620"
     },
     {
@@ -592,30 +616,6 @@
       "created_at": "2026-08-15T01:45:40Z",
       "updated_at": "2026-08-15T01:45:49Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857376435"
-    },
-    {
-      "id": 31857336634,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 37,
-      "event": "push",
-      "head_sha": "fb77814b98b04d07e00e4f37eed3bc95d41e22c5",
-      "created_at": "2026-08-15T01:44:47Z",
-      "updated_at": "2026-08-15T01:44:57Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857336634"
-    },
-    {
-      "id": 31857336622,
-      "name": "OMEGA PIT Auction Imbalance Format Probe",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "fb77814b98b04d07e00e4f37eed3bc95d41e22c5",
-      "created_at": "2026-08-15T01:44:47Z",
-      "updated_at": "2026-08-15T01:45:10Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857336622"
     }
   ],
   "omega_artifacts": [
