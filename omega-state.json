@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T01:53:45Z",
+  "generated_at": "2026-08-15T01:54:55Z",
   "source": {
     "branch": "main",
-    "head_sha": "ca7eb6520288062b6268b0b490b395a9410c14b3",
-    "publisher_run_id": 31857735230,
-    "publisher_run_number": 44,
+    "head_sha": "93b9738bcda84cf8b9718f192e79af0bac2a27a5",
+    "publisher_run_id": 31857787070,
+    "publisher_run_number": 45,
     "trigger_event": "push"
   },
   "runtime": {
@@ -18,27 +18,51 @@
   },
   "workflow_runs": [
     {
-      "id": 31857735230,
+      "id": 31857787124,
+      "name": "OMEGA PIT Execution Cost Admissibility V1",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 2,
+      "event": "push",
+      "head_sha": "93b9738bcda84cf8b9718f192e79af0bac2a27a5",
+      "created_at": "2026-08-15T01:54:48Z",
+      "updated_at": "2026-08-15T01:54:52Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857787124"
+    },
+    {
+      "id": 31857787070,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 45,
+      "event": "push",
+      "head_sha": "93b9738bcda84cf8b9718f192e79af0bac2a27a5",
+      "created_at": "2026-08-15T01:54:48Z",
+      "updated_at": "2026-08-15T01:54:52Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857787070"
+    },
+    {
+      "id": 31857735230,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 44,
       "event": "push",
       "head_sha": "ca7eb6520288062b6268b0b490b395a9410c14b3",
       "created_at": "2026-08-15T01:53:38Z",
-      "updated_at": "2026-08-15T01:53:42Z",
+      "updated_at": "2026-08-15T01:53:50Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857735230"
     },
     {
       "id": 31857735220,
       "name": "OMEGA PIT Execution Cost Admissibility V1",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "failure",
       "run_number": 1,
       "event": "push",
       "head_sha": "ca7eb6520288062b6268b0b490b395a9410c14b3",
       "created_at": "2026-08-15T01:53:38Z",
-      "updated_at": "2026-08-15T01:53:43Z",
+      "updated_at": "2026-08-15T01:53:48Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857735220"
     },
     {
@@ -592,30 +616,6 @@
       "created_at": "2026-08-15T01:21:47Z",
       "updated_at": "2026-08-15T01:21:48Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856299082"
-    },
-    {
-      "id": 31856278258,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 19,
-      "event": "push",
-      "head_sha": "d7c9ff588f5c7f4a06f2d75a341352923ccddf07",
-      "created_at": "2026-08-15T01:21:18Z",
-      "updated_at": "2026-08-15T01:21:30Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856278258"
-    },
-    {
-      "id": 31856278252,
-      "name": "OMEGA PIT Execution Contract",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "d7c9ff588f5c7f4a06f2d75a341352923ccddf07",
-      "created_at": "2026-08-15T01:21:18Z",
-      "updated_at": "2026-08-15T01:21:25Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856278252"
     }
   ],
   "omega_artifacts": [
