@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-15T00:45:33Z",
+  "generated_at": "2026-08-15T00:47:00Z",
   "source": {
     "branch": "main",
-    "head_sha": "cbc3729bc19db7070e66bb1aeaabc5245eb32f76",
-    "publisher_run_id": 31854570599,
-    "publisher_run_number": 6
+    "head_sha": "35f354eb0aa4942c19221c4b67216c12d8601657",
+    "publisher_run_id": 31854643743,
+    "publisher_run_number": 8
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -17,24 +17,84 @@
   },
   "workflow_runs": [
     {
+      "name": "OMEGA Rule 605 Cost Pilot",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "35f354eb0aa4942c19221c4b67216c12d8601657",
+      "created_at": "2026-08-15T00:46:53Z",
+      "updated_at": "2026-08-15T00:46:57Z"
+    },
+    {
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
-      "run_number": 6,
+      "run_number": 8,
       "event": "push",
-      "head_sha": "cbc3729bc19db7070e66bb1aeaabc5245eb32f76",
-      "created_at": "2026-08-15T00:45:28Z",
-      "updated_at": "2026-08-15T00:45:31Z"
+      "head_sha": "35f354eb0aa4942c19221c4b67216c12d8601657",
+      "created_at": "2026-08-15T00:46:53Z",
+      "updated_at": "2026-08-15T00:46:57Z"
     },
     {
       "name": "OMEGA PIT Identity & Event Reconciliation V3",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 16,
+      "event": "push",
+      "head_sha": "35f354eb0aa4942c19221c4b67216c12d8601657",
+      "created_at": "2026-08-15T00:46:53Z",
+      "updated_at": "2026-08-15T00:46:57Z"
+    },
+    {
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "failure",
+      "run_number": 7,
+      "event": "push",
+      "head_sha": "f9072c12f899311ca5084bd4400d6a0de7a0e0a3",
+      "created_at": "2026-08-15T00:45:58Z",
+      "updated_at": "2026-08-15T00:46:07Z"
+    },
+    {
+      "name": "OMEGA Simulation Telemetry Bridge",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 2,
+      "event": "push",
+      "head_sha": "f9072c12f899311ca5084bd4400d6a0de7a0e0a3",
+      "created_at": "2026-08-15T00:45:58Z",
+      "updated_at": "2026-08-15T00:46:08Z"
+    },
+    {
+      "name": "OMEGA PIT Identity & Event Reconciliation V3",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 15,
+      "event": "push",
+      "head_sha": "f9072c12f899311ca5084bd4400d6a0de7a0e0a3",
+      "created_at": "2026-08-15T00:45:58Z",
+      "updated_at": "2026-08-15T00:46:10Z"
+    },
+    {
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 6,
+      "event": "push",
+      "head_sha": "cbc3729bc19db7070e66bb1aeaabc5245eb32f76",
+      "created_at": "2026-08-15T00:45:28Z",
+      "updated_at": "2026-08-15T00:45:36Z"
+    },
+    {
+      "name": "OMEGA PIT Identity & Event Reconciliation V3",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 14,
       "event": "push",
       "head_sha": "cbc3729bc19db7070e66bb1aeaabc5245eb32f76",
       "created_at": "2026-08-15T00:45:28Z",
-      "updated_at": "2026-08-15T00:45:32Z"
+      "updated_at": "2026-08-15T00:45:42Z"
     },
     {
       "name": ".github/workflows/omega-simulation-telemetry.yml",
@@ -155,69 +215,30 @@
       "head_sha": "2422f760ac38765fcd01e05789a2ef3ce152c8ea",
       "created_at": "2026-08-14T01:31:52Z",
       "updated_at": "2026-08-14T01:32:06Z"
-    },
-    {
-      "name": "OMEGA Consolidated Evidence Pipeline",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "2422f760ac38765fcd01e05789a2ef3ce152c8ea",
-      "created_at": "2026-08-14T01:31:52Z",
-      "updated_at": "2026-08-14T01:34:24Z"
-    },
-    {
-      "name": "OMEGA PIT Identity & Event Reconciliation V3",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 8,
-      "event": "push",
-      "head_sha": "0930ee6679490b317d2c27724cf47e20009fe80b",
-      "created_at": "2026-08-14T01:01:18Z",
-      "updated_at": "2026-08-14T01:01:31Z"
-    },
-    {
-      "name": ".github/workflows/main.yml",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 7,
-      "event": "push",
-      "head_sha": "1acf82b48582fc766798881c620e2c8e8c2612b9",
-      "created_at": "2026-08-14T00:58:32Z",
-      "updated_at": "2026-08-14T00:58:32Z"
-    },
-    {
-      "name": "OMEGA PIT Identity & Event Reconciliation V3",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 6,
-      "event": "push",
-      "head_sha": "df77c23067a617572c8eed7e4358ecc64a83334a",
-      "created_at": "2026-08-14T00:50:45Z",
-      "updated_at": "2026-08-14T00:51:36Z"
-    },
-    {
-      "name": "OMEGA PIT Identity & Event Reconciliation V3",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 5,
-      "event": "push",
-      "head_sha": "388a15a79bbabf0cfabb6332de9069a6f9168734",
-      "created_at": "2026-08-14T00:39:53Z",
-      "updated_at": "2026-08-14T00:43:16Z"
-    },
-    {
-      "name": "OMEGA PIT Security Master V2",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 4,
-      "event": "push",
-      "head_sha": "ee5c5cd06cadef6faf72888cac619f317d700195",
-      "created_at": "2026-08-14T00:31:00Z",
-      "updated_at": "2026-08-14T00:31:11Z"
     }
   ],
   "omega_artifacts": [
+    {
+      "name": "omega-pit-identity-reconciliation-v3",
+      "size_in_bytes": 6147365,
+      "expired": false,
+      "created_at": "2026-08-15T00:46:08Z",
+      "updated_at": "2026-08-15T00:46:08Z"
+    },
+    {
+      "name": "omega-simulation-telemetry-31854594904",
+      "size_in_bytes": 821,
+      "expired": false,
+      "created_at": "2026-08-15T00:46:05Z",
+      "updated_at": "2026-08-15T00:46:05Z"
+    },
+    {
+      "name": "omega-pit-identity-reconciliation-v3",
+      "size_in_bytes": 6147427,
+      "expired": false,
+      "created_at": "2026-08-15T00:45:39Z",
+      "updated_at": "2026-08-15T00:45:39Z"
+    },
     {
       "name": "omega-pit-identity-reconciliation-v3",
       "size_in_bytes": 6147315,
