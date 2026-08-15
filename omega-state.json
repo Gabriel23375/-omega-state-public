@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T13:45:38Z",
+  "generated_at": "2026-08-15T14:58:47Z",
   "source": {
     "branch": "main",
     "head_sha": "fa73a0883fcab19a371f6043e7c7042ef6e38d61",
-    "publisher_run_id": 31888070660,
-    "publisher_run_number": 183,
+    "publisher_run_id": 31891404291,
+    "publisher_run_number": 184,
     "trigger_event": "schedule"
   },
   "runtime": {
@@ -50,15 +50,27 @@
   },
   "workflow_runs": [
     {
-      "id": 31888070660,
+      "id": 31891404291,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 184,
+      "event": "schedule",
+      "head_sha": "fa73a0883fcab19a371f6043e7c7042ef6e38d61",
+      "created_at": "2026-08-15T14:58:38Z",
+      "updated_at": "2026-08-15T14:58:43Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31891404291"
+    },
+    {
+      "id": 31888070660,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 183,
       "event": "schedule",
       "head_sha": "fa73a0883fcab19a371f6043e7c7042ef6e38d61",
       "created_at": "2026-08-15T13:45:31Z",
-      "updated_at": "2026-08-15T13:45:35Z",
+      "updated_at": "2026-08-15T13:45:42Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31888070660"
     },
     {
@@ -636,18 +648,6 @@
       "created_at": "2026-08-15T12:32:39Z",
       "updated_at": "2026-08-15T12:32:52Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884870879"
-    },
-    {
-      "id": 31884869839,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "run_number": 153,
-      "event": "workflow_run",
-      "head_sha": "668f7ae838e7e5333aa4e06e5735e80ab531ddf8",
-      "created_at": "2026-08-15T12:32:37Z",
-      "updated_at": "2026-08-15T12:32:40Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884869839"
     }
   ],
   "omega_artifacts": [
