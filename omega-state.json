@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-15T01:06:08Z",
+  "generated_at": "2026-08-15T01:08:24Z",
   "source": {
     "branch": "main",
-    "head_sha": "4276c72806895e589b07da87562680af048a7330",
-    "publisher_run_id": 31855574611,
-    "publisher_run_number": 12,
+    "head_sha": "b6087ef8e30c402dcf7d2039f17dafd2e0764c5e",
+    "publisher_run_id": 31855677334,
+    "publisher_run_number": 13,
     "trigger_event": "push"
   },
   "runtime": {
@@ -18,27 +18,51 @@
   },
   "workflow_runs": [
     {
-      "id": 31855574611,
+      "id": 31855677334,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 13,
+      "event": "push",
+      "head_sha": "b6087ef8e30c402dcf7d2039f17dafd2e0764c5e",
+      "created_at": "2026-08-15T01:08:17Z",
+      "updated_at": "2026-08-15T01:08:20Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31855677334"
+    },
+    {
+      "id": 31855676427,
+      "name": "OMEGA PIT Gap Closure V2",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "b6087ef8e30c402dcf7d2039f17dafd2e0764c5e",
+      "created_at": "2026-08-15T01:08:15Z",
+      "updated_at": "2026-08-15T01:08:18Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31855676427"
+    },
+    {
+      "id": 31855574611,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 12,
       "event": "push",
       "head_sha": "4276c72806895e589b07da87562680af048a7330",
       "created_at": "2026-08-15T01:06:01Z",
-      "updated_at": "2026-08-15T01:06:04Z",
+      "updated_at": "2026-08-15T01:06:11Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31855574611"
     },
     {
       "id": 31855574448,
       "name": "OMEGA Nasdaq Public Gap Reconciliation",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 2,
       "event": "push",
       "head_sha": "4276c72806895e589b07da87562680af048a7330",
       "created_at": "2026-08-15T01:06:00Z",
-      "updated_at": "2026-08-15T01:06:03Z",
+      "updated_at": "2026-08-15T01:06:14Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31855574448"
     },
     {
@@ -352,33 +376,22 @@
       "created_at": "2026-08-14T01:01:18Z",
       "updated_at": "2026-08-14T01:01:31Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31759280820"
-    },
-    {
-      "id": 31759126537,
-      "name": ".github/workflows/main.yml",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 7,
-      "event": "push",
-      "head_sha": "1acf82b48582fc766798881c620e2c8e8c2612b9",
-      "created_at": "2026-08-14T00:58:32Z",
-      "updated_at": "2026-08-14T00:58:32Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31759126537"
-    },
-    {
-      "id": 31758716806,
-      "name": "OMEGA PIT Identity & Event Reconciliation V3",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 6,
-      "event": "push",
-      "head_sha": "df77c23067a617572c8eed7e4358ecc64a83334a",
-      "created_at": "2026-08-14T00:50:45Z",
-      "updated_at": "2026-08-14T00:51:36Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31758716806"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9238909966,
+      "name": "omega-nasdaq-public-gap-reconciliation-31855574448",
+      "size_in_bytes": 389569,
+      "digest": "sha256:200dead3c4e15b33d3048acabe9ad1bdf67c6c390cf18efb478cbfcff40b0c6f",
+      "expired": false,
+      "created_at": "2026-08-15T01:06:11Z",
+      "updated_at": "2026-08-15T01:06:11Z",
+      "workflow_run": {
+        "id": 31855574448,
+        "head_sha": "4276c72806895e589b07da87562680af048a7330"
+      }
+    },
     {
       "id": 9238884693,
       "name": "omega-nasdaq-public-gap-reconciliation-31855492163",
