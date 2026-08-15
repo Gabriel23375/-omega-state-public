@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T12:46:43Z",
+  "generated_at": "2026-08-15T12:51:02Z",
   "source": {
     "branch": "main",
-    "head_sha": "84b828f89ef939326c2e641a903b77e44e4324ea",
-    "publisher_run_id": 31885462290,
-    "publisher_run_number": 174,
+    "head_sha": "dba3fb4523f3e3052d5163ecaa4428b6125852fa",
+    "publisher_run_id": 31885643438,
+    "publisher_run_number": 175,
     "trigger_event": "push"
   },
   "runtime": {
@@ -51,27 +51,51 @@
   },
   "workflow_runs": [
     {
-      "id": 31885462335,
+      "id": 31885643438,
+      "name": "OMEGA Public State Bridge",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 175,
+      "event": "push",
+      "head_sha": "dba3fb4523f3e3052d5163ecaa4428b6125852fa",
+      "created_at": "2026-08-15T12:50:54Z",
+      "updated_at": "2026-08-15T12:50:58Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31885643438"
+    },
+    {
+      "id": 31885643426,
       "name": "OMEGA Latency Admissibility V1",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 2,
+      "event": "push",
+      "head_sha": "dba3fb4523f3e3052d5163ecaa4428b6125852fa",
+      "created_at": "2026-08-15T12:50:54Z",
+      "updated_at": "2026-08-15T12:50:57Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31885643426"
+    },
+    {
+      "id": 31885462335,
+      "name": "OMEGA Latency Admissibility V1",
+      "status": "completed",
+      "conclusion": "failure",
       "run_number": 1,
       "event": "push",
       "head_sha": "84b828f89ef939326c2e641a903b77e44e4324ea",
       "created_at": "2026-08-15T12:46:36Z",
-      "updated_at": "2026-08-15T12:46:39Z",
+      "updated_at": "2026-08-15T12:46:59Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31885462335"
     },
     {
       "id": 31885462290,
       "name": "OMEGA Public State Bridge",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 174,
       "event": "push",
       "head_sha": "84b828f89ef939326c2e641a903b77e44e4324ea",
       "created_at": "2026-08-15T12:46:36Z",
-      "updated_at": "2026-08-15T12:46:40Z",
+      "updated_at": "2026-08-15T12:46:46Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31885462290"
     },
     {
@@ -625,33 +649,22 @@
       "created_at": "2026-08-15T12:31:38Z",
       "updated_at": "2026-08-15T12:31:54Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884828019"
-    },
-    {
-      "id": 31884728861,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 148,
-      "event": "push",
-      "head_sha": "b9a755fe124ebbe818dbb25092d8844059a77020",
-      "created_at": "2026-08-15T12:29:27Z",
-      "updated_at": "2026-08-15T12:29:38Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884728861"
-    },
-    {
-      "id": 31884686511,
-      "name": "OMEGA Simulation Telemetry Integrity V2",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 12,
-      "event": "workflow_run",
-      "head_sha": "492b7dc8e5e7dac6dbac2eaa100f77101dd99fb2",
-      "created_at": "2026-08-15T12:28:22Z",
-      "updated_at": "2026-08-15T12:28:30Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884686511"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9247175990,
+      "name": "omega-latency-admissibility-v1-31885643426",
+      "size_in_bytes": 48282,
+      "digest": "sha256:e93f942342c209f808fab48d288bd5d74c781322a4ab9abf4bfd01476a97d62f",
+      "expired": false,
+      "created_at": "2026-08-15T12:51:01Z",
+      "updated_at": "2026-08-15T12:51:01Z",
+      "workflow_run": {
+        "id": 31885643426,
+        "head_sha": "dba3fb4523f3e3052d5163ecaa4428b6125852fa"
+      }
+    },
     {
       "id": 9247106346,
       "name": "omega-nyse-arca-apr6-core-open-v1-31885367479",
@@ -1934,19 +1947,6 @@
       "expired": false,
       "created_at": "2026-08-15T11:15:03Z",
       "updated_at": "2026-08-15T11:15:03Z",
-      "workflow_run": {
-        "id": 31881538492,
-        "head_sha": "117a1ba6c8c6739c0358363d6c791bb2b837a63e"
-      }
-    },
-    {
-      "id": 9246150927,
-      "name": "omega-branch-pit-plumbing-replay",
-      "size_in_bytes": 31253824,
-      "digest": "sha256:4274446d22f90cc0c7fb4dada7563e0ec23bec0307c2df64364a423899ea0dc1",
-      "expired": false,
-      "created_at": "2026-08-15T11:14:52Z",
-      "updated_at": "2026-08-15T11:14:52Z",
       "workflow_run": {
         "id": 31881538492,
         "head_sha": "117a1ba6c8c6739c0358363d6c791bb2b837a63e"
