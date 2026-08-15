@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T01:51:51Z",
+  "generated_at": "2026-08-15T01:52:23Z",
   "source": {
     "branch": "main",
-    "head_sha": "578657ef666ee5d0600877f3055f68e7b44e5b8d",
-    "publisher_run_id": 31857649559,
-    "publisher_run_number": 42,
+    "head_sha": "fc653ab0d73ed007662fe17a29e51c8df71d8507",
+    "publisher_run_id": 31857675255,
+    "publisher_run_number": 43,
     "trigger_event": "push"
   },
   "runtime": {
@@ -18,27 +18,51 @@
   },
   "workflow_runs": [
     {
-      "id": 31857649559,
+      "id": 31857675255,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 43,
+      "event": "push",
+      "head_sha": "fc653ab0d73ed007662fe17a29e51c8df71d8507",
+      "created_at": "2026-08-15T01:52:16Z",
+      "updated_at": "2026-08-15T01:52:19Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857675255"
+    },
+    {
+      "id": 31857675250,
+      "name": "OMEGA PIT Core Suspension V2",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "fc653ab0d73ed007662fe17a29e51c8df71d8507",
+      "created_at": "2026-08-15T01:52:16Z",
+      "updated_at": "2026-08-15T01:52:19Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857675250"
+    },
+    {
+      "id": 31857649559,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 42,
       "event": "push",
       "head_sha": "578657ef666ee5d0600877f3055f68e7b44e5b8d",
       "created_at": "2026-08-15T01:51:44Z",
-      "updated_at": "2026-08-15T01:51:48Z",
+      "updated_at": "2026-08-15T01:51:55Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857649559"
     },
     {
       "id": 31857649521,
       "name": "OMEGA PIT Core Suspension V1",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 3,
       "event": "push",
       "head_sha": "578657ef666ee5d0600877f3055f68e7b44e5b8d",
       "created_at": "2026-08-15T01:51:44Z",
-      "updated_at": "2026-08-15T01:51:48Z",
+      "updated_at": "2026-08-15T01:52:13Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857649521"
     },
     {
@@ -592,33 +616,22 @@
       "created_at": "2026-08-15T01:20:59Z",
       "updated_at": "2026-08-15T01:21:49Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856264241"
-    },
-    {
-      "id": 31856126536,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 18,
-      "event": "push",
-      "head_sha": "e99b054d8ac8943d8a812695d35315d2e7aef4df",
-      "created_at": "2026-08-15T01:18:01Z",
-      "updated_at": "2026-08-15T01:18:15Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856126536"
-    },
-    {
-      "id": 31856126531,
-      "name": "OMEGA PIT Price Volume Reconciliation V2",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "e99b054d8ac8943d8a812695d35315d2e7aef4df",
-      "created_at": "2026-08-15T01:18:01Z",
-      "updated_at": "2026-08-15T01:18:14Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856126531"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9239537019,
+      "name": "omega-core-suspension-v1-31857649521",
+      "size_in_bytes": 887521,
+      "digest": "sha256:84dde1887b0874044997972292a92483f98b9c0de7f5b778254114a9b51999df",
+      "expired": false,
+      "created_at": "2026-08-15T01:52:10Z",
+      "updated_at": "2026-08-15T01:52:10Z",
+      "workflow_run": {
+        "id": 31857649521,
+        "head_sha": "578657ef666ee5d0600877f3055f68e7b44e5b8d"
+      }
+    },
     {
       "id": 9239518321,
       "name": "omega-core-suspension-v1-31857584033",
