@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T01:49:22Z",
+  "generated_at": "2026-08-15T01:50:26Z",
   "source": {
     "branch": "main",
-    "head_sha": "2a4444ff6e8dba9167a84377d1889f10fcd61b9d",
-    "publisher_run_id": 31857535599,
-    "publisher_run_number": 40,
+    "head_sha": "acad5c659c9d9b92e028ee206b5a315b4de2051f",
+    "publisher_run_id": 31857584035,
+    "publisher_run_number": 41,
     "trigger_event": "push"
   },
   "runtime": {
@@ -18,39 +18,63 @@
   },
   "workflow_runs": [
     {
-      "id": 31857535599,
+      "id": 31857584035,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 41,
+      "event": "push",
+      "head_sha": "acad5c659c9d9b92e028ee206b5a315b4de2051f",
+      "created_at": "2026-08-15T01:50:19Z",
+      "updated_at": "2026-08-15T01:50:22Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857584035"
+    },
+    {
+      "id": 31857584033,
+      "name": "OMEGA PIT Core Suspension V1",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 2,
+      "event": "push",
+      "head_sha": "acad5c659c9d9b92e028ee206b5a315b4de2051f",
+      "created_at": "2026-08-15T01:50:19Z",
+      "updated_at": "2026-08-15T01:50:22Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857584033"
+    },
+    {
+      "id": 31857535599,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 40,
       "event": "push",
       "head_sha": "2a4444ff6e8dba9167a84377d1889f10fcd61b9d",
       "created_at": "2026-08-15T01:49:15Z",
-      "updated_at": "2026-08-15T01:49:18Z",
+      "updated_at": "2026-08-15T01:49:27Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857535599"
     },
     {
       "id": 31857535593,
       "name": "OMEGA PIT Core Suspension V1",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "failure",
       "run_number": 1,
       "event": "push",
       "head_sha": "2a4444ff6e8dba9167a84377d1889f10fcd61b9d",
       "created_at": "2026-08-15T01:49:15Z",
-      "updated_at": "2026-08-15T01:49:18Z",
+      "updated_at": "2026-08-15T01:49:26Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857535593"
     },
     {
       "id": 31857432168,
       "name": "OMEGA PIT Opening Auction Capacity Probe",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 1,
       "event": "push",
       "head_sha": "7b54decc6ef06c3f43c06231e993a1a069b392c6",
       "created_at": "2026-08-15T01:46:58Z",
-      "updated_at": "2026-08-15T01:47:01Z",
+      "updated_at": "2026-08-15T01:49:29Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857432168"
     },
     {
@@ -592,33 +616,22 @@
       "created_at": "2026-08-15T01:16:42Z",
       "updated_at": "2026-08-15T01:16:53Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856068163"
-    },
-    {
-      "id": 31856002650,
-      "name": "OMEGA PIT State Hygiene V4",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "9bd555f1ba3a2da90df73c39d1935c0be8b9e3fa",
-      "created_at": "2026-08-15T01:15:18Z",
-      "updated_at": "2026-08-15T01:15:25Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856002650"
-    },
-    {
-      "id": 31856002604,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 16,
-      "event": "push",
-      "head_sha": "9bd555f1ba3a2da90df73c39d1935c0be8b9e3fa",
-      "created_at": "2026-08-15T01:15:18Z",
-      "updated_at": "2026-08-15T01:15:27Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856002604"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9239500859,
+      "name": "omega-pit-opening-auction-capacity-probe-31857432168",
+      "size_in_bytes": 265310862,
+      "digest": "sha256:23f365ef43d301b90fecda84af36896d6c058f638ca17cdbefa459f40513eb2c",
+      "expired": false,
+      "created_at": "2026-08-15T01:49:26Z",
+      "updated_at": "2026-08-15T01:49:26Z",
+      "workflow_run": {
+        "id": 31857432168,
+        "head_sha": "7b54decc6ef06c3f43c06231e993a1a069b392c6"
+      }
+    },
     {
       "id": 9239452083,
       "name": "omega-pit-core-halt-form-probe-31857376435",
