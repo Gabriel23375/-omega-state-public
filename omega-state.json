@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-15T00:47:00Z",
+  "generated_at": "2026-08-15T01:00:51Z",
   "source": {
     "branch": "main",
-    "head_sha": "35f354eb0aa4942c19221c4b67216c12d8601657",
-    "publisher_run_id": 31854643743,
-    "publisher_run_number": 8
+    "head_sha": "14a80db93499c62c8f21cdf1b4503f7a01baf370",
+    "publisher_run_id": 31855315831,
+    "publisher_run_number": 9
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -13,38 +13,48 @@
   },
   "code": {
     "main_py_sha256": "ddcba1a4404c9d3fa34297dbf3d98b7e2edcef3bb41f1500086d4896ff84cd21",
-    "main_yml_sha256": "86b39cc311e106e0a148bdf8aa6f3ab3321064874ebfc3f28ac1bd8cd2972302"
+    "main_yml_sha256": "e626a66c74f901b270d05effb3ccbd40a6aa4551323506b3b1728ac4de5f6a91"
   },
   "workflow_runs": [
-    {
-      "name": "OMEGA Rule 605 Cost Pilot",
-      "status": "in_progress",
-      "conclusion": null,
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "35f354eb0aa4942c19221c4b67216c12d8601657",
-      "created_at": "2026-08-15T00:46:53Z",
-      "updated_at": "2026-08-15T00:46:57Z"
-    },
     {
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 9,
+      "event": "push",
+      "head_sha": "14a80db93499c62c8f21cdf1b4503f7a01baf370",
+      "created_at": "2026-08-15T01:00:46Z",
+      "updated_at": "2026-08-15T01:00:48Z"
+    },
+    {
+      "name": "OMEGA Rule 605 Cost Pilot",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "35f354eb0aa4942c19221c4b67216c12d8601657",
+      "created_at": "2026-08-15T00:46:53Z",
+      "updated_at": "2026-08-15T00:47:22Z"
+    },
+    {
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 8,
       "event": "push",
       "head_sha": "35f354eb0aa4942c19221c4b67216c12d8601657",
       "created_at": "2026-08-15T00:46:53Z",
-      "updated_at": "2026-08-15T00:46:57Z"
+      "updated_at": "2026-08-15T00:47:04Z"
     },
     {
       "name": "OMEGA PIT Identity & Event Reconciliation V3",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 16,
       "event": "push",
       "head_sha": "35f354eb0aa4942c19221c4b67216c12d8601657",
       "created_at": "2026-08-15T00:46:53Z",
-      "updated_at": "2026-08-15T00:46:57Z"
+      "updated_at": "2026-08-15T00:47:12Z"
     },
     {
       "name": "OMEGA Public State Bridge",
@@ -205,19 +215,23 @@
       "head_sha": "5302c7ce5425a50be2295af0d221b322db133e71",
       "created_at": "2026-08-14T01:42:12Z",
       "updated_at": "2026-08-14T01:42:28Z"
-    },
-    {
-      "name": "OMEGA PIT Identity & Event Reconciliation V3",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 9,
-      "event": "push",
-      "head_sha": "2422f760ac38765fcd01e05789a2ef3ce152c8ea",
-      "created_at": "2026-08-14T01:31:52Z",
-      "updated_at": "2026-08-14T01:32:06Z"
     }
   ],
   "omega_artifacts": [
+    {
+      "name": "omega-rule605-cost-pilot-31854643770",
+      "size_in_bytes": 15563699,
+      "expired": false,
+      "created_at": "2026-08-15T00:47:19Z",
+      "updated_at": "2026-08-15T00:47:19Z"
+    },
+    {
+      "name": "omega-pit-identity-reconciliation-v3",
+      "size_in_bytes": 6147371,
+      "expired": false,
+      "created_at": "2026-08-15T00:47:08Z",
+      "updated_at": "2026-08-15T00:47:08Z"
+    },
     {
       "name": "omega-pit-identity-reconciliation-v3",
       "size_in_bytes": 6147365,
