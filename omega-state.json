@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T12:37:52Z",
+  "generated_at": "2026-08-15T12:42:31Z",
   "source": {
     "branch": "main",
-    "head_sha": "5aa0267e995edb5a608455ca4243b790a1565806",
-    "publisher_run_id": 31885087934,
-    "publisher_run_number": 164,
+    "head_sha": "d9293e4079ed7d9024cac68db2a4e94821a1e249",
+    "publisher_run_id": 31885283981,
+    "publisher_run_number": 165,
     "trigger_event": "push"
   },
   "runtime": {
@@ -47,31 +47,79 @@
     "data_gate_and": "FAIL_CLOSED",
     "pnl_allowed": false,
     "financial_replay_unlocked": false,
-    "state_file_sha256": "ca4797f2f8275a263d97e06d55bca616387c445f9dbad773dda7f0720ce6c923"
+    "state_file_sha256": "1891a298b52385db2e1bcf8032b367704a05d64c5c389b12aa0059b22b2aa8f2"
   },
   "workflow_runs": [
     {
-      "id": 31885087974,
-      "name": "OMEGA Core CA Apr2 Identity Frozen Artifact V1",
+      "id": 31885283981,
+      "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 165,
+      "event": "push",
+      "head_sha": "d9293e4079ed7d9024cac68db2a4e94821a1e249",
+      "created_at": "2026-08-15T12:42:25Z",
+      "updated_at": "2026-08-15T12:42:28Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31885283981"
+    },
+    {
+      "id": 31885283802,
+      "name": "OMEGA Financial Replay Guard V1",
+      "status": "queued",
+      "conclusion": null,
+      "run_number": 11,
+      "event": "push",
+      "head_sha": "d9293e4079ed7d9024cac68db2a4e94821a1e249",
+      "created_at": "2026-08-15T12:42:25Z",
+      "updated_at": "2026-08-15T12:42:25Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31885283802"
+    },
+    {
+      "id": 31885283798,
+      "name": "OMEGA Financial Runtime V1",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 8,
+      "event": "push",
+      "head_sha": "d9293e4079ed7d9024cac68db2a4e94821a1e249",
+      "created_at": "2026-08-15T12:42:25Z",
+      "updated_at": "2026-08-15T12:42:28Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31885283798"
+    },
+    {
+      "id": 31885283792,
+      "name": "OMEGA DATA-GATE Scorecard V1",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 5,
+      "event": "push",
+      "head_sha": "d9293e4079ed7d9024cac68db2a4e94821a1e249",
+      "created_at": "2026-08-15T12:42:25Z",
+      "updated_at": "2026-08-15T12:42:28Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31885283792"
+    },
+    {
+      "id": 31885087974,
+      "name": "OMEGA Core CA Apr2 Identity Frozen Artifact V1",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 1,
       "event": "push",
       "head_sha": "5aa0267e995edb5a608455ca4243b790a1565806",
       "created_at": "2026-08-15T12:37:47Z",
-      "updated_at": "2026-08-15T12:37:50Z",
+      "updated_at": "2026-08-15T12:37:56Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31885087974"
     },
     {
       "id": 31885087934,
       "name": "OMEGA Public State Bridge",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 164,
       "event": "push",
       "head_sha": "5aa0267e995edb5a608455ca4243b790a1565806",
       "created_at": "2026-08-15T12:37:46Z",
-      "updated_at": "2026-08-15T12:37:50Z",
+      "updated_at": "2026-08-15T12:37:56Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31885087934"
     },
     {
@@ -601,57 +649,22 @@
       "created_at": "2026-08-15T12:26:50Z",
       "updated_at": "2026-08-15T12:27:01Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884620482"
-    },
-    {
-      "id": 31884620475,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "run_number": 142,
-      "event": "push",
-      "head_sha": "3f519af5ed4c2159557de5cc1737d34a5e51fdc6",
-      "created_at": "2026-08-15T12:26:50Z",
-      "updated_at": "2026-08-15T12:27:02Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884620475"
-    },
-    {
-      "id": 31884555545,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 141,
-      "event": "workflow_run",
-      "head_sha": "560b5bc78dd4fd6f6e3831702bdb5779a49f4e60",
-      "created_at": "2026-08-15T12:25:20Z",
-      "updated_at": "2026-08-15T12:25:37Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884555545"
-    },
-    {
-      "id": 31884550095,
-      "name": "OMEGA Execution Price Partial V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "560b5bc78dd4fd6f6e3831702bdb5779a49f4e60",
-      "created_at": "2026-08-15T12:25:13Z",
-      "updated_at": "2026-08-15T12:25:25Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884550095"
-    },
-    {
-      "id": 31884550065,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "run_number": 140,
-      "event": "push",
-      "head_sha": "560b5bc78dd4fd6f6e3831702bdb5779a49f4e60",
-      "created_at": "2026-08-15T12:25:12Z",
-      "updated_at": "2026-08-15T12:25:25Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884550065"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9247037143,
+      "name": "omega-core-ca-apr2-identity-frozen-artifact-v1-31885087974",
+      "size_in_bytes": 1490,
+      "digest": "sha256:6385e99eb53191001df2edbed931ac540adee93795b63a62404a66ee5f57849b",
+      "expired": false,
+      "created_at": "2026-08-15T12:37:53Z",
+      "updated_at": "2026-08-15T12:37:53Z",
+      "workflow_run": {
+        "id": 31885087974,
+        "head_sha": "5aa0267e995edb5a608455ca4243b790a1565806"
+      }
+    },
     {
       "id": 9247017363,
       "name": "omega-branch-drd-extractor-v2",
@@ -1934,19 +1947,6 @@
       "expired": false,
       "created_at": "2026-08-15T11:11:51Z",
       "updated_at": "2026-08-15T11:11:51Z",
-      "workflow_run": {
-        "id": 31881417547,
-        "head_sha": "ca56d65f933ceb693bf357bf63d98a375ed2e45c"
-      }
-    },
-    {
-      "id": 9246116590,
-      "name": "omega-branch-performance",
-      "size_in_bytes": 1630,
-      "digest": "sha256:6643a256f3f97d72098cdd950f0de9d98d124fd7b323f9561cb2e0330ea658c7",
-      "expired": false,
-      "created_at": "2026-08-15T11:11:47Z",
-      "updated_at": "2026-08-15T11:11:47Z",
       "workflow_run": {
         "id": 31881417547,
         "head_sha": "ca56d65f933ceb693bf357bf63d98a375ed2e45c"
