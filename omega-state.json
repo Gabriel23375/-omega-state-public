@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-15T01:23:26Z",
+  "generated_at": "2026-08-15T01:23:37Z",
   "source": {
     "branch": "main",
     "head_sha": "61de14cccf07ceaad3223bb2012d61f5bea70f01",
-    "publisher_run_id": 31856368758,
-    "publisher_run_number": 22,
-    "trigger_event": "push"
+    "publisher_run_id": 31856377662,
+    "publisher_run_number": 23,
+    "trigger_event": "workflow_run"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -18,27 +18,39 @@
   },
   "workflow_runs": [
     {
-      "id": 31856368780,
-      "name": "OMEGA PIT Next Open Price Probe",
+      "id": 31856377662,
+      "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 23,
+      "event": "workflow_run",
+      "head_sha": "61de14cccf07ceaad3223bb2012d61f5bea70f01",
+      "created_at": "2026-08-15T01:23:30Z",
+      "updated_at": "2026-08-15T01:23:33Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856377662"
+    },
+    {
+      "id": 31856368780,
+      "name": "OMEGA PIT Next Open Price Probe",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 1,
       "event": "push",
       "head_sha": "61de14cccf07ceaad3223bb2012d61f5bea70f01",
       "created_at": "2026-08-15T01:23:19Z",
-      "updated_at": "2026-08-15T01:23:22Z",
+      "updated_at": "2026-08-15T01:23:28Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856368780"
     },
     {
       "id": 31856368758,
       "name": "OMEGA Public State Bridge",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 22,
       "event": "push",
       "head_sha": "61de14cccf07ceaad3223bb2012d61f5bea70f01",
       "created_at": "2026-08-15T01:23:19Z",
-      "updated_at": "2026-08-15T01:23:22Z",
+      "updated_at": "2026-08-15T01:23:30Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856368758"
     },
     {
@@ -68,13 +80,13 @@
     {
       "id": 31856299124,
       "name": "OMEGA Consolidated Evidence Pipeline V2",
-      "status": "pending",
+      "status": "in_progress",
       "conclusion": null,
       "run_number": 3,
       "event": "push",
       "head_sha": "ee00dcd3a47f2804c475585177b3c96e4b0a3186",
       "created_at": "2026-08-15T01:21:47Z",
-      "updated_at": "2026-08-15T01:21:49Z",
+      "updated_at": "2026-08-15T01:23:32Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856299124"
     },
     {
@@ -128,13 +140,13 @@
     {
       "id": 31856264248,
       "name": "OMEGA Consolidated Evidence Pipeline",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 2,
       "event": "push",
       "head_sha": "0e8679a269449778f4e789e8af9eb980cd986889",
       "created_at": "2026-08-15T01:20:59Z",
-      "updated_at": "2026-08-15T01:23:20Z",
+      "updated_at": "2026-08-15T01:23:28Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856264248"
     },
     {
@@ -364,21 +376,35 @@
       "created_at": "2026-08-15T01:00:46Z",
       "updated_at": "2026-08-15T01:00:55Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31855315831"
-    },
-    {
-      "id": 31854643770,
-      "name": "OMEGA Rule 605 Cost Pilot",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "35f354eb0aa4942c19221c4b67216c12d8601657",
-      "created_at": "2026-08-15T00:46:53Z",
-      "updated_at": "2026-08-15T00:47:22Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31854643770"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9239141765,
+      "name": "omega-branch-performance",
+      "size_in_bytes": 1630,
+      "digest": "sha256:5612c44179c57fc46453e09acb0f07a829229734aac724b67ec49651f5cbb058",
+      "expired": false,
+      "created_at": "2026-08-15T01:23:35Z",
+      "updated_at": "2026-08-15T01:23:35Z",
+      "workflow_run": {
+        "id": 31856299124,
+        "head_sha": "ee00dcd3a47f2804c475585177b3c96e4b0a3186"
+      }
+    },
+    {
+      "id": 9239139856,
+      "name": "omega-pit-next-open-price-probe-31856368780",
+      "size_in_bytes": 1996785,
+      "digest": "sha256:13c9d7918462f4ec60a41c776f61554800201795b71f071623e0ecf6c5112aa7",
+      "expired": false,
+      "created_at": "2026-08-15T01:23:26Z",
+      "updated_at": "2026-08-15T01:23:26Z",
+      "workflow_run": {
+        "id": 31856368780,
+        "head_sha": "61de14cccf07ceaad3223bb2012d61f5bea70f01"
+      }
+    },
     {
       "id": 9239139658,
       "name": "omega-consolidated-master-state",
