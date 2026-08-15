@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T11:17:34Z",
+  "generated_at": "2026-08-15T11:19:00Z",
   "source": {
     "branch": "main",
-    "head_sha": "af5066050d7da53bc480a03e76101b59ad86b620",
-    "publisher_run_id": 31881669346,
-    "publisher_run_number": 101,
+    "head_sha": "456b0e2f44d7960a58698cb47cb90fd46124a3fc",
+    "publisher_run_id": 31881727798,
+    "publisher_run_number": 102,
     "trigger_event": "push"
   },
   "runtime": {
@@ -18,27 +18,51 @@
   },
   "workflow_runs": [
     {
-      "id": 31881669467,
+      "id": 31881727798,
+      "name": "OMEGA Public State Bridge",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 102,
+      "event": "push",
+      "head_sha": "456b0e2f44d7960a58698cb47cb90fd46124a3fc",
+      "created_at": "2026-08-15T11:18:54Z",
+      "updated_at": "2026-08-15T11:18:57Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31881727798"
+    },
+    {
+      "id": 31881727766,
       "name": "OMEGA MEF API Schema Probe V1",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 2,
+      "event": "push",
+      "head_sha": "456b0e2f44d7960a58698cb47cb90fd46124a3fc",
+      "created_at": "2026-08-15T11:18:54Z",
+      "updated_at": "2026-08-15T11:18:57Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31881727766"
+    },
+    {
+      "id": 31881669467,
+      "name": "OMEGA MEF API Schema Probe V1",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 1,
       "event": "push",
       "head_sha": "af5066050d7da53bc480a03e76101b59ad86b620",
       "created_at": "2026-08-15T11:17:27Z",
-      "updated_at": "2026-08-15T11:17:29Z",
+      "updated_at": "2026-08-15T11:17:34Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31881669467"
     },
     {
       "id": 31881669346,
       "name": "OMEGA Public State Bridge",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 101,
       "event": "push",
       "head_sha": "af5066050d7da53bc480a03e76101b59ad86b620",
       "created_at": "2026-08-15T11:17:26Z",
-      "updated_at": "2026-08-15T11:17:30Z",
+      "updated_at": "2026-08-15T11:17:39Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31881669346"
     },
     {
@@ -592,30 +616,6 @@
       "created_at": "2026-08-15T10:50:48Z",
       "updated_at": "2026-08-15T10:50:57Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31880539774"
-    },
-    {
-      "id": 31880522166,
-      "name": "OMEGA Consolidated Evidence Pipeline V2",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "run_number": 12,
-      "event": "push",
-      "head_sha": "bd6a2647a3fd5c3a5fc8604094b8918a295b2393",
-      "created_at": "2026-08-15T10:50:22Z",
-      "updated_at": "2026-08-15T10:57:43Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31880522166"
-    },
-    {
-      "id": 31880522161,
-      "name": "OMEGA Rule 605 Legacy26 Semantic Audit V2",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 2,
-      "event": "push",
-      "head_sha": "bd6a2647a3fd5c3a5fc8604094b8918a295b2393",
-      "created_at": "2026-08-15T10:50:22Z",
-      "updated_at": "2026-08-15T10:50:43Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31880522161"
     }
   ],
   "omega_artifacts": [
