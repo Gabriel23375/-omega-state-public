@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T11:00:37Z",
+  "generated_at": "2026-08-15T11:01:30Z",
   "source": {
     "branch": "main",
     "head_sha": "b769d915260778a24aaee25abfb8633135ca599f",
-    "publisher_run_id": 31880953989,
-    "publisher_run_number": 84,
+    "publisher_run_id": 31880996157,
+    "publisher_run_number": 85,
     "trigger_event": "workflow_run"
   },
   "runtime": {
@@ -18,15 +18,39 @@
   },
   "workflow_runs": [
     {
-      "id": 31880953989,
+      "id": 31880996157,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 85,
+      "event": "workflow_run",
+      "head_sha": "b769d915260778a24aaee25abfb8633135ca599f",
+      "created_at": "2026-08-15T11:01:22Z",
+      "updated_at": "2026-08-15T11:01:25Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31880996157"
+    },
+    {
+      "id": 31880988201,
+      "name": "OMEGA Simulation Telemetry Bridge",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 8,
+      "event": "schedule",
+      "head_sha": "b769d915260778a24aaee25abfb8633135ca599f",
+      "created_at": "2026-08-15T11:01:10Z",
+      "updated_at": "2026-08-15T11:01:20Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31880988201"
+    },
+    {
+      "id": 31880953989,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 84,
       "event": "workflow_run",
       "head_sha": "b769d915260778a24aaee25abfb8633135ca599f",
       "created_at": "2026-08-15T11:00:30Z",
-      "updated_at": "2026-08-15T11:00:34Z",
+      "updated_at": "2026-08-15T11:00:42Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31880953989"
     },
     {
@@ -592,33 +616,35 @@
       "created_at": "2026-08-15T08:40:24Z",
       "updated_at": "2026-08-15T08:43:30Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31875056434"
-    },
-    {
-      "id": 31875056389,
-      "name": "OMEGA Consolidated Evidence Pipeline V2",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 8,
-      "event": "push",
-      "head_sha": "bdfa90538d0d342698e93ec1c5e7b07375f96352",
-      "created_at": "2026-08-15T08:40:24Z",
-      "updated_at": "2026-08-15T08:41:05Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31875056389"
-    },
-    {
-      "id": 31872847047,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 59,
-      "event": "schedule",
-      "head_sha": "148532c2fbdb294860ed1534eb137eb13bf00f75",
-      "created_at": "2026-08-15T07:47:22Z",
-      "updated_at": "2026-08-15T07:47:35Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31872847047"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9246000317,
+      "name": "omega-simulation-telemetry-31880988201",
+      "size_in_bytes": 1002,
+      "digest": "sha256:7341d8347cfd033f169b7d9c5f2f0b02d12a09aa80e1c64bc3a5131396b88daa",
+      "expired": false,
+      "created_at": "2026-08-15T11:01:18Z",
+      "updated_at": "2026-08-15T11:01:18Z",
+      "workflow_run": {
+        "id": 31880988201,
+        "head_sha": "b769d915260778a24aaee25abfb8633135ca599f"
+      }
+    },
+    {
+      "id": 9245995211,
+      "name": "omega-branch-security-master-2024",
+      "size_in_bytes": 10901215,
+      "digest": "sha256:ca010020c625ac0e4ad251ddcf88b9f4d8c7a46147df25eac5e5bd706101e118",
+      "expired": false,
+      "created_at": "2026-08-15T11:00:49Z",
+      "updated_at": "2026-08-15T11:00:49Z",
+      "workflow_run": {
+        "id": 31880832734,
+        "head_sha": "502a5fd929c38a3519cdb08969c83f9f012565f5"
+      }
+    },
     {
       "id": 9245992533,
       "name": "omega-branch-pit-plumbing-replay",
@@ -1888,32 +1914,6 @@
       "expired": false,
       "created_at": "2026-08-15T01:38:42Z",
       "updated_at": "2026-08-15T01:38:42Z",
-      "workflow_run": {
-        "id": 31857057474,
-        "head_sha": "5ca3a1129145ef1c40e22c581a8c2fda291accc1"
-      }
-    },
-    {
-      "id": 9239357435,
-      "name": "omega-branch-performance",
-      "size_in_bytes": 1630,
-      "digest": "sha256:5484d29c5406a9b7fb05c34c97f475f68b9d4fe5ff5a629bd115983f555785e6",
-      "expired": false,
-      "created_at": "2026-08-15T01:38:35Z",
-      "updated_at": "2026-08-15T01:38:35Z",
-      "workflow_run": {
-        "id": 31857057474,
-        "head_sha": "5ca3a1129145ef1c40e22c581a8c2fda291accc1"
-      }
-    },
-    {
-      "id": 9239357330,
-      "name": "omega-branch-pit-plumbing-replay",
-      "size_in_bytes": 1852,
-      "digest": "sha256:d3593fb926d663b4b5ed71babeb5999ebc932456b8717755e78fccbe8e154b67",
-      "expired": false,
-      "created_at": "2026-08-15T01:38:35Z",
-      "updated_at": "2026-08-15T01:38:35Z",
       "workflow_run": {
         "id": 31857057474,
         "head_sha": "5ca3a1129145ef1c40e22c581a8c2fda291accc1"
