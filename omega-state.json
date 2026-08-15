@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T11:12:37Z",
+  "generated_at": "2026-08-15T11:13:02Z",
   "source": {
     "branch": "main",
-    "head_sha": "9280d507a42159c9c9c07223c1c54f64a2014410",
-    "publisher_run_id": 31881462900,
-    "publisher_run_number": 94,
-    "trigger_event": "workflow_run"
+    "head_sha": "ca0670702282d95cad0ba5516273d78f44af5278",
+    "publisher_run_id": 31881480266,
+    "publisher_run_number": 95,
+    "trigger_event": "push"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -18,15 +18,39 @@
   },
   "workflow_runs": [
     {
-      "id": 31881462900,
+      "id": 31881480301,
+      "name": "OMEGA NYSE EOD ETP Format Probe V1",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "ca0670702282d95cad0ba5516273d78f44af5278",
+      "created_at": "2026-08-15T11:12:55Z",
+      "updated_at": "2026-08-15T11:12:58Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31881480301"
+    },
+    {
+      "id": 31881480266,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 95,
+      "event": "push",
+      "head_sha": "ca0670702282d95cad0ba5516273d78f44af5278",
+      "created_at": "2026-08-15T11:12:55Z",
+      "updated_at": "2026-08-15T11:12:58Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31881480266"
+    },
+    {
+      "id": 31881462900,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 94,
       "event": "workflow_run",
       "head_sha": "9280d507a42159c9c9c07223c1c54f64a2014410",
       "created_at": "2026-08-15T11:12:28Z",
-      "updated_at": "2026-08-15T11:12:32Z",
+      "updated_at": "2026-08-15T11:12:42Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31881462900"
     },
     {
@@ -592,30 +616,6 @@
       "created_at": "2026-08-15T09:41:34Z",
       "updated_at": "2026-08-15T09:41:44Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31877634947"
-    },
-    {
-      "id": 31877610183,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 68,
-      "event": "push",
-      "head_sha": "ffbcb1d3830f0e7a1d979c9b40fdc333c721bf61",
-      "created_at": "2026-08-15T09:40:53Z",
-      "updated_at": "2026-08-15T09:41:02Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31877610183"
-    },
-    {
-      "id": 31877610181,
-      "name": "OMEGA Core Close Validator V5",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "ffbcb1d3830f0e7a1d979c9b40fdc333c721bf61",
-      "created_at": "2026-08-15T09:40:53Z",
-      "updated_at": "2026-08-15T09:41:03Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31877610181"
     }
   ],
   "omega_artifacts": [
