@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T04:58:32Z",
+  "generated_at": "2026-08-15T05:43:59Z",
   "source": {
     "branch": "main",
-    "head_sha": "6c99674d3d6cb12eb0aabf4a20fbd0fed4119715",
-    "publisher_run_id": 31865768929,
-    "publisher_run_number": 54,
+    "head_sha": "9fe9812edc76a73112b8cd65b39b45b023aaaa67",
+    "publisher_run_id": 31867662376,
+    "publisher_run_number": 55,
     "trigger_event": "workflow_run"
   },
   "runtime": {
@@ -18,15 +18,51 @@
   },
   "workflow_runs": [
     {
-      "id": 31865768929,
+      "id": 31867662376,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 55,
+      "event": "workflow_run",
+      "head_sha": "9fe9812edc76a73112b8cd65b39b45b023aaaa67",
+      "created_at": "2026-08-15T05:43:47Z",
+      "updated_at": "2026-08-15T05:43:51Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31867662376"
+    },
+    {
+      "id": 31867562251,
+      "name": "OMEGA Consolidated Evidence Pipeline V2",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 7,
+      "event": "push",
+      "head_sha": "9fe9812edc76a73112b8cd65b39b45b023aaaa67",
+      "created_at": "2026-08-15T05:41:18Z",
+      "updated_at": "2026-08-15T05:43:50Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31867562251"
+    },
+    {
+      "id": 31867562246,
+      "name": "OMEGA Consolidated Evidence Pipeline",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 7,
+      "event": "push",
+      "head_sha": "9fe9812edc76a73112b8cd65b39b45b023aaaa67",
+      "created_at": "2026-08-15T05:41:18Z",
+      "updated_at": "2026-08-15T05:43:45Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31867562246"
+    },
+    {
+      "id": 31865768929,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 54,
       "event": "workflow_run",
       "head_sha": "6c99674d3d6cb12eb0aabf4a20fbd0fed4119715",
       "created_at": "2026-08-15T04:58:26Z",
-      "updated_at": "2026-08-15T04:58:29Z",
+      "updated_at": "2026-08-15T04:58:35Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31865768929"
     },
     {
@@ -580,45 +616,113 @@
       "created_at": "2026-08-15T01:34:00Z",
       "updated_at": "2026-08-15T01:34:13Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856863058"
-    },
-    {
-      "id": 31856863053,
-      "name": "OMEGA PIT Nasdaq Removal Economics V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "bb62e941a5ca3f773e704726f2897df7f97f2d5c",
-      "created_at": "2026-08-15T01:34:00Z",
-      "updated_at": "2026-08-15T01:34:13Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856863053"
-    },
-    {
-      "id": 31856761989,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 28,
-      "event": "push",
-      "head_sha": "65a7b5b03b8a34fa7c77b91cf7e354b5ba64a421",
-      "created_at": "2026-08-15T01:31:53Z",
-      "updated_at": "2026-08-15T01:32:02Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856761989"
-    },
-    {
-      "id": 31856761980,
-      "name": "OMEGA PIT NYSE Corporate Actions V2",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "65a7b5b03b8a34fa7c77b91cf7e354b5ba64a421",
-      "created_at": "2026-08-15T01:31:53Z",
-      "updated_at": "2026-08-15T01:32:05Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856761980"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9242491734,
+      "name": "omega-branch-pit-plumbing-replay",
+      "size_in_bytes": 31254038,
+      "digest": "sha256:fc31ad7b304f320a4b68e2b4fc58a0739c5f572f7ec6d16f9f7c92ab6c03ac3c",
+      "expired": false,
+      "created_at": "2026-08-15T05:43:58Z",
+      "updated_at": "2026-08-15T05:43:58Z",
+      "workflow_run": {
+        "id": 31867562251,
+        "head_sha": "9fe9812edc76a73112b8cd65b39b45b023aaaa67"
+      }
+    },
+    {
+      "id": 9242491712,
+      "name": "omega-branch-security-master-2024",
+      "size_in_bytes": 10900896,
+      "digest": "sha256:6b3735f2a461d052c5067dda72c7085c632ed5917927b092a87a0dafd18da9a9",
+      "expired": false,
+      "created_at": "2026-08-15T05:43:58Z",
+      "updated_at": "2026-08-15T05:43:58Z",
+      "workflow_run": {
+        "id": 31867562251,
+        "head_sha": "9fe9812edc76a73112b8cd65b39b45b023aaaa67"
+      }
+    },
+    {
+      "id": 9242490373,
+      "name": "omega-branch-performance",
+      "size_in_bytes": 1628,
+      "digest": "sha256:25339c0c9c34c022960b100f85bb3a92e849e616f11c726e89214e67e148bf6e",
+      "expired": false,
+      "created_at": "2026-08-15T05:43:51Z",
+      "updated_at": "2026-08-15T05:43:51Z",
+      "workflow_run": {
+        "id": 31867562251,
+        "head_sha": "9fe9812edc76a73112b8cd65b39b45b023aaaa67"
+      }
+    },
+    {
+      "id": 9242488685,
+      "name": "omega-consolidated-master-state",
+      "size_in_bytes": 3813,
+      "digest": "sha256:c085994b07438027fefe06fa7717d7fcc38c1e62966f259a982f535e3224666c",
+      "expired": false,
+      "created_at": "2026-08-15T05:43:42Z",
+      "updated_at": "2026-08-15T05:43:42Z",
+      "workflow_run": {
+        "id": 31867562246,
+        "head_sha": "9fe9812edc76a73112b8cd65b39b45b023aaaa67"
+      }
+    },
+    {
+      "id": 9242486963,
+      "name": "omega-branch-drd-extractor-v2",
+      "size_in_bytes": 25552,
+      "digest": "sha256:382bbf21e1cde51dae37cbed5e7af987daab314327ff949c7594e2f06d9e06aa",
+      "expired": false,
+      "created_at": "2026-08-15T05:43:32Z",
+      "updated_at": "2026-08-15T05:43:32Z",
+      "workflow_run": {
+        "id": 31867562246,
+        "head_sha": "9fe9812edc76a73112b8cd65b39b45b023aaaa67"
+      }
+    },
+    {
+      "id": 9242465101,
+      "name": "omega-branch-security-master-2024",
+      "size_in_bytes": 10901060,
+      "digest": "sha256:26ae2f4ef56cd58dfbcd154ca64c7383723f1585f1e1b9804eb3d647ff47b1b2",
+      "expired": false,
+      "created_at": "2026-08-15T05:41:39Z",
+      "updated_at": "2026-08-15T05:41:39Z",
+      "workflow_run": {
+        "id": 31867562246,
+        "head_sha": "9fe9812edc76a73112b8cd65b39b45b023aaaa67"
+      }
+    },
+    {
+      "id": 9242462266,
+      "name": "omega-branch-pit-plumbing-replay",
+      "size_in_bytes": 1857,
+      "digest": "sha256:99d669c24f31c059170c86ad95fa761356b0fbb79c2b9cae1449ff709af4fc47",
+      "expired": false,
+      "created_at": "2026-08-15T05:41:24Z",
+      "updated_at": "2026-08-15T05:41:24Z",
+      "workflow_run": {
+        "id": 31867562246,
+        "head_sha": "9fe9812edc76a73112b8cd65b39b45b023aaaa67"
+      }
+    },
+    {
+      "id": 9242462101,
+      "name": "omega-branch-performance",
+      "size_in_bytes": 1630,
+      "digest": "sha256:f9cf9491abcb505f8df821473b70a3c80911cbc553b6b12e109a1dd1b9b52518",
+      "expired": false,
+      "created_at": "2026-08-15T05:41:24Z",
+      "updated_at": "2026-08-15T05:41:24Z",
+      "workflow_run": {
+        "id": 31867562246,
+        "head_sha": "9fe9812edc76a73112b8cd65b39b45b023aaaa67"
+      }
+    },
     {
       "id": 9241944209,
       "name": "omega-simulation-telemetry-31865760611",
