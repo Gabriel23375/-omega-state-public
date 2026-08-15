@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T11:15:38Z",
+  "generated_at": "2026-08-15T11:17:34Z",
   "source": {
     "branch": "main",
-    "head_sha": "878a3d47decff5e481d32f30d3fd804aa478e3d9",
-    "publisher_run_id": 31881591371,
-    "publisher_run_number": 100,
-    "trigger_event": "workflow_run"
+    "head_sha": "af5066050d7da53bc480a03e76101b59ad86b620",
+    "publisher_run_id": 31881669346,
+    "publisher_run_number": 101,
+    "trigger_event": "push"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -18,15 +18,39 @@
   },
   "workflow_runs": [
     {
-      "id": 31881591371,
+      "id": 31881669467,
+      "name": "OMEGA MEF API Schema Probe V1",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "af5066050d7da53bc480a03e76101b59ad86b620",
+      "created_at": "2026-08-15T11:17:27Z",
+      "updated_at": "2026-08-15T11:17:29Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31881669467"
+    },
+    {
+      "id": 31881669346,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 101,
+      "event": "push",
+      "head_sha": "af5066050d7da53bc480a03e76101b59ad86b620",
+      "created_at": "2026-08-15T11:17:26Z",
+      "updated_at": "2026-08-15T11:17:30Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31881669346"
+    },
+    {
+      "id": 31881591371,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 100,
       "event": "workflow_run",
       "head_sha": "878a3d47decff5e481d32f30d3fd804aa478e3d9",
       "created_at": "2026-08-15T11:15:30Z",
-      "updated_at": "2026-08-15T11:15:34Z",
+      "updated_at": "2026-08-15T11:15:43Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31881591371"
     },
     {
@@ -592,33 +616,22 @@
       "created_at": "2026-08-15T10:50:22Z",
       "updated_at": "2026-08-15T10:50:43Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31880522161"
-    },
-    {
-      "id": 31880522155,
-      "name": "OMEGA Consolidated Evidence Pipeline",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 12,
-      "event": "push",
-      "head_sha": "bd6a2647a3fd5c3a5fc8604094b8918a295b2393",
-      "created_at": "2026-08-15T10:50:22Z",
-      "updated_at": "2026-08-15T11:00:28Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31880522155"
-    },
-    {
-      "id": 31880518906,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 75,
-      "event": "workflow_run",
-      "head_sha": "187c587d317b71cfe19ab66cca7dcc63d40acaf9",
-      "created_at": "2026-08-15T10:50:17Z",
-      "updated_at": "2026-08-15T10:50:30Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31880518906"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9246179361,
+      "name": "omega-mef-api-schema-probe-v1-31881669467",
+      "size_in_bytes": 3553,
+      "digest": "sha256:7978cd8549914c7c4b0d750187c2ece374ce6d2f0405d5f70766b9fa03b63b56",
+      "expired": false,
+      "created_at": "2026-08-15T11:17:32Z",
+      "updated_at": "2026-08-15T11:17:32Z",
+      "workflow_run": {
+        "id": 31881669467,
+        "head_sha": "af5066050d7da53bc480a03e76101b59ad86b620"
+      }
+    },
     {
       "id": 9246156618,
       "name": "omega-consolidated-v2-master-state",
@@ -1901,19 +1914,6 @@
       "expired": false,
       "created_at": "2026-08-15T04:43:43Z",
       "updated_at": "2026-08-15T04:43:43Z",
-      "workflow_run": {
-        "id": 31865014017,
-        "head_sha": "2eb27be4429677ee6b894704e3bfc98091d09be4"
-      }
-    },
-    {
-      "id": 9241768778,
-      "name": "omega-branch-drd-extractor-v2",
-      "size_in_bytes": 10708,
-      "digest": "sha256:b25a73db61edcc559985c9812e57a5c1de004c05a7e41a14b90cb89d1feeb42f",
-      "expired": false,
-      "created_at": "2026-08-15T04:43:32Z",
-      "updated_at": "2026-08-15T04:43:32Z",
       "workflow_run": {
         "id": 31865014017,
         "head_sha": "2eb27be4429677ee6b894704e3bfc98091d09be4"
