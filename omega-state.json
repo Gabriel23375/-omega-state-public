@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T12:43:58Z",
+  "generated_at": "2026-08-15T12:44:33Z",
   "source": {
     "branch": "main",
-    "head_sha": "4ed7a4132b60428481e0ec37e53673af3692662e",
-    "publisher_run_id": 31885343409,
-    "publisher_run_number": 171,
-    "trigger_event": "workflow_run"
+    "head_sha": "ee89ad2387f810362f258f02015dbb0f6d470cd4",
+    "publisher_run_id": 31885367415,
+    "publisher_run_number": 172,
+    "trigger_event": "push"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -51,15 +51,39 @@
   },
   "workflow_runs": [
     {
-      "id": 31885343409,
+      "id": 31885367479,
+      "name": "OMEGA NYSE Arca Apr6 Core Open V1",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "ee89ad2387f810362f258f02015dbb0f6d470cd4",
+      "created_at": "2026-08-15T12:44:26Z",
+      "updated_at": "2026-08-15T12:44:29Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31885367479"
+    },
+    {
+      "id": 31885367415,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 172,
+      "event": "push",
+      "head_sha": "ee89ad2387f810362f258f02015dbb0f6d470cd4",
+      "created_at": "2026-08-15T12:44:26Z",
+      "updated_at": "2026-08-15T12:44:29Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31885367415"
+    },
+    {
+      "id": 31885343409,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 171,
       "event": "workflow_run",
       "head_sha": "4ed7a4132b60428481e0ec37e53673af3692662e",
       "created_at": "2026-08-15T12:43:51Z",
-      "updated_at": "2026-08-15T12:43:54Z",
+      "updated_at": "2026-08-15T12:44:02Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31885343409"
     },
     {
@@ -323,7 +347,7 @@
       "event": "push",
       "head_sha": "2666a073e16a7284bd90b719ccf04d451bec2c92",
       "created_at": "2026-08-15T12:33:43Z",
-      "updated_at": "2026-08-15T12:43:53Z",
+      "updated_at": "2026-08-15T12:44:27Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884918270"
     },
     {
@@ -625,33 +649,74 @@
       "created_at": "2026-08-15T12:28:08Z",
       "updated_at": "2026-08-15T12:28:21Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884676488"
-    },
-    {
-      "id": 31884676463,
-      "name": "OMEGA Financial Replay Guard V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 8,
-      "event": "push",
-      "head_sha": "492b7dc8e5e7dac6dbac2eaa100f77101dd99fb2",
-      "created_at": "2026-08-15T12:28:08Z",
-      "updated_at": "2026-08-15T12:28:16Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884676463"
-    },
-    {
-      "id": 31884676462,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "run_number": 145,
-      "event": "push",
-      "head_sha": "492b7dc8e5e7dac6dbac2eaa100f77101dd99fb2",
-      "created_at": "2026-08-15T12:28:08Z",
-      "updated_at": "2026-08-15T12:28:23Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884676462"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9247106346,
+      "name": "omega-nyse-arca-apr6-core-open-v1-31885367479",
+      "size_in_bytes": 1712,
+      "digest": "sha256:8d023be7a988a11a5e0c6c7fc1f58aea53a9b4832f435292b90c3fbfee0a9fe1",
+      "expired": false,
+      "created_at": "2026-08-15T12:44:33Z",
+      "updated_at": "2026-08-15T12:44:33Z",
+      "workflow_run": {
+        "id": 31885367479,
+        "head_sha": "ee89ad2387f810362f258f02015dbb0f6d470cd4"
+      }
+    },
+    {
+      "id": 9247106166,
+      "name": "omega-consolidated-v2-master-state",
+      "size_in_bytes": 4139,
+      "digest": "sha256:a9dd08a5f2fb53328c5caaf398d4f3616a23510759026bc9ccda6a8bcc29e7f4",
+      "expired": false,
+      "created_at": "2026-08-15T12:44:31Z",
+      "updated_at": "2026-08-15T12:44:31Z",
+      "workflow_run": {
+        "id": 31884918270,
+        "head_sha": "2666a073e16a7284bd90b719ccf04d451bec2c92"
+      }
+    },
+    {
+      "id": 9247104315,
+      "name": "omega-branch-drd-extractor-v2",
+      "size_in_bytes": 10724,
+      "digest": "sha256:d67904d5765b712b79276e43e4dcce9bf31268e13e8e281adec08745b9febad8",
+      "expired": false,
+      "created_at": "2026-08-15T12:44:20Z",
+      "updated_at": "2026-08-15T12:44:20Z",
+      "workflow_run": {
+        "id": 31884918270,
+        "head_sha": "2666a073e16a7284bd90b719ccf04d451bec2c92"
+      }
+    },
+    {
+      "id": 9247102507,
+      "name": "omega-branch-security-master-2024",
+      "size_in_bytes": 10901088,
+      "digest": "sha256:d905b5271c1b79575cb269bcf23b63f53a742345193ac15194bd08339ab2a20c",
+      "expired": false,
+      "created_at": "2026-08-15T12:44:09Z",
+      "updated_at": "2026-08-15T12:44:09Z",
+      "workflow_run": {
+        "id": 31884918270,
+        "head_sha": "2666a073e16a7284bd90b719ccf04d451bec2c92"
+      }
+    },
+    {
+      "id": 9247101008,
+      "name": "omega-branch-pit-plumbing-replay",
+      "size_in_bytes": 31253924,
+      "digest": "sha256:ed9d6b345f9fd49ce6b333e0d3207ebbec3982ede14819fbe74ff4ed52ea0257",
+      "expired": false,
+      "created_at": "2026-08-15T12:44:01Z",
+      "updated_at": "2026-08-15T12:44:01Z",
+      "workflow_run": {
+        "id": 31884918270,
+        "head_sha": "2666a073e16a7284bd90b719ccf04d451bec2c92"
+      }
+    },
     {
       "id": 9247099971,
       "name": "omega-branch-performance",
@@ -1885,71 +1950,6 @@
       "workflow_run": {
         "id": 31881538492,
         "head_sha": "117a1ba6c8c6739c0358363d6c791bb2b837a63e"
-      }
-    },
-    {
-      "id": 9246150116,
-      "name": "omega-branch-performance",
-      "size_in_bytes": 1628,
-      "digest": "sha256:242a35fc6a9af42bff543d6966d35d8f6bdf70148e8c2cc1126d961ef8fc69ed",
-      "expired": false,
-      "created_at": "2026-08-15T11:14:48Z",
-      "updated_at": "2026-08-15T11:14:48Z",
-      "workflow_run": {
-        "id": 31881538492,
-        "head_sha": "117a1ba6c8c6739c0358363d6c791bb2b837a63e"
-      }
-    },
-    {
-      "id": 9246150015,
-      "name": "omega-nyse-group-eod-etp-core-parser-v1-31881552843",
-      "size_in_bytes": 1276,
-      "digest": "sha256:bc583df50e63b414b6eacaa8cb1b1ae07de374370116eae4045265ac43acf442",
-      "expired": false,
-      "created_at": "2026-08-15T11:14:47Z",
-      "updated_at": "2026-08-15T11:14:47Z",
-      "workflow_run": {
-        "id": 31881552843,
-        "head_sha": "878a3d47decff5e481d32f30d3fd804aa478e3d9"
-      }
-    },
-    {
-      "id": 9246148738,
-      "name": "omega-consolidated-v2-master-state",
-      "size_in_bytes": 4126,
-      "digest": "sha256:bf1c0d390b0efa2d74dfcd073a02bd8240849a8eabb7c395a2332b942bd3167d",
-      "expired": false,
-      "created_at": "2026-08-15T11:14:39Z",
-      "updated_at": "2026-08-15T11:14:39Z",
-      "workflow_run": {
-        "id": 31881526495,
-        "head_sha": "85a27776ae9202041cb0e08e7052a0c1fc0cba51"
-      }
-    },
-    {
-      "id": 9246146859,
-      "name": "omega-branch-drd-extractor-v2",
-      "size_in_bytes": 10710,
-      "digest": "sha256:5f6425e6c47e3e160d2622c46f7809d3e0a504a8398f8f4eb7988b5d2552149b",
-      "expired": false,
-      "created_at": "2026-08-15T11:14:28Z",
-      "updated_at": "2026-08-15T11:14:28Z",
-      "workflow_run": {
-        "id": 31881526495,
-        "head_sha": "85a27776ae9202041cb0e08e7052a0c1fc0cba51"
-      }
-    },
-    {
-      "id": 9246145691,
-      "name": "omega-branch-security-master-2024",
-      "size_in_bytes": 10901077,
-      "digest": "sha256:b58300631b663b8ab0af6a00d2317d077faff7df99ff1f4a8a443906c5ff0cee",
-      "expired": false,
-      "created_at": "2026-08-15T11:14:22Z",
-      "updated_at": "2026-08-15T11:14:22Z",
-      "workflow_run": {
-        "id": 31881526495,
-        "head_sha": "85a27776ae9202041cb0e08e7052a0c1fc0cba51"
       }
     }
   ]
