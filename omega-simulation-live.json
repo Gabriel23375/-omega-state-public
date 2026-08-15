@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-15T10:02:01Z",
+  "generated_at": "2026-08-15T11:01:15Z",
   "status": "NOT_PROVEN",
   "reason": "NO_FRESH_CANONICAL_SIMULATION_RUNTIME_PAYLOAD",
   "canonical_execution_runtime": "github-actions",
   "source": {
     "repository": "Gabriel23375/runway",
-    "head_sha": "e1f321fdb977fd9954e4dded58c90da549e357dd",
-    "workflow_run_id": 31878493766
+    "head_sha": "b769d915260778a24aaee25abfb8633135ca599f",
+    "workflow_run_id": 31880988201
   },
   "runtime": {
     "mode": null,
@@ -23,6 +23,13 @@
     "reverted": null
   },
   "candidate_simulation_artifacts": [
+    {
+      "name": "omega-simulation-telemetry-31878493766",
+      "size_in_bytes": 981,
+      "expired": false,
+      "created_at": "2026-08-15T10:02:03Z",
+      "updated_at": "2026-08-15T10:02:03Z"
+    },
     {
       "name": "omega-simulation-telemetry-31875687380",
       "size_in_bytes": 981,
