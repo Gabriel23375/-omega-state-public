@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T06:00:46Z",
+  "generated_at": "2026-08-15T07:17:15Z",
   "source": {
     "branch": "main",
-    "head_sha": "9fe9812edc76a73112b8cd65b39b45b023aaaa67",
-    "publisher_run_id": 31868369648,
-    "publisher_run_number": 57,
-    "trigger_event": "schedule"
+    "head_sha": "9cbe8475a030e55c6b8f37743be25483efcca832",
+    "publisher_run_id": 31871556274,
+    "publisher_run_number": 58,
+    "trigger_event": "workflow_run"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -18,15 +18,39 @@
   },
   "workflow_runs": [
     {
-      "id": 31868369648,
+      "id": 31871556274,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 58,
+      "event": "workflow_run",
+      "head_sha": "9cbe8475a030e55c6b8f37743be25483efcca832",
+      "created_at": "2026-08-15T07:17:04Z",
+      "updated_at": "2026-08-15T07:17:10Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31871556274"
+    },
+    {
+      "id": 31871547144,
+      "name": "OMEGA Simulation Telemetry Bridge",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 5,
+      "event": "schedule",
+      "head_sha": "9cbe8475a030e55c6b8f37743be25483efcca832",
+      "created_at": "2026-08-15T07:16:53Z",
+      "updated_at": "2026-08-15T07:17:03Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31871547144"
+    },
+    {
+      "id": 31868369648,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 57,
       "event": "schedule",
       "head_sha": "9fe9812edc76a73112b8cd65b39b45b023aaaa67",
       "created_at": "2026-08-15T06:00:40Z",
-      "updated_at": "2026-08-15T06:00:43Z",
+      "updated_at": "2026-08-15T06:00:49Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31868369648"
     },
     {
@@ -592,33 +616,22 @@
       "created_at": "2026-08-15T01:38:28Z",
       "updated_at": "2026-08-15T01:41:44Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857057465"
-    },
-    {
-      "id": 31857046608,
-      "name": "OMEGA PIT Position Event Engine",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "cef2d46e460aedb3aae2970bfb2ad219f9bb42d1",
-      "created_at": "2026-08-15T01:38:12Z",
-      "updated_at": "2026-08-15T01:38:22Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857046608"
-    },
-    {
-      "id": 31857046596,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 31,
-      "event": "push",
-      "head_sha": "cef2d46e460aedb3aae2970bfb2ad219f9bb42d1",
-      "created_at": "2026-08-15T01:38:12Z",
-      "updated_at": "2026-08-15T01:38:25Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857046596"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9243554189,
+      "name": "omega-simulation-telemetry-31871547144",
+      "size_in_bytes": 957,
+      "digest": "sha256:815588952bd9539ea2581a424aae73fc8371d26a93ec83a9b0afdf452bdfe0e7",
+      "expired": false,
+      "created_at": "2026-08-15T07:17:00Z",
+      "updated_at": "2026-08-15T07:17:00Z",
+      "workflow_run": {
+        "id": 31871547144,
+        "head_sha": "9cbe8475a030e55c6b8f37743be25483efcca832"
+      }
+    },
     {
       "id": 9242496495,
       "name": "omega-consolidated-v2-master-state",
