@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T17:00:44Z",
+  "generated_at": "2026-08-15T17:55:03Z",
   "source": {
     "branch": "main",
     "head_sha": "fa73a0883fcab19a371f6043e7c7042ef6e38d61",
-    "publisher_run_id": 31897096101,
-    "publisher_run_number": 186,
+    "publisher_run_id": 31899659240,
+    "publisher_run_number": 187,
     "trigger_event": "schedule"
   },
   "runtime": {
@@ -50,15 +50,27 @@
   },
   "workflow_runs": [
     {
-      "id": 31897096101,
+      "id": 31899659240,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 187,
+      "event": "schedule",
+      "head_sha": "fa73a0883fcab19a371f6043e7c7042ef6e38d61",
+      "created_at": "2026-08-15T17:54:55Z",
+      "updated_at": "2026-08-15T17:54:59Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31899659240"
+    },
+    {
+      "id": 31897096101,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 186,
       "event": "schedule",
       "head_sha": "fa73a0883fcab19a371f6043e7c7042ef6e38d61",
       "created_at": "2026-08-15T17:00:36Z",
-      "updated_at": "2026-08-15T17:00:40Z",
+      "updated_at": "2026-08-15T17:00:49Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31897096101"
     },
     {
@@ -636,18 +648,6 @@
       "created_at": "2026-08-15T12:33:00Z",
       "updated_at": "2026-08-15T12:33:15Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884887342"
-    },
-    {
-      "id": 31884877430,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "run_number": 155,
-      "event": "push",
-      "head_sha": "f6da82e2b5c3e31f0a433a8ad9673c34fb08638f",
-      "created_at": "2026-08-15T12:32:48Z",
-      "updated_at": "2026-08-15T12:33:04Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884877430"
     }
   ],
   "omega_artifacts": [
