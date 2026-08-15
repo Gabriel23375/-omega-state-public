@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T12:28:30Z",
+  "generated_at": "2026-08-15T12:29:33Z",
   "source": {
     "branch": "main",
-    "head_sha": "492b7dc8e5e7dac6dbac2eaa100f77101dd99fb2",
-    "publisher_run_id": 31884685544,
-    "publisher_run_number": 147,
-    "trigger_event": "workflow_run"
+    "head_sha": "b9a755fe124ebbe818dbb25092d8844059a77020",
+    "publisher_run_id": 31884728861,
+    "publisher_run_number": 148,
+    "trigger_event": "push"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -16,29 +16,74 @@
     "main_py_sha256": "ddcba1a4404c9d3fa34297dbf3d98b7e2edcef3bb41f1500086d4896ff84cd21",
     "main_yml_sha256": "e626a66c74f901b270d05effb3ccbd40a6aa4551323506b3b1728ac4de5f6a91"
   },
+  "data_gate": {
+    "strategy_id": "V2-RISK-PARITY-011",
+    "pilot_sessions": [
+      "2026-04-01",
+      "2026-04-02"
+    ],
+    "core_denominator_instrument_days": 22,
+    "dimensions_passed": 4,
+    "dimensions_total": 20,
+    "open_gate_count": 16,
+    "open_gates": [
+      "STRATEGY_MATERIALIZATION",
+      "PRICE_DECISION_GRADE_CLOSE",
+      "CORP_SPLIT",
+      "CORP_DELIST_TERMINAL",
+      "CORP_IDENTITY_ACTION",
+      "EXECUTION_PRICE",
+      "EXECUTION_FILL",
+      "SPREAD",
+      "SLIPPAGE",
+      "MARKET_IMPACT",
+      "COMMISSION_FEES",
+      "BORROW_FINANCING",
+      "FLOW_LIQUIDITY",
+      "CAPACITY",
+      "LATENCY",
+      "BENCHMARK"
+    ],
+    "data_gate_and": "FAIL_CLOSED",
+    "pnl_allowed": false,
+    "financial_replay_unlocked": false,
+    "state_file_sha256": "ca4797f2f8275a263d97e06d55bca616387c445f9dbad773dda7f0720ce6c923"
+  },
   "workflow_runs": [
+    {
+      "id": 31884728861,
+      "name": "OMEGA Public State Bridge",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 148,
+      "event": "push",
+      "head_sha": "b9a755fe124ebbe818dbb25092d8844059a77020",
+      "created_at": "2026-08-15T12:29:27Z",
+      "updated_at": "2026-08-15T12:29:30Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884728861"
+    },
     {
       "id": 31884686511,
       "name": "OMEGA Simulation Telemetry Integrity V2",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 12,
       "event": "workflow_run",
       "head_sha": "492b7dc8e5e7dac6dbac2eaa100f77101dd99fb2",
       "created_at": "2026-08-15T12:28:22Z",
-      "updated_at": "2026-08-15T12:28:25Z",
+      "updated_at": "2026-08-15T12:28:30Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884686511"
     },
     {
       "id": 31884685544,
       "name": "OMEGA Public State Bridge",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 147,
       "event": "workflow_run",
       "head_sha": "492b7dc8e5e7dac6dbac2eaa100f77101dd99fb2",
       "created_at": "2026-08-15T12:28:21Z",
-      "updated_at": "2026-08-15T12:28:25Z",
+      "updated_at": "2026-08-15T12:28:33Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884685544"
     },
     {
@@ -604,18 +649,6 @@
       "created_at": "2026-08-15T12:08:00Z",
       "updated_at": "2026-08-15T12:08:09Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31883820907"
-    },
-    {
-      "id": 31883813427,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 123,
-      "event": "workflow_run",
-      "head_sha": "363253b6b2cb558b8c3d8cabe85c70300f30e9ac",
-      "created_at": "2026-08-15T12:07:48Z",
-      "updated_at": "2026-08-15T12:07:59Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31883813427"
     }
   ],
   "omega_artifacts": [
