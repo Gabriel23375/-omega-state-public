@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T12:44:33Z",
+  "generated_at": "2026-08-15T12:44:44Z",
   "source": {
     "branch": "main",
     "head_sha": "ee89ad2387f810362f258f02015dbb0f6d470cd4",
-    "publisher_run_id": 31885367415,
-    "publisher_run_number": 172,
-    "trigger_event": "push"
+    "publisher_run_id": 31885376001,
+    "publisher_run_number": 173,
+    "trigger_event": "workflow_run"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -51,27 +51,39 @@
   },
   "workflow_runs": [
     {
-      "id": 31885367479,
-      "name": "OMEGA NYSE Arca Apr6 Core Open V1",
+      "id": 31885376001,
+      "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 173,
+      "event": "workflow_run",
+      "head_sha": "ee89ad2387f810362f258f02015dbb0f6d470cd4",
+      "created_at": "2026-08-15T12:44:36Z",
+      "updated_at": "2026-08-15T12:44:40Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31885376001"
+    },
+    {
+      "id": 31885367479,
+      "name": "OMEGA NYSE Arca Apr6 Core Open V1",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 1,
       "event": "push",
       "head_sha": "ee89ad2387f810362f258f02015dbb0f6d470cd4",
       "created_at": "2026-08-15T12:44:26Z",
-      "updated_at": "2026-08-15T12:44:29Z",
+      "updated_at": "2026-08-15T12:44:36Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31885367479"
     },
     {
       "id": 31885367415,
       "name": "OMEGA Public State Bridge",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 172,
       "event": "push",
       "head_sha": "ee89ad2387f810362f258f02015dbb0f6d470cd4",
       "created_at": "2026-08-15T12:44:26Z",
-      "updated_at": "2026-08-15T12:44:29Z",
+      "updated_at": "2026-08-15T12:44:37Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31885367415"
     },
     {
@@ -341,13 +353,13 @@
     {
       "id": 31884918270,
       "name": "OMEGA Consolidated Evidence Pipeline V2",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 28,
       "event": "push",
       "head_sha": "2666a073e16a7284bd90b719ccf04d451bec2c92",
       "created_at": "2026-08-15T12:33:43Z",
-      "updated_at": "2026-08-15T12:44:27Z",
+      "updated_at": "2026-08-15T12:44:34Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884918270"
     },
     {
@@ -637,18 +649,6 @@
       "created_at": "2026-08-15T12:28:18Z",
       "updated_at": "2026-08-15T12:28:22Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884683086"
-    },
-    {
-      "id": 31884676488,
-      "name": "OMEGA Financial Runtime V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 4,
-      "event": "push",
-      "head_sha": "492b7dc8e5e7dac6dbac2eaa100f77101dd99fb2",
-      "created_at": "2026-08-15T12:28:08Z",
-      "updated_at": "2026-08-15T12:28:21Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884676488"
     }
   ],
   "omega_artifacts": [
