@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T12:25:20Z",
+  "generated_at": "2026-08-15T12:25:32Z",
   "source": {
     "branch": "main",
     "head_sha": "560b5bc78dd4fd6f6e3831702bdb5779a49f4e60",
-    "publisher_run_id": 31884550065,
-    "publisher_run_number": 140,
-    "trigger_event": "push"
+    "publisher_run_id": 31884555545,
+    "publisher_run_number": 141,
+    "trigger_event": "workflow_run"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -18,27 +18,39 @@
   },
   "workflow_runs": [
     {
-      "id": 31884550095,
-      "name": "OMEGA Execution Price Partial V1",
+      "id": 31884555545,
+      "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 141,
+      "event": "workflow_run",
+      "head_sha": "560b5bc78dd4fd6f6e3831702bdb5779a49f4e60",
+      "created_at": "2026-08-15T12:25:20Z",
+      "updated_at": "2026-08-15T12:25:28Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884555545"
+    },
+    {
+      "id": 31884550095,
+      "name": "OMEGA Execution Price Partial V1",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 1,
       "event": "push",
       "head_sha": "560b5bc78dd4fd6f6e3831702bdb5779a49f4e60",
       "created_at": "2026-08-15T12:25:13Z",
-      "updated_at": "2026-08-15T12:25:18Z",
+      "updated_at": "2026-08-15T12:25:25Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884550095"
     },
     {
       "id": 31884550065,
       "name": "OMEGA Public State Bridge",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "cancelled",
       "run_number": 140,
       "event": "push",
       "head_sha": "560b5bc78dd4fd6f6e3831702bdb5779a49f4e60",
       "created_at": "2026-08-15T12:25:12Z",
-      "updated_at": "2026-08-15T12:25:16Z",
+      "updated_at": "2026-08-15T12:25:25Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884550065"
     },
     {
@@ -604,21 +616,22 @@
       "created_at": "2026-08-15T11:33:53Z",
       "updated_at": "2026-08-15T11:34:07Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31882361199"
-    },
-    {
-      "id": 31882361147,
-      "name": "OMEGA Nasdaq Public Status Core Closure V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 2,
-      "event": "push",
-      "head_sha": "dcf4d6fe3f8ffb737704b9737063646e807fa9c8",
-      "created_at": "2026-08-15T11:33:53Z",
-      "updated_at": "2026-08-15T11:34:01Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31882361147"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9246898734,
+      "name": "omega-execution-price-partial-v1-31884550095",
+      "size_in_bytes": 1633,
+      "digest": "sha256:d72bca2da08c38897e8b40e8b8a428c125cd3cb9c6bda0673e8f4772cb4533d3",
+      "expired": false,
+      "created_at": "2026-08-15T12:25:21Z",
+      "updated_at": "2026-08-15T12:25:21Z",
+      "workflow_run": {
+        "id": 31884550095,
+        "head_sha": "560b5bc78dd4fd6f6e3831702bdb5779a49f4e60"
+      }
+    },
     {
       "id": 9246897242,
       "name": "omega-consolidated-master-state",
@@ -1904,19 +1917,6 @@
       "workflow_run": {
         "id": 31880607786,
         "head_sha": "f3768e537357a91b897ac3950a79b516a0b91b00"
-      }
-    },
-    {
-      "id": 9245910133,
-      "name": "omega-branch-drd-extractor-v2",
-      "size_in_bytes": 25564,
-      "digest": "sha256:1f1d1ee388eb3054a331510ce9a58574068af45262f03ad1f1ef8f8a63d9330e",
-      "expired": false,
-      "created_at": "2026-08-15T10:52:36Z",
-      "updated_at": "2026-08-15T10:52:36Z",
-      "workflow_run": {
-        "id": 31880522155,
-        "head_sha": "bd6a2647a3fd5c3a5fc8604094b8918a295b2393"
       }
     }
   ]
