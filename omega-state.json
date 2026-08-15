@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-15T01:18:11Z",
+  "generated_at": "2026-08-15T01:21:25Z",
   "source": {
     "branch": "main",
-    "head_sha": "e99b054d8ac8943d8a812695d35315d2e7aef4df",
-    "publisher_run_id": 31856126536,
-    "publisher_run_number": 18,
+    "head_sha": "d7c9ff588f5c7f4a06f2d75a341352923ccddf07",
+    "publisher_run_id": 31856278258,
+    "publisher_run_number": 19,
     "trigger_event": "push"
   },
   "runtime": {
@@ -18,27 +18,75 @@
   },
   "workflow_runs": [
     {
-      "id": 31856126536,
+      "id": 31856278258,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 19,
+      "event": "push",
+      "head_sha": "d7c9ff588f5c7f4a06f2d75a341352923ccddf07",
+      "created_at": "2026-08-15T01:21:18Z",
+      "updated_at": "2026-08-15T01:21:21Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856278258"
+    },
+    {
+      "id": 31856278252,
+      "name": "OMEGA PIT Execution Contract",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "d7c9ff588f5c7f4a06f2d75a341352923ccddf07",
+      "created_at": "2026-08-15T01:21:18Z",
+      "updated_at": "2026-08-15T01:21:21Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856278252"
+    },
+    {
+      "id": 31856264248,
+      "name": "OMEGA Consolidated Evidence Pipeline",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 2,
+      "event": "push",
+      "head_sha": "0e8679a269449778f4e789e8af9eb980cd986889",
+      "created_at": "2026-08-15T01:20:59Z",
+      "updated_at": "2026-08-15T01:21:04Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856264248"
+    },
+    {
+      "id": 31856264241,
+      "name": "OMEGA Consolidated Evidence Pipeline V2",
+      "status": "pending",
+      "conclusion": null,
+      "run_number": 2,
+      "event": "push",
+      "head_sha": "0e8679a269449778f4e789e8af9eb980cd986889",
+      "created_at": "2026-08-15T01:20:59Z",
+      "updated_at": "2026-08-15T01:21:00Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856264241"
+    },
+    {
+      "id": 31856126536,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 18,
       "event": "push",
       "head_sha": "e99b054d8ac8943d8a812695d35315d2e7aef4df",
       "created_at": "2026-08-15T01:18:01Z",
-      "updated_at": "2026-08-15T01:18:05Z",
+      "updated_at": "2026-08-15T01:18:15Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856126536"
     },
     {
       "id": 31856126531,
       "name": "OMEGA PIT Price Volume Reconciliation V2",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 1,
       "event": "push",
       "head_sha": "e99b054d8ac8943d8a812695d35315d2e7aef4df",
       "created_at": "2026-08-15T01:18:01Z",
-      "updated_at": "2026-08-15T01:18:05Z",
+      "updated_at": "2026-08-15T01:18:14Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856126531"
     },
     {
@@ -328,57 +376,74 @@
       "created_at": "2026-08-15T00:45:28Z",
       "updated_at": "2026-08-15T00:45:42Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31854570581"
-    },
-    {
-      "id": 31854569386,
-      "name": ".github/workflows/omega-simulation-telemetry.yml",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "cbc3729bc19db7070e66bb1aeaabc5245eb32f76",
-      "created_at": "2026-08-15T00:45:26Z",
-      "updated_at": "2026-08-15T00:45:26Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31854569386"
-    },
-    {
-      "id": 31852183824,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 5,
-      "event": "schedule",
-      "head_sha": "cb2cc4e73c7264fee5cdc5b947d822d18d79f847",
-      "created_at": "2026-08-14T23:59:10Z",
-      "updated_at": "2026-08-14T23:59:22Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31852183824"
-    },
-    {
-      "id": 31848755918,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 4,
-      "event": "schedule",
-      "head_sha": "cb2cc4e73c7264fee5cdc5b947d822d18d79f847",
-      "created_at": "2026-08-14T23:00:02Z",
-      "updated_at": "2026-08-14T23:00:14Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31848755918"
-    },
-    {
-      "id": 31844709676,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 3,
-      "event": "schedule",
-      "head_sha": "cb2cc4e73c7264fee5cdc5b947d822d18d79f847",
-      "created_at": "2026-08-14T21:58:20Z",
-      "updated_at": "2026-08-14T21:58:32Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31844709676"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9239112945,
+      "name": "omega-pit-execution-contract-31856278252",
+      "size_in_bytes": 957,
+      "digest": "sha256:525b8b3bf2b9362dc92c52f8a6893ab1c7b233f0555d13f3481d4cdc9f099078",
+      "expired": false,
+      "created_at": "2026-08-15T01:21:23Z",
+      "updated_at": "2026-08-15T01:21:23Z",
+      "workflow_run": {
+        "id": 31856278252,
+        "head_sha": "d7c9ff588f5c7f4a06f2d75a341352923ccddf07"
+      }
+    },
+    {
+      "id": 9239111742,
+      "name": "omega-branch-security-master-2024",
+      "size_in_bytes": 10900972,
+      "digest": "sha256:73ee180b8d1ae911c3916fc29dfcf8633c2b55375bdf81e360565e56c2685c41",
+      "expired": false,
+      "created_at": "2026-08-15T01:21:18Z",
+      "updated_at": "2026-08-15T01:21:18Z",
+      "workflow_run": {
+        "id": 31856264248,
+        "head_sha": "0e8679a269449778f4e789e8af9eb980cd986889"
+      }
+    },
+    {
+      "id": 9239109324,
+      "name": "omega-branch-pit-plumbing-replay",
+      "size_in_bytes": 1848,
+      "digest": "sha256:2427b7f6b448da88bf7ff329afe8cba28099ebed33977138d256624179d5aac8",
+      "expired": false,
+      "created_at": "2026-08-15T01:21:07Z",
+      "updated_at": "2026-08-15T01:21:07Z",
+      "workflow_run": {
+        "id": 31856264248,
+        "head_sha": "0e8679a269449778f4e789e8af9eb980cd986889"
+      }
+    },
+    {
+      "id": 9239108806,
+      "name": "omega-branch-performance",
+      "size_in_bytes": 1628,
+      "digest": "sha256:fe618141510d135d62b9b4742ac0d3a1db0703710157cdc489c10053d442b27f",
+      "expired": false,
+      "created_at": "2026-08-15T01:21:05Z",
+      "updated_at": "2026-08-15T01:21:05Z",
+      "workflow_run": {
+        "id": 31856264248,
+        "head_sha": "0e8679a269449778f4e789e8af9eb980cd986889"
+      }
+    },
+    {
+      "id": 9239070592,
+      "name": "omega-pit-price-volume-reconcile-v2-31856126531",
+      "size_in_bytes": 1505780,
+      "digest": "sha256:f515b66be0415fecd4191ac835663b20c3e2b236d42309e2725f402c4448711d",
+      "expired": false,
+      "created_at": "2026-08-15T01:18:11Z",
+      "updated_at": "2026-08-15T01:18:11Z",
+      "workflow_run": {
+        "id": 31856126531,
+        "head_sha": "e99b054d8ac8943d8a812695d35315d2e7aef4df"
+      }
+    },
     {
       "id": 9239051954,
       "name": "omega-pit-state-hygiene-v4-31856068182",
