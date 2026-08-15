@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-15T01:26:05Z",
+  "generated_at": "2026-08-15T01:27:58Z",
   "source": {
     "branch": "main",
-    "head_sha": "5bcfe9dd57c8837aa04ec0064e5abca1c99e1b06",
-    "publisher_run_id": 31856486297,
-    "publisher_run_number": 25,
+    "head_sha": "81dabc7700f3c77ce070d0e12fbfb722ace7c658",
+    "publisher_run_id": 31856570064,
+    "publisher_run_number": 26,
     "trigger_event": "push"
   },
   "runtime": {
@@ -18,27 +18,51 @@
   },
   "workflow_runs": [
     {
-      "id": 31856486297,
+      "id": 31856570064,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 26,
+      "event": "push",
+      "head_sha": "81dabc7700f3c77ce070d0e12fbfb722ace7c658",
+      "created_at": "2026-08-15T01:27:51Z",
+      "updated_at": "2026-08-15T01:27:54Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856570064"
+    },
+    {
+      "id": 31856570026,
+      "name": "OMEGA PIT NYSE Corporate Actions Pilot",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "81dabc7700f3c77ce070d0e12fbfb722ace7c658",
+      "created_at": "2026-08-15T01:27:51Z",
+      "updated_at": "2026-08-15T01:27:54Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856570026"
+    },
+    {
+      "id": 31856486297,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 25,
       "event": "push",
       "head_sha": "5bcfe9dd57c8837aa04ec0064e5abca1c99e1b06",
       "created_at": "2026-08-15T01:25:59Z",
-      "updated_at": "2026-08-15T01:26:02Z",
+      "updated_at": "2026-08-15T01:26:10Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856486297"
     },
     {
       "id": 31856486209,
       "name": "OMEGA PIT Session Plumbing Replay V2",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 1,
       "event": "push",
       "head_sha": "5bcfe9dd57c8837aa04ec0064e5abca1c99e1b06",
       "created_at": "2026-08-15T01:25:59Z",
-      "updated_at": "2026-08-15T01:26:03Z",
+      "updated_at": "2026-08-15T01:26:14Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31856486209"
     },
     {
@@ -352,33 +376,35 @@
       "created_at": "2026-08-15T01:06:01Z",
       "updated_at": "2026-08-15T01:06:11Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31855574611"
-    },
-    {
-      "id": 31855574448,
-      "name": "OMEGA Nasdaq Public Gap Reconciliation",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 2,
-      "event": "push",
-      "head_sha": "4276c72806895e589b07da87562680af048a7330",
-      "created_at": "2026-08-15T01:06:00Z",
-      "updated_at": "2026-08-15T01:06:14Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31855574448"
-    },
-    {
-      "id": 31855492163,
-      "name": "OMEGA Nasdaq Public Gap Reconciliation",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "5626a424e59805028100e35124464b0735d52597",
-      "created_at": "2026-08-15T01:04:17Z",
-      "updated_at": "2026-08-15T01:04:28Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31855492163"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9239197859,
+      "name": "omega-pit-nyse-corporate-actions-pilot-31856570026",
+      "size_in_bytes": 23508,
+      "digest": "sha256:747a7a4ec786819e7187ff8ce3cf5e728dd6fb6c81fe0086579963098e6b9f2e",
+      "expired": false,
+      "created_at": "2026-08-15T01:27:56Z",
+      "updated_at": "2026-08-15T01:27:56Z",
+      "workflow_run": {
+        "id": 31856570026,
+        "head_sha": "81dabc7700f3c77ce070d0e12fbfb722ace7c658"
+      }
+    },
+    {
+      "id": 9239175798,
+      "name": "omega-pit-session-plumbing-replay-v2-31856486209",
+      "size_in_bytes": 632404,
+      "digest": "sha256:2b65fa73a36114d0da064422537369c1e3301aa5959cc3cad31dd0c1072b8852",
+      "expired": false,
+      "created_at": "2026-08-15T01:26:11Z",
+      "updated_at": "2026-08-15T01:26:11Z",
+      "workflow_run": {
+        "id": 31856486209,
+        "head_sha": "5bcfe9dd57c8837aa04ec0064e5abca1c99e1b06"
+      }
+    },
     {
       "id": 9239148906,
       "name": "omega-consolidated-v2-master-state",
