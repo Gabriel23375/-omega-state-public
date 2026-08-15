@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T11:33:02Z",
+  "generated_at": "2026-08-15T11:34:02Z",
   "source": {
     "branch": "main",
-    "head_sha": "70452335af73d6a2c800ae286451bd18e375ad43",
-    "publisher_run_id": 31882318400,
-    "publisher_run_number": 113,
+    "head_sha": "dcf4d6fe3f8ffb737704b9737063646e807fa9c8",
+    "publisher_run_id": 31882361199,
+    "publisher_run_number": 114,
     "trigger_event": "push"
   },
   "runtime": {
@@ -18,27 +18,51 @@
   },
   "workflow_runs": [
     {
-      "id": 31882318461,
+      "id": 31882361199,
+      "name": "OMEGA Public State Bridge",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 114,
+      "event": "push",
+      "head_sha": "dcf4d6fe3f8ffb737704b9737063646e807fa9c8",
+      "created_at": "2026-08-15T11:33:53Z",
+      "updated_at": "2026-08-15T11:33:57Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31882361199"
+    },
+    {
+      "id": 31882361147,
       "name": "OMEGA Nasdaq Public Status Core Closure V1",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 2,
+      "event": "push",
+      "head_sha": "dcf4d6fe3f8ffb737704b9737063646e807fa9c8",
+      "created_at": "2026-08-15T11:33:53Z",
+      "updated_at": "2026-08-15T11:33:57Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31882361147"
+    },
+    {
+      "id": 31882318461,
+      "name": "OMEGA Nasdaq Public Status Core Closure V1",
+      "status": "completed",
+      "conclusion": "failure",
       "run_number": 1,
       "event": "push",
       "head_sha": "70452335af73d6a2c800ae286451bd18e375ad43",
       "created_at": "2026-08-15T11:32:54Z",
-      "updated_at": "2026-08-15T11:32:57Z",
+      "updated_at": "2026-08-15T11:33:01Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31882318461"
     },
     {
       "id": 31882318400,
       "name": "OMEGA Public State Bridge",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 113,
       "event": "push",
       "head_sha": "70452335af73d6a2c800ae286451bd18e375ad43",
       "created_at": "2026-08-15T11:32:54Z",
-      "updated_at": "2026-08-15T11:32:57Z",
+      "updated_at": "2026-08-15T11:33:04Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31882318400"
     },
     {
@@ -592,33 +616,22 @@
       "created_at": "2026-08-15T11:10:55Z",
       "updated_at": "2026-08-15T11:11:26Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31881397586"
-    },
-    {
-      "id": 31881275255,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 89,
-      "event": "workflow_run",
-      "head_sha": "f076dbf94c54bc2c108353429eff513958d1569c",
-      "created_at": "2026-08-15T11:08:02Z",
-      "updated_at": "2026-08-15T11:08:16Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31881275255"
-    },
-    {
-      "id": 31881243021,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 88,
-      "event": "workflow_run",
-      "head_sha": "f076dbf94c54bc2c108353429eff513958d1569c",
-      "created_at": "2026-08-15T11:07:14Z",
-      "updated_at": "2026-08-15T11:07:27Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31881243021"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9246347550,
+      "name": "omega-nasdaq-public-status-core-closure-v1-31882361147",
+      "size_in_bytes": 1439,
+      "digest": "sha256:acef88205a1986d91acd5bca37fdf503ad650bea232c0ce716c1bd3a52aa5cc8",
+      "expired": false,
+      "created_at": "2026-08-15T11:33:59Z",
+      "updated_at": "2026-08-15T11:33:59Z",
+      "workflow_run": {
+        "id": 31882361147,
+        "head_sha": "dcf4d6fe3f8ffb737704b9737063646e807fa9c8"
+      }
+    },
     {
       "id": 9246309423,
       "name": "omega-nasdaq-public-events-apr12-v1-31882191044",
@@ -1901,19 +1914,6 @@
       "expired": false,
       "created_at": "2026-08-15T08:41:18Z",
       "updated_at": "2026-08-15T08:41:18Z",
-      "workflow_run": {
-        "id": 31875056434,
-        "head_sha": "bdfa90538d0d342698e93ec1c5e7b07375f96352"
-      }
-    },
-    {
-      "id": 9244509834,
-      "name": "omega-branch-pit-plumbing-replay",
-      "size_in_bytes": 1846,
-      "digest": "sha256:01379fd6e14aef9f940d17abc22ede80dc2a77874b9d230067e26ed6dbbdcbec",
-      "expired": false,
-      "created_at": "2026-08-15T08:41:15Z",
-      "updated_at": "2026-08-15T08:41:15Z",
       "workflow_run": {
         "id": 31875056434,
         "head_sha": "bdfa90538d0d342698e93ec1c5e7b07375f96352"
