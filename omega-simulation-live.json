@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-15T00:46:03Z",
+  "status": "NOT_PROVEN",
+  "reason": "NO_FRESH_CANONICAL_SIMULATION_RUNTIME_PAYLOAD",
+  "canonical_execution_runtime": "github-actions",
+  "source": {
+    "repository": "Gabriel23375/runway",
+    "head_sha": "f9072c12f899311ca5084bd4400d6a0de7a0e0a3",
+    "workflow_run_id": 31854594904
+  },
+  "runtime": {
+    "mode": null,
+    "code_version": null,
+    "heartbeat_at_unix": null,
+    "last_batch_at_unix": null,
+    "last_batch_id": null,
+    "total_sims": null,
+    "last_candidate_mean": null,
+    "last_champion_mean": null,
+    "last_paired_delta": null,
+    "kept": null,
+    "reverted": null
+  },
+  "candidate_simulation_artifacts": [],
+  "claims_allowed": false,
+  "fail_closed": true
+}
