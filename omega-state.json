@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-15T01:44:54Z",
+  "generated_at": "2026-08-15T01:45:47Z",
   "source": {
     "branch": "main",
-    "head_sha": "fb77814b98b04d07e00e4f37eed3bc95d41e22c5",
-    "publisher_run_id": 31857336634,
-    "publisher_run_number": 37,
+    "head_sha": "dc1d46c8c0f19c926d57be29aea6d25b3ce855a6",
+    "publisher_run_id": 31857376450,
+    "publisher_run_number": 38,
     "trigger_event": "push"
   },
   "runtime": {
@@ -18,27 +18,51 @@
   },
   "workflow_runs": [
     {
-      "id": 31857336634,
+      "id": 31857376450,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 38,
+      "event": "push",
+      "head_sha": "dc1d46c8c0f19c926d57be29aea6d25b3ce855a6",
+      "created_at": "2026-08-15T01:45:40Z",
+      "updated_at": "2026-08-15T01:45:43Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857376450"
+    },
+    {
+      "id": 31857376435,
+      "name": "OMEGA PIT Core Halt Form Probe",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 2,
+      "event": "push",
+      "head_sha": "dc1d46c8c0f19c926d57be29aea6d25b3ce855a6",
+      "created_at": "2026-08-15T01:45:40Z",
+      "updated_at": "2026-08-15T01:45:43Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857376435"
+    },
+    {
+      "id": 31857336634,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 37,
       "event": "push",
       "head_sha": "fb77814b98b04d07e00e4f37eed3bc95d41e22c5",
       "created_at": "2026-08-15T01:44:47Z",
-      "updated_at": "2026-08-15T01:44:50Z",
+      "updated_at": "2026-08-15T01:44:57Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857336634"
     },
     {
       "id": 31857336622,
       "name": "OMEGA PIT Auction Imbalance Format Probe",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 1,
       "event": "push",
       "head_sha": "fb77814b98b04d07e00e4f37eed3bc95d41e22c5",
       "created_at": "2026-08-15T01:44:47Z",
-      "updated_at": "2026-08-15T01:44:50Z",
+      "updated_at": "2026-08-15T01:45:10Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857336622"
     },
     {
@@ -56,13 +80,13 @@
     {
       "id": 31857335179,
       "name": "OMEGA PIT Core Halt Form Probe",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 1,
       "event": "push",
       "head_sha": "49d9e141c302685bddddeacec778fbd928122271",
       "created_at": "2026-08-15T01:44:45Z",
-      "updated_at": "2026-08-15T01:44:49Z",
+      "updated_at": "2026-08-15T01:44:55Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31857335179"
     },
     {
@@ -592,33 +616,35 @@
       "created_at": "2026-08-15T01:10:34Z",
       "updated_at": "2026-08-15T01:10:45Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31855785458"
-    },
-    {
-      "id": 31855677334,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 13,
-      "event": "push",
-      "head_sha": "b6087ef8e30c402dcf7d2039f17dafd2e0764c5e",
-      "created_at": "2026-08-15T01:08:17Z",
-      "updated_at": "2026-08-15T01:08:27Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31855677334"
-    },
-    {
-      "id": 31855676427,
-      "name": "OMEGA PIT Gap Closure V2",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "b6087ef8e30c402dcf7d2039f17dafd2e0764c5e",
-      "created_at": "2026-08-15T01:08:15Z",
-      "updated_at": "2026-08-15T01:08:31Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31855676427"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9239452083,
+      "name": "omega-pit-core-halt-form-probe-31857376435",
+      "size_in_bytes": 26761,
+      "digest": "sha256:2e8720b41b77942f4b1a6f4d8cc5f9a3ca3b8a4482c597b15687524a22e7bc09",
+      "expired": false,
+      "created_at": "2026-08-15T01:45:46Z",
+      "updated_at": "2026-08-15T01:45:46Z",
+      "workflow_run": {
+        "id": 31857376435,
+        "head_sha": "dc1d46c8c0f19c926d57be29aea6d25b3ce855a6"
+      }
+    },
+    {
+      "id": 9239443541,
+      "name": "omega-pit-auction-imbalance-format-probe-31857336622",
+      "size_in_bytes": 2476854,
+      "digest": "sha256:183132817f35acb8441eac69bdc749c535ec568566c51041774cb7ac9546facc",
+      "expired": false,
+      "created_at": "2026-08-15T01:45:08Z",
+      "updated_at": "2026-08-15T01:45:08Z",
+      "workflow_run": {
+        "id": 31857336622,
+        "head_sha": "fb77814b98b04d07e00e4f37eed3bc95d41e22c5"
+      }
+    },
     {
       "id": 9239440266,
       "name": "omega-pit-core-halt-form-probe-31857335179",
