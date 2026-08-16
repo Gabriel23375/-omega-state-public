@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-16T19:10:01Z",
+  "generated_at": "2026-08-16T19:49:47Z",
   "source": {
     "branch": "main",
     "head_sha": "fa73a0883fcab19a371f6043e7c7042ef6e38d61",
-    "publisher_run_id": 31966757101,
-    "publisher_run_number": 205,
+    "publisher_run_id": 31968732913,
+    "publisher_run_number": 206,
     "trigger_event": "schedule"
   },
   "runtime": {
@@ -50,15 +50,27 @@
   },
   "workflow_runs": [
     {
-      "id": 31966757101,
+      "id": 31968732913,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 206,
+      "event": "schedule",
+      "head_sha": "fa73a0883fcab19a371f6043e7c7042ef6e38d61",
+      "created_at": "2026-08-16T19:49:40Z",
+      "updated_at": "2026-08-16T19:49:43Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31968732913"
+    },
+    {
+      "id": 31966757101,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 205,
       "event": "schedule",
       "head_sha": "fa73a0883fcab19a371f6043e7c7042ef6e38d61",
       "created_at": "2026-08-16T19:09:51Z",
-      "updated_at": "2026-08-16T19:09:56Z",
+      "updated_at": "2026-08-16T19:10:05Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31966757101"
     },
     {
@@ -636,18 +648,6 @@
       "created_at": "2026-08-15T12:42:38Z",
       "updated_at": "2026-08-15T12:42:41Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31885292049"
-    },
-    {
-      "id": 31885291911,
-      "name": "OMEGA Simulation Telemetry Integrity V2",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 16,
-      "event": "workflow_run",
-      "head_sha": "d9293e4079ed7d9024cac68db2a4e94821a1e249",
-      "created_at": "2026-08-15T12:42:38Z",
-      "updated_at": "2026-08-15T12:42:46Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31885291911"
     }
   ],
   "omega_artifacts": [
