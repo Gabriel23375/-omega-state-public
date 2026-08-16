@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-16T05:47:33Z",
+  "generated_at": "2026-08-16T07:49:21Z",
   "source": {
     "branch": "main",
     "head_sha": "fa73a0883fcab19a371f6043e7c7042ef6e38d61",
-    "publisher_run_id": 31929833333,
-    "publisher_run_number": 195,
+    "publisher_run_id": 31934857422,
+    "publisher_run_number": 196,
     "trigger_event": "schedule"
   },
   "runtime": {
@@ -50,15 +50,27 @@
   },
   "workflow_runs": [
     {
+      "id": 31934857422,
+      "name": "OMEGA Public State Bridge",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 196,
+      "event": "schedule",
+      "head_sha": "fa73a0883fcab19a371f6043e7c7042ef6e38d61",
+      "created_at": "2026-08-16T07:49:12Z",
+      "updated_at": "2026-08-16T07:49:15Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31934857422"
+    },
+    {
       "id": 31929833333,
       "name": "OMEGA Public State Bridge",
-      "status": "queued",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 195,
       "event": "schedule",
       "head_sha": "fa73a0883fcab19a371f6043e7c7042ef6e38d61",
       "created_at": "2026-08-16T05:47:24Z",
-      "updated_at": "2026-08-16T05:47:24Z",
+      "updated_at": "2026-08-16T05:47:37Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31929833333"
     },
     {
@@ -636,18 +648,6 @@
       "created_at": "2026-08-15T12:34:08Z",
       "updated_at": "2026-08-15T12:34:10Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884935153"
-    },
-    {
-      "id": 31884927723,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "run_number": 160,
-      "event": "workflow_run",
-      "head_sha": "2666a073e16a7284bd90b719ccf04d451bec2c92",
-      "created_at": "2026-08-15T12:33:58Z",
-      "updated_at": "2026-08-15T12:34:10Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884927723"
     }
   ],
   "omega_artifacts": [
