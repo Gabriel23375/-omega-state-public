@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-16T13:48:04Z",
+  "generated_at": "2026-08-16T14:58:51Z",
   "source": {
     "branch": "main",
     "head_sha": "fa73a0883fcab19a371f6043e7c7042ef6e38d61",
-    "publisher_run_id": 31950848158,
-    "publisher_run_number": 200,
+    "publisher_run_id": 31954274571,
+    "publisher_run_number": 201,
     "trigger_event": "schedule"
   },
   "runtime": {
@@ -50,15 +50,39 @@
   },
   "workflow_runs": [
     {
-      "id": 31950848158,
+      "id": 31954274571,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 201,
+      "event": "schedule",
+      "head_sha": "fa73a0883fcab19a371f6043e7c7042ef6e38d61",
+      "created_at": "2026-08-16T14:58:45Z",
+      "updated_at": "2026-08-16T14:58:48Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31954274571"
+    },
+    {
+      "id": 31950915600,
+      "name": "OMEGA Decision Relevance V1",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "01561b3e843d642dc5155f8cfdffcb74a7eb674a",
+      "created_at": "2026-08-16T13:49:22Z",
+      "updated_at": "2026-08-16T13:49:37Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31950915600"
+    },
+    {
+      "id": 31950848158,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 200,
       "event": "schedule",
       "head_sha": "fa73a0883fcab19a371f6043e7c7042ef6e38d61",
       "created_at": "2026-08-16T13:47:54Z",
-      "updated_at": "2026-08-16T13:47:59Z",
+      "updated_at": "2026-08-16T13:48:08Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31950848158"
     },
     {
@@ -624,33 +648,22 @@
       "created_at": "2026-08-15T12:42:25Z",
       "updated_at": "2026-08-15T12:42:37Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31885283792"
-    },
-    {
-      "id": 31885087974,
-      "name": "OMEGA Core CA Apr2 Identity Frozen Artifact V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "5aa0267e995edb5a608455ca4243b790a1565806",
-      "created_at": "2026-08-15T12:37:47Z",
-      "updated_at": "2026-08-15T12:37:56Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31885087974"
-    },
-    {
-      "id": 31885087934,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 164,
-      "event": "push",
-      "head_sha": "5aa0267e995edb5a608455ca4243b790a1565806",
-      "created_at": "2026-08-15T12:37:46Z",
-      "updated_at": "2026-08-15T12:37:56Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31885087934"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9264609154,
+      "name": "omega-decision-relevance-v1-31950915600",
+      "size_in_bytes": 10298,
+      "digest": "sha256:4e717e1d2f967dcec4dcc094e0e784b7f84aa459e02cb0d05fa0e267ef49b4a3",
+      "expired": false,
+      "created_at": "2026-08-16T13:49:32Z",
+      "updated_at": "2026-08-16T13:49:32Z",
+      "workflow_run": {
+        "id": 31950915600,
+        "head_sha": "01561b3e843d642dc5155f8cfdffcb74a7eb674a"
+      }
+    },
     {
       "id": 9247231827,
       "name": "omega-simulation-telemetry-integrity-v2-31885870210",
@@ -1936,19 +1949,6 @@
       "workflow_run": {
         "id": 31881908122,
         "head_sha": "895c1d38574d7735a3d27b5b982a4878f9d05c78"
-      }
-    },
-    {
-      "id": 9246203093,
-      "name": "omega-mef-api-schema-probe-v1-31881757018",
-      "size_in_bytes": 13840,
-      "digest": "sha256:b4be4541ca74f0bbf090581c28cd7ddbdfbcf530c49eaf6cb7d4331b2e0ae58d",
-      "expired": false,
-      "created_at": "2026-08-15T11:19:50Z",
-      "updated_at": "2026-08-15T11:19:50Z",
-      "workflow_run": {
-        "id": 31881757018,
-        "head_sha": "09bad39e8ca70173e5b9c365919b4aad28fcf293"
       }
     }
   ]
