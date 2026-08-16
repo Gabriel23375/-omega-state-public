@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-16T03:29:15Z",
+  "generated_at": "2026-08-16T05:47:33Z",
   "source": {
     "branch": "main",
     "head_sha": "fa73a0883fcab19a371f6043e7c7042ef6e38d61",
-    "publisher_run_id": 31924347279,
-    "publisher_run_number": 194,
+    "publisher_run_id": 31929833333,
+    "publisher_run_number": 195,
     "trigger_event": "schedule"
   },
   "runtime": {
@@ -50,15 +50,27 @@
   },
   "workflow_runs": [
     {
+      "id": 31929833333,
+      "name": "OMEGA Public State Bridge",
+      "status": "queued",
+      "conclusion": null,
+      "run_number": 195,
+      "event": "schedule",
+      "head_sha": "fa73a0883fcab19a371f6043e7c7042ef6e38d61",
+      "created_at": "2026-08-16T05:47:24Z",
+      "updated_at": "2026-08-16T05:47:24Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31929833333"
+    },
+    {
       "id": 31924347279,
       "name": "OMEGA Public State Bridge",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 194,
       "event": "schedule",
       "head_sha": "fa73a0883fcab19a371f6043e7c7042ef6e38d61",
       "created_at": "2026-08-16T03:29:04Z",
-      "updated_at": "2026-08-16T03:29:09Z",
+      "updated_at": "2026-08-16T03:29:20Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31924347279"
     },
     {
@@ -636,18 +648,6 @@
       "created_at": "2026-08-15T12:33:58Z",
       "updated_at": "2026-08-15T12:34:10Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884927723"
-    },
-    {
-      "id": 31884926501,
-      "name": "OMEGA Simulation Telemetry Integrity V2",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 15,
-      "event": "workflow_run",
-      "head_sha": "2666a073e16a7284bd90b719ccf04d451bec2c92",
-      "created_at": "2026-08-15T12:33:56Z",
-      "updated_at": "2026-08-15T12:34:06Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31884926501"
     }
   ],
   "omega_artifacts": [
