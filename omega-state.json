@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-17T12:00:00Z",
+  "generated_at": "2026-08-17T14:02:26Z",
   "source": {
     "branch": "main",
     "head_sha": "85afa827467966cf9637cf400086ed711982c180",
-    "publisher_run_id": 32027623873,
-    "publisher_run_number": 225,
+    "publisher_run_id": 32037607922,
+    "publisher_run_number": 226,
     "trigger_event": "schedule"
   },
   "runtime": {
@@ -50,15 +50,39 @@
   },
   "workflow_runs": [
     {
-      "id": 32027623873,
+      "id": 32037607922,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 226,
+      "event": "schedule",
+      "head_sha": "85afa827467966cf9637cf400086ed711982c180",
+      "created_at": "2026-08-17T14:02:17Z",
+      "updated_at": "2026-08-17T14:02:21Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32037607922"
+    },
+    {
+      "id": 32028172633,
+      "name": "OMEGA External Review Live Guard V1",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 3,
+      "event": "push",
+      "head_sha": "6b848efbbbe9a9a19e46edce4b2082cb455131e0",
+      "created_at": "2026-08-17T12:06:31Z",
+      "updated_at": "2026-08-17T12:06:43Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32028172633"
+    },
+    {
+      "id": 32027623873,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 225,
       "event": "schedule",
       "head_sha": "85afa827467966cf9637cf400086ed711982c180",
       "created_at": "2026-08-17T11:59:52Z",
-      "updated_at": "2026-08-17T11:59:55Z",
+      "updated_at": "2026-08-17T12:00:05Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32027623873"
     },
     {
@@ -624,30 +648,6 @@
       "created_at": "2026-08-16T03:29:04Z",
       "updated_at": "2026-08-16T03:29:20Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31924347279"
-    },
-    {
-      "id": 31918012794,
-      "name": "OMEGA External Review Live Guard V1",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "edd400b06ec561ef7b341ecb37e445b2ac155f0b",
-      "created_at": "2026-08-16T00:46:12Z",
-      "updated_at": "2026-08-16T00:46:24Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31918012794"
-    },
-    {
-      "id": 31915909104,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 193,
-      "event": "schedule",
-      "head_sha": "fa73a0883fcab19a371f6043e7c7042ef6e38d61",
-      "created_at": "2026-08-15T23:54:10Z",
-      "updated_at": "2026-08-15T23:54:20Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31915909104"
     }
   ],
   "omega_artifacts": [
