@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-17T08:04:13Z",
+  "generated_at": "2026-08-17T08:04:43Z",
   "source": {
     "branch": "main",
     "head_sha": "85afa827467966cf9637cf400086ed711982c180",
-    "publisher_run_id": 32008600914,
-    "publisher_run_number": 221,
+    "publisher_run_id": 32008638197,
+    "publisher_run_number": 222,
     "trigger_event": "workflow_run"
   },
   "runtime": {
@@ -50,15 +50,27 @@
   },
   "workflow_runs": [
     {
-      "id": 32008600914,
+      "id": 32008638197,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 222,
+      "event": "workflow_run",
+      "head_sha": "85afa827467966cf9637cf400086ed711982c180",
+      "created_at": "2026-08-17T08:04:35Z",
+      "updated_at": "2026-08-17T08:04:38Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32008638197"
+    },
+    {
+      "id": 32008600914,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 221,
       "event": "workflow_run",
       "head_sha": "85afa827467966cf9637cf400086ed711982c180",
       "created_at": "2026-08-17T08:04:07Z",
-      "updated_at": "2026-08-17T08:04:10Z",
+      "updated_at": "2026-08-17T08:04:17Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32008600914"
     },
     {
@@ -76,13 +88,13 @@
     {
       "id": 32008447730,
       "name": "OMEGA Consolidated Evidence Pipeline",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 30,
       "event": "schedule",
       "head_sha": "85afa827467966cf9637cf400086ed711982c180",
       "created_at": "2026-08-17T08:02:05Z",
-      "updated_at": "2026-08-17T08:02:08Z",
+      "updated_at": "2026-08-17T08:04:33Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32008447730"
     },
     {
@@ -636,21 +648,35 @@
       "created_at": "2026-08-15T20:58:18Z",
       "updated_at": "2026-08-15T20:58:30Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31908135964"
-    },
-    {
-      "id": 31905098223,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 189,
-      "event": "schedule",
-      "head_sha": "fa73a0883fcab19a371f6043e7c7042ef6e38d61",
-      "created_at": "2026-08-15T19:51:36Z",
-      "updated_at": "2026-08-15T19:51:48Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31905098223"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9280912825,
+      "name": "omega-consolidated-master-state",
+      "size_in_bytes": 3947,
+      "digest": "sha256:ff40e4dcba40c1a7afce303f37cb3ac5d30a6551ca6c147cbf8ef556ce1cc216",
+      "expired": false,
+      "created_at": "2026-08-17T08:04:30Z",
+      "updated_at": "2026-08-17T08:04:30Z",
+      "workflow_run": {
+        "id": 32008447730,
+        "head_sha": "85afa827467966cf9637cf400086ed711982c180"
+      }
+    },
+    {
+      "id": 9280909119,
+      "name": "omega-branch-drd-extractor-v2",
+      "size_in_bytes": 25551,
+      "digest": "sha256:1536a15f575aceabb4216310d3dd8e2455081353e6c45505373cc7f4d69fc6c4",
+      "expired": false,
+      "created_at": "2026-08-17T08:04:21Z",
+      "updated_at": "2026-08-17T08:04:21Z",
+      "workflow_run": {
+        "id": 32008447730,
+        "head_sha": "85afa827467966cf9637cf400086ed711982c180"
+      }
+    },
     {
       "id": 9280900246,
       "name": "omega-consolidated-v2-master-state",
@@ -1922,32 +1948,6 @@
       "updated_at": "2026-08-15T12:10:33Z",
       "workflow_run": {
         "id": 31883821013,
-        "head_sha": "8c0ce7f0abb441f675dba2ac89a22aa92b3b13b4"
-      }
-    },
-    {
-      "id": 9246733254,
-      "name": "omega-consolidated-master-state",
-      "size_in_bytes": 3810,
-      "digest": "sha256:3ebf376d95ad85fdc630166e609ee77d0a752b68bbc6338157b6201d21a76066",
-      "expired": false,
-      "created_at": "2026-08-15T12:10:23Z",
-      "updated_at": "2026-08-15T12:10:23Z",
-      "workflow_run": {
-        "id": 31883820938,
-        "head_sha": "8c0ce7f0abb441f675dba2ac89a22aa92b3b13b4"
-      }
-    },
-    {
-      "id": 9246731184,
-      "name": "omega-branch-drd-extractor-v2",
-      "size_in_bytes": 25553,
-      "digest": "sha256:e0c75fe569864996f50bd93c73dfe81b4a93c1f36364328f9780c364b2773ded",
-      "expired": false,
-      "created_at": "2026-08-15T12:10:13Z",
-      "updated_at": "2026-08-15T12:10:13Z",
-      "workflow_run": {
-        "id": 31883820938,
         "head_sha": "8c0ce7f0abb441f675dba2ac89a22aa92b3b13b4"
       }
     }
