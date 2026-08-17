@@ -1,8 +1,8 @@
 {
   "actual_simulation_count": null,
   "artifact": {
-    "artifact_digest": "8c7cafe04d59298589846965606a22556adb5194dc0de260d3a8d4069762ca00",
-    "artifact_id": 9273289278
+    "artifact_digest": "078566c26f4bc206a2192b9a90fe546367dfe3a52780a961bac80d5cf749ec11",
+    "artifact_id": 9291933782
   },
   "baseline_mean_terminal_wealth": null,
   "batch_id": null,
@@ -17,9 +17,9 @@
   "data_hashes": null,
   "decision": "UNDECIDED",
   "financial_replay_allowed": false,
-  "generated_at": "2026-08-17T01:14:23.581772+00:00",
+  "generated_at": "2026-08-17T15:00:03.906382+00:00",
   "historical_window_count": null,
-  "job_id": 95256651345,
+  "job_id": null,
   "known_cost_parameters": {
     "broker_commission": null,
     "market_impact": null,
@@ -38,7 +38,7 @@
   "paired_confidence_interval": null,
   "paired_delta": null,
   "paired_standard_error": null,
-  "reason": "DATA_GATE_OR_CORE_V1_STRATEGY_MATERIALIZATION_BLOCKED",
+  "reason": "DATA_GATE_OR_CORE_V1_STRATEGY_MATERIALIZATION_BLOCKED_HEARTBEAT",
   "remaining_blockers": [
     "STRATEGY_MATERIALIZATION",
     "PRICE_DECISION_GRADE_CLOSE",
@@ -63,7 +63,7 @@
   ],
   "runtime_proof_status": "NOT_PROVEN",
   "schema_version": 2,
-  "source_head_sha": "85afa827467966cf9637cf400086ed711982c180",
+  "source_head_sha": "b8437b69253c1a3912caebd1dc75d3382399c025",
   "started_at": null,
   "status": "NOT_READY",
   "strategy_hash": null,
@@ -71,5 +71,5 @@
   "throughput_simulations_per_hour": null,
   "turnover": null,
   "win_rate": null,
-  "workflow_run_id": 31984363771
+  "workflow_run_id": 32040920517
 }
