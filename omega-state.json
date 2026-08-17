@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-17T01:15:07Z",
+  "generated_at": "2026-08-17T01:17:00Z",
   "source": {
     "branch": "main",
     "head_sha": "85afa827467966cf9637cf400086ed711982c180",
-    "publisher_run_id": 31984400199,
-    "publisher_run_number": 217,
+    "publisher_run_id": 31984491900,
+    "publisher_run_number": 218,
     "trigger_event": "workflow_run"
   },
   "runtime": {
@@ -50,15 +50,27 @@
   },
   "workflow_runs": [
     {
-      "id": 31984400199,
+      "id": 31984491900,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 218,
+      "event": "workflow_run",
+      "head_sha": "85afa827467966cf9637cf400086ed711982c180",
+      "created_at": "2026-08-17T01:16:50Z",
+      "updated_at": "2026-08-17T01:16:54Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31984491900"
+    },
+    {
+      "id": 31984400199,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 217,
       "event": "workflow_run",
       "head_sha": "85afa827467966cf9637cf400086ed711982c180",
       "created_at": "2026-08-17T01:15:01Z",
-      "updated_at": "2026-08-17T01:15:04Z",
+      "updated_at": "2026-08-17T01:15:10Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31984400199"
     },
     {
@@ -208,13 +220,13 @@
     {
       "id": 31984363677,
       "name": "OMEGA Consolidated Evidence Pipeline",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 29,
       "event": "push",
       "head_sha": "85afa827467966cf9637cf400086ed711982c180",
       "created_at": "2026-08-17T01:14:14Z",
-      "updated_at": "2026-08-17T01:14:23Z",
+      "updated_at": "2026-08-17T01:16:47Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31984363677"
     },
     {
@@ -636,21 +648,35 @@
       "created_at": "2026-08-15T14:58:38Z",
       "updated_at": "2026-08-15T14:58:52Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31891404291"
-    },
-    {
-      "id": 31888070660,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 183,
-      "event": "schedule",
-      "head_sha": "fa73a0883fcab19a371f6043e7c7042ef6e38d61",
-      "created_at": "2026-08-15T13:45:31Z",
-      "updated_at": "2026-08-15T13:45:42Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/31888070660"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9273325219,
+      "name": "omega-consolidated-master-state",
+      "size_in_bytes": 3952,
+      "digest": "sha256:5b163a58fa1708a0ba831b43c9e83b35e506390ad652e8a1687a4d233850c176",
+      "expired": false,
+      "created_at": "2026-08-17T01:16:43Z",
+      "updated_at": "2026-08-17T01:16:43Z",
+      "workflow_run": {
+        "id": 31984363677,
+        "head_sha": "85afa827467966cf9637cf400086ed711982c180"
+      }
+    },
+    {
+      "id": 9273321987,
+      "name": "omega-branch-drd-extractor-v2",
+      "size_in_bytes": 25560,
+      "digest": "sha256:849ffe996e78414b4daf1cd73e81d674afdcb56584f823c1720fb6ca0ec05a37",
+      "expired": false,
+      "created_at": "2026-08-17T01:16:30Z",
+      "updated_at": "2026-08-17T01:16:30Z",
+      "workflow_run": {
+        "id": 31984363677,
+        "head_sha": "85afa827467966cf9637cf400086ed711982c180"
+      }
+    },
     {
       "id": 9273297296,
       "name": "omega-consolidated-v2-master-state",
@@ -1923,32 +1949,6 @@
       "workflow_run": {
         "id": 31882361147,
         "head_sha": "dcf4d6fe3f8ffb737704b9737063646e807fa9c8"
-      }
-    },
-    {
-      "id": 9246309423,
-      "name": "omega-nasdaq-public-events-apr12-v1-31882191044",
-      "size_in_bytes": 57652,
-      "digest": "sha256:8bd57a9ffd9bdae00292bc8c764717cbc5e47c381f7e988dd3d28048488ec74b",
-      "expired": false,
-      "created_at": "2026-08-15T11:30:11Z",
-      "updated_at": "2026-08-15T11:30:11Z",
-      "workflow_run": {
-        "id": 31882191044,
-        "head_sha": "34210965b477ee84343c6a042fd2fb0d88a69b9a"
-      }
-    },
-    {
-      "id": 9246300613,
-      "name": "omega-nasdaq-public-events-form-probe-v1-31882154904",
-      "size_in_bytes": 58324,
-      "digest": "sha256:bb407f84480165f74f0865d67e594d0c637ca8581bb4c50571237ae19424eaeb",
-      "expired": false,
-      "created_at": "2026-08-15T11:29:16Z",
-      "updated_at": "2026-08-15T11:29:16Z",
-      "workflow_run": {
-        "id": 31882154904,
-        "head_sha": "5c612ba2da534e412e97344ecaae068df63a4550"
       }
     }
   ]
