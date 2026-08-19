@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-19T19:31:19Z",
+  "generated_at": "2026-08-19T19:36:09Z",
   "source": {
     "branch": "main",
     "head_sha": "3730f543c1927f9b263f88c8ce946251117b642c",
-    "publisher_run_id": 32293470232,
-    "publisher_run_number": 280,
-    "trigger_event": "push"
+    "publisher_run_id": 32293914169,
+    "publisher_run_number": 281,
+    "trigger_event": "schedule"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -50,6 +50,18 @@
   },
   "workflow_runs": [
     {
+      "id": 32293914169,
+      "name": "OMEGA Public State Bridge",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 281,
+      "event": "schedule",
+      "head_sha": "3730f543c1927f9b263f88c8ce946251117b642c",
+      "created_at": "2026-08-19T19:35:59Z",
+      "updated_at": "2026-08-19T19:36:03Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32293914169"
+    },
+    {
       "id": 32293470323,
       "name": "OMEGA Research NYSE Significant Imbalance Sample V1",
       "status": "in_progress",
@@ -64,13 +76,13 @@
     {
       "id": 32293470232,
       "name": "OMEGA Public State Bridge",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 280,
       "event": "push",
       "head_sha": "3730f543c1927f9b263f88c8ce946251117b642c",
       "created_at": "2026-08-19T19:31:10Z",
-      "updated_at": "2026-08-19T19:31:14Z",
+      "updated_at": "2026-08-19T19:31:25Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32293470232"
     },
     {
@@ -636,18 +648,6 @@
       "created_at": "2026-08-19T10:15:39Z",
       "updated_at": "2026-08-19T10:16:49Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32241805091"
-    },
-    {
-      "id": 32241662242,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 257,
-      "event": "workflow_run",
-      "head_sha": "a3f9e6d2b1f28c05ce4e445e3f97ec350eeabfe0",
-      "created_at": "2026-08-19T10:13:58Z",
-      "updated_at": "2026-08-19T10:14:11Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32241662242"
     }
   ],
   "omega_artifacts": [
