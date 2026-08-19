@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-19T20:45:03Z",
+  "generated_at": "2026-08-19T21:25:47Z",
   "source": {
     "branch": "main",
-    "head_sha": "0ac264b9bc7474f564f41f2f699319bf6e0cf88a",
-    "publisher_run_id": 32300213545,
-    "publisher_run_number": 284,
-    "trigger_event": "push"
+    "head_sha": "c778b0ef1b81f72a5297959dc0e19775d3c5d14c",
+    "publisher_run_id": 32303809439,
+    "publisher_run_number": 285,
+    "trigger_event": "workflow_run"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -50,27 +50,99 @@
   },
   "workflow_runs": [
     {
-      "id": 32300213545,
+      "id": 32303809439,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 285,
+      "event": "workflow_run",
+      "head_sha": "c778b0ef1b81f72a5297959dc0e19775d3c5d14c",
+      "created_at": "2026-08-19T21:25:38Z",
+      "updated_at": "2026-08-19T21:25:42Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32303809439"
+    },
+    {
+      "id": 32303718930,
+      "name": "OMEGA Core SEC CorpAction Filing Probe V1",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 22,
+      "event": "workflow_dispatch",
+      "head_sha": "a0b923b29ffca098068fe2fb3673d05dd3410ed9",
+      "created_at": "2026-08-19T21:24:34Z",
+      "updated_at": "2026-08-19T21:25:36Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32303718930"
+    },
+    {
+      "id": 32303599087,
+      "name": "GPT AD-CVD Geometry Probe V1",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 7,
+      "event": "pull_request",
+      "head_sha": "4b9870a653e8bb8576815b2af3743284e48078a7",
+      "created_at": "2026-08-19T21:23:12Z",
+      "updated_at": "2026-08-19T21:23:39Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32303599087"
+    },
+    {
+      "id": 32303555889,
+      "name": "GPT AD-CVD Geometry Probe V1",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 6,
+      "event": "pull_request",
+      "head_sha": "c3a457ce44ccf51ad5531b978065fee24b39f972",
+      "created_at": "2026-08-19T21:22:41Z",
+      "updated_at": "2026-08-19T21:23:07Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32303555889"
+    },
+    {
+      "id": 32303552672,
+      "name": "GPT AD-CVD Power Gate V2",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "c3a457ce44ccf51ad5531b978065fee24b39f972",
+      "created_at": "2026-08-19T21:22:39Z",
+      "updated_at": "2026-08-19T21:22:54Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32303552672"
+    },
+    {
+      "id": 32303520006,
+      "name": "GPT AD-CVD Geometry Probe V1",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 5,
+      "event": "pull_request",
+      "head_sha": "797fa1eb1bdbd072a242915bbb77627bcb73a95e",
+      "created_at": "2026-08-19T21:22:15Z",
+      "updated_at": "2026-08-19T21:22:38Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32303520006"
+    },
+    {
+      "id": 32300213545,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 284,
       "event": "push",
       "head_sha": "0ac264b9bc7474f564f41f2f699319bf6e0cf88a",
       "created_at": "2026-08-19T20:44:53Z",
-      "updated_at": "2026-08-19T20:44:59Z",
+      "updated_at": "2026-08-19T20:45:07Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32300213545"
     },
     {
       "id": 32300213351,
       "name": "OMEGA Research NYSE Significant Imbalance Sample V1",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "failure",
       "run_number": 2,
       "event": "push",
       "head_sha": "0ac264b9bc7474f564f41f2f699319bf6e0cf88a",
       "created_at": "2026-08-19T20:44:53Z",
-      "updated_at": "2026-08-19T20:44:56Z",
+      "updated_at": "2026-08-19T20:45:14Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32300213351"
     },
     {
@@ -576,78 +648,6 @@
       "created_at": "2026-08-19T11:10:28Z",
       "updated_at": "2026-08-19T11:10:42Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32246284505"
-    },
-    {
-      "id": 32246158362,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 264,
-      "event": "workflow_run",
-      "head_sha": "a3f9e6d2b1f28c05ce4e445e3f97ec350eeabfe0",
-      "created_at": "2026-08-19T11:08:57Z",
-      "updated_at": "2026-08-19T11:09:08Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32246158362"
-    },
-    {
-      "id": 32246137883,
-      "name": "OMEGA Core SEC CorpAction Filing Probe V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 8,
-      "event": "workflow_dispatch",
-      "head_sha": "8c0e55c303256b1e87b4a135bc48c37238f77767",
-      "created_at": "2026-08-19T11:08:42Z",
-      "updated_at": "2026-08-19T11:08:55Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32246137883"
-    },
-    {
-      "id": 32246044717,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 263,
-      "event": "workflow_run",
-      "head_sha": "a3f9e6d2b1f28c05ce4e445e3f97ec350eeabfe0",
-      "created_at": "2026-08-19T11:07:32Z",
-      "updated_at": "2026-08-19T11:07:48Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32246044717"
-    },
-    {
-      "id": 32246026495,
-      "name": "OMEGA Core SEC CorpAction Filing Probe V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 7,
-      "event": "workflow_dispatch",
-      "head_sha": "76e0340139fdddddd31a1c4f611ab7c8cdf0f759",
-      "created_at": "2026-08-19T11:07:17Z",
-      "updated_at": "2026-08-19T11:07:30Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32246026495"
-    },
-    {
-      "id": 32245745034,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 262,
-      "event": "schedule",
-      "head_sha": "a3f9e6d2b1f28c05ce4e445e3f97ec350eeabfe0",
-      "created_at": "2026-08-19T11:03:54Z",
-      "updated_at": "2026-08-19T11:04:05Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32245745034"
-    },
-    {
-      "id": 32242437156,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 261,
-      "event": "workflow_run",
-      "head_sha": "a3f9e6d2b1f28c05ce4e445e3f97ec350eeabfe0",
-      "created_at": "2026-08-19T10:23:24Z",
-      "updated_at": "2026-08-19T10:23:39Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32242437156"
     }
   ],
   "omega_artifacts": [
@@ -1845,58 +1845,6 @@
       "workflow_run": {
         "id": 31884856176,
         "head_sha": "c3036a161aedd110d6f1666fae7f70abf8f81564"
-      }
-    },
-    {
-      "id": 9246979144,
-      "name": "omega-branch-pit-plumbing-replay",
-      "size_in_bytes": 31253970,
-      "digest": "sha256:ede63391fc391255baf9d7cb44799a4da7412e93eb02d879a3c85c4ca1577415",
-      "expired": false,
-      "created_at": "2026-08-15T12:32:26Z",
-      "updated_at": "2026-08-15T12:32:26Z",
-      "workflow_run": {
-        "id": 31884856176,
-        "head_sha": "c3036a161aedd110d6f1666fae7f70abf8f81564"
-      }
-    },
-    {
-      "id": 9246978738,
-      "name": "omega-branch-performance",
-      "size_in_bytes": 1629,
-      "digest": "sha256:6284216b7f498acffba542373bb3b386bdc0e1845e1247867fe810e48720056e",
-      "expired": false,
-      "created_at": "2026-08-15T12:32:23Z",
-      "updated_at": "2026-08-15T12:32:23Z",
-      "workflow_run": {
-        "id": 31884856176,
-        "head_sha": "c3036a161aedd110d6f1666fae7f70abf8f81564"
-      }
-    },
-    {
-      "id": 9246978690,
-      "name": "omega-financial-runtime-v1-31884856182",
-      "size_in_bytes": 11760,
-      "digest": "sha256:c0a03130948a532ee7770acb770ec1714c0c480fe42d536f08a87d448b62449d",
-      "expired": false,
-      "created_at": "2026-08-15T12:32:23Z",
-      "updated_at": "2026-08-15T12:32:23Z",
-      "workflow_run": {
-        "id": 31884856182,
-        "head_sha": "c3036a161aedd110d6f1666fae7f70abf8f81564"
-      }
-    },
-    {
-      "id": 9246975138,
-      "name": "omega-simulation-telemetry-integrity-v2-31884841729",
-      "size_in_bytes": 2031,
-      "digest": "sha256:7cdb8bcce5b4b994aa0294aba34dfbcec26ad6831275e2aa0ef15edf286fca4d",
-      "expired": false,
-      "created_at": "2026-08-15T12:32:03Z",
-      "updated_at": "2026-08-15T12:32:03Z",
-      "workflow_run": {
-        "id": 31884841729,
-        "head_sha": "699c649cc8afe4cb9a033f4db4e75983f69cfc3f"
       }
     }
   ]
