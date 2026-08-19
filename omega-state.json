@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-19T21:26:43Z",
+  "generated_at": "2026-08-19T21:28:17Z",
   "source": {
     "branch": "main",
     "head_sha": "a13cef39ea04b6f034467a87f26833c8e422fa21",
-    "publisher_run_id": 32303888880,
-    "publisher_run_number": 287,
-    "trigger_event": "push"
+    "publisher_run_id": 32304020226,
+    "publisher_run_number": 288,
+    "trigger_event": "workflow_run"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -50,27 +50,51 @@
   },
   "workflow_runs": [
     {
-      "id": 32303888940,
-      "name": "OMEGA Research NYSE Significant Imbalance Sample V1",
+      "id": 32304020226,
+      "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 288,
+      "event": "workflow_run",
+      "head_sha": "a13cef39ea04b6f034467a87f26833c8e422fa21",
+      "created_at": "2026-08-19T21:28:10Z",
+      "updated_at": "2026-08-19T21:28:13Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32304020226"
+    },
+    {
+      "id": 32303905225,
+      "name": "OMEGA Core SEC CorpAction Filing Probe V1",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 23,
+      "event": "workflow_dispatch",
+      "head_sha": "62fdd8ab19234340b0ce1cfce26a441ef85f02a1",
+      "created_at": "2026-08-19T21:26:47Z",
+      "updated_at": "2026-08-19T21:28:08Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32303905225"
+    },
+    {
+      "id": 32303888940,
+      "name": "OMEGA Research NYSE Significant Imbalance Sample V1",
+      "status": "completed",
+      "conclusion": "failure",
       "run_number": 4,
       "event": "push",
       "head_sha": "a13cef39ea04b6f034467a87f26833c8e422fa21",
       "created_at": "2026-08-19T21:26:35Z",
-      "updated_at": "2026-08-19T21:26:38Z",
+      "updated_at": "2026-08-19T21:27:00Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32303888940"
     },
     {
       "id": 32303888880,
       "name": "OMEGA Public State Bridge",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 287,
       "event": "push",
       "head_sha": "a13cef39ea04b6f034467a87f26833c8e422fa21",
       "created_at": "2026-08-19T21:26:35Z",
-      "updated_at": "2026-08-19T21:26:39Z",
+      "updated_at": "2026-08-19T21:26:46Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32303888880"
     },
     {
@@ -624,33 +648,22 @@
       "created_at": "2026-08-19T11:45:03Z",
       "updated_at": "2026-08-19T11:54:41Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32249129300"
-    },
-    {
-      "id": 32247257108,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 267,
-      "event": "workflow_run",
-      "head_sha": "a3f9e6d2b1f28c05ce4e445e3f97ec350eeabfe0",
-      "created_at": "2026-08-19T11:22:29Z",
-      "updated_at": "2026-08-19T11:22:48Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32247257108"
-    },
-    {
-      "id": 32247030786,
-      "name": "OMEGA Core SEC CorpAction Filing Probe V1",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 11,
-      "event": "workflow_dispatch",
-      "head_sha": "69d5188288d3f6a3a1e70c9c388d9534f03cf5e7",
-      "created_at": "2026-08-19T11:19:43Z",
-      "updated_at": "2026-08-19T11:22:27Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32247030786"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9384004726,
+      "name": "omega-research-nyse-significant-imbalance-sample-v1-32303888940",
+      "size_in_bytes": 35631292,
+      "digest": "sha256:1cc9a2a626fe47a3faf5d75c43c0d1971bdb718f0589e7a2970bbda074ee57db",
+      "expired": false,
+      "created_at": "2026-08-19T21:26:56Z",
+      "updated_at": "2026-08-19T21:26:56Z",
+      "workflow_run": {
+        "id": 32303888940,
+        "head_sha": "a13cef39ea04b6f034467a87f26833c8e422fa21"
+      }
+    },
     {
       "id": 9380788832,
       "name": "omega-simulation-telemetry-heartbeat-v1-32294758892",
@@ -1831,19 +1844,6 @@
       "updated_at": "2026-08-15T12:32:35Z",
       "workflow_run": {
         "id": 31884864471,
-        "head_sha": "c3036a161aedd110d6f1666fae7f70abf8f81564"
-      }
-    },
-    {
-      "id": 9246979909,
-      "name": "omega-branch-security-master-2024",
-      "size_in_bytes": 10900869,
-      "digest": "sha256:28d494da410e93b4083f8c77de020f9165a15ae4bd252e4da4a242944be1eba1",
-      "expired": false,
-      "created_at": "2026-08-15T12:32:30Z",
-      "updated_at": "2026-08-15T12:32:30Z",
-      "workflow_run": {
-        "id": 31884856176,
         "head_sha": "c3036a161aedd110d6f1666fae7f70abf8f81564"
       }
     }
