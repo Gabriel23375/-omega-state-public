@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-19T15:40:06Z",
+  "generated_at": "2026-08-19T15:52:08Z",
   "source": {
     "branch": "main",
     "head_sha": "a3f9e6d2b1f28c05ce4e445e3f97ec350eeabfe0",
-    "publisher_run_id": 32271413152,
-    "publisher_run_number": 275,
-    "trigger_event": "workflow_run"
+    "publisher_run_id": 32272589797,
+    "publisher_run_number": 276,
+    "trigger_event": "schedule"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -50,15 +50,27 @@
   },
   "workflow_runs": [
     {
-      "id": 32271413152,
+      "id": 32272589797,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 276,
+      "event": "schedule",
+      "head_sha": "a3f9e6d2b1f28c05ce4e445e3f97ec350eeabfe0",
+      "created_at": "2026-08-19T15:52:00Z",
+      "updated_at": "2026-08-19T15:52:04Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32272589797"
+    },
+    {
+      "id": 32271413152,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 275,
       "event": "workflow_run",
       "head_sha": "a3f9e6d2b1f28c05ce4e445e3f97ec350eeabfe0",
       "created_at": "2026-08-19T15:39:58Z",
-      "updated_at": "2026-08-19T15:40:02Z",
+      "updated_at": "2026-08-19T15:40:11Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32271413152"
     },
     {
@@ -636,18 +648,6 @@
       "created_at": "2026-08-18T21:56:48Z",
       "updated_at": "2026-08-18T21:56:59Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32190332470"
-    },
-    {
-      "id": 32190138215,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 249,
-      "event": "push",
-      "head_sha": "a3f9e6d2b1f28c05ce4e445e3f97ec350eeabfe0",
-      "created_at": "2026-08-18T21:54:28Z",
-      "updated_at": "2026-08-18T21:54:41Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32190138215"
     }
   ],
   "omega_artifacts": [
