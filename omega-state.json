@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-19T15:34:14Z",
+  "generated_at": "2026-08-19T15:36:22Z",
   "source": {
     "branch": "main",
     "head_sha": "a3f9e6d2b1f28c05ce4e445e3f97ec350eeabfe0",
-    "publisher_run_id": 32270827060,
-    "publisher_run_number": 273,
+    "publisher_run_id": 32271050995,
+    "publisher_run_number": 274,
     "trigger_event": "workflow_run"
   },
   "runtime": {
@@ -50,27 +50,39 @@
   },
   "workflow_runs": [
     {
-      "id": 32270827060,
+      "id": 32271050995,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 274,
+      "event": "workflow_run",
+      "head_sha": "a3f9e6d2b1f28c05ce4e445e3f97ec350eeabfe0",
+      "created_at": "2026-08-19T15:36:15Z",
+      "updated_at": "2026-08-19T15:36:18Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32271050995"
+    },
+    {
+      "id": 32270827060,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 273,
       "event": "workflow_run",
       "head_sha": "a3f9e6d2b1f28c05ce4e445e3f97ec350eeabfe0",
       "created_at": "2026-08-19T15:34:04Z",
-      "updated_at": "2026-08-19T15:34:08Z",
+      "updated_at": "2026-08-19T15:34:17Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32270827060"
     },
     {
       "id": 32270738524,
       "name": "OMEGA Core SEC CorpAction Filing Probe V1",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 16,
       "event": "workflow_dispatch",
       "head_sha": "e5b8d20c2f15e732a1cdd4b8ea74b815562f953b",
       "created_at": "2026-08-19T15:33:10Z",
-      "updated_at": "2026-08-19T15:34:05Z",
+      "updated_at": "2026-08-19T15:36:12Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32270738524"
     },
     {
@@ -636,18 +648,6 @@
       "created_at": "2026-08-18T21:22:21Z",
       "updated_at": "2026-08-18T21:22:59Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32187364318"
-    },
-    {
-      "id": 32187094928,
-      "name": "OMEGA Core-V1 Calibration Fetch V1",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 2,
-      "event": "workflow_dispatch",
-      "head_sha": "bae78786b1644fca0d2a72c685ddfa4606da188c",
-      "created_at": "2026-08-18T21:19:16Z",
-      "updated_at": "2026-08-18T21:19:32Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32187094928"
     }
   ],
   "omega_artifacts": [
