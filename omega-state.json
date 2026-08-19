@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-19T16:19:15Z",
+  "generated_at": "2026-08-19T17:42:08Z",
   "source": {
     "branch": "main",
-    "head_sha": "a3f9e6d2b1f28c05ce4e445e3f97ec350eeabfe0",
-    "publisher_run_id": 32275219082,
-    "publisher_run_number": 278,
-    "trigger_event": "workflow_run"
+    "head_sha": "fc7f87c5db09b18987e0a203c932cd984bfa4f31",
+    "publisher_run_id": 32283100892,
+    "publisher_run_number": 279,
+    "trigger_event": "schedule"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -50,15 +50,39 @@
   },
   "workflow_runs": [
     {
-      "id": 32275219082,
+      "id": 32283100892,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 279,
+      "event": "schedule",
+      "head_sha": "fc7f87c5db09b18987e0a203c932cd984bfa4f31",
+      "created_at": "2026-08-19T17:41:58Z",
+      "updated_at": "2026-08-19T17:42:02Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32283100892"
+    },
+    {
+      "id": 32281700771,
+      "name": "GPT AD-CVD Geometry Probe V1",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "12ed07783ca22e4bdb6ea3dd455dc4f5565913f8",
+      "created_at": "2026-08-19T17:27:29Z",
+      "updated_at": "2026-08-19T17:27:48Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32281700771"
+    },
+    {
+      "id": 32275219082,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 278,
       "event": "workflow_run",
       "head_sha": "a3f9e6d2b1f28c05ce4e445e3f97ec350eeabfe0",
       "created_at": "2026-08-19T16:19:06Z",
-      "updated_at": "2026-08-19T16:19:10Z",
+      "updated_at": "2026-08-19T16:19:20Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32275219082"
     },
     {
@@ -624,30 +648,6 @@
       "created_at": "2026-08-19T05:51:37Z",
       "updated_at": "2026-08-19T05:51:50Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32221026526"
-    },
-    {
-      "id": 32218194524,
-      "name": "OMEGA Simulation Telemetry Heartbeat V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 19,
-      "event": "schedule",
-      "head_sha": "a3f9e6d2b1f28c05ce4e445e3f97ec350eeabfe0",
-      "created_at": "2026-08-19T05:06:38Z",
-      "updated_at": "2026-08-19T05:06:49Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32218194524"
-    },
-    {
-      "id": 32212257452,
-      "name": "OMEGA Simulation Telemetry Heartbeat V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 18,
-      "event": "schedule",
-      "head_sha": "a3f9e6d2b1f28c05ce4e445e3f97ec350eeabfe0",
-      "created_at": "2026-08-19T03:28:18Z",
-      "updated_at": "2026-08-19T03:28:29Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32212257452"
     }
   ],
   "omega_artifacts": [
@@ -1936,19 +1936,6 @@
       "workflow_run": {
         "id": 31884676463,
         "head_sha": "492b7dc8e5e7dac6dbac2eaa100f77101dd99fb2"
-      }
-    },
-    {
-      "id": 9246918935,
-      "name": "omega-simulation-telemetry-integrity-v2-31884628503",
-      "size_in_bytes": 2031,
-      "digest": "sha256:38c2e6c5a7a3934cee09f99ab2e30f6395f26cc3c1f2b5eac890a12d96f9cd4b",
-      "expired": false,
-      "created_at": "2026-08-15T12:27:08Z",
-      "updated_at": "2026-08-15T12:27:08Z",
-      "workflow_run": {
-        "id": 31884628503,
-        "head_sha": "3f519af5ed4c2159557de5cc1737d34a5e51fdc6"
       }
     }
   ]
