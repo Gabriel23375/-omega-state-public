@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-19T21:28:17Z",
+  "generated_at": "2026-08-19T21:30:01Z",
   "source": {
     "branch": "main",
-    "head_sha": "a13cef39ea04b6f034467a87f26833c8e422fa21",
-    "publisher_run_id": 32304020226,
-    "publisher_run_number": 288,
-    "trigger_event": "workflow_run"
+    "head_sha": "006293447b14def7a35279da6f5d7a5436cbbc12",
+    "publisher_run_id": 32304164248,
+    "publisher_run_number": 289,
+    "trigger_event": "push"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -50,15 +50,51 @@
   },
   "workflow_runs": [
     {
-      "id": 32304020226,
+      "id": 32304164248,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 289,
+      "event": "push",
+      "head_sha": "006293447b14def7a35279da6f5d7a5436cbbc12",
+      "created_at": "2026-08-19T21:29:53Z",
+      "updated_at": "2026-08-19T21:29:57Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32304164248"
+    },
+    {
+      "id": 32304164194,
+      "name": "OMEGA Research NYSE Significant Imbalance Sample V1",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 5,
+      "event": "push",
+      "head_sha": "006293447b14def7a35279da6f5d7a5436cbbc12",
+      "created_at": "2026-08-19T21:29:53Z",
+      "updated_at": "2026-08-19T21:29:56Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32304164194"
+    },
+    {
+      "id": 32304156332,
+      "name": "OMEGA Core SEC CorpAction Filing Probe V1",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 24,
+      "event": "workflow_dispatch",
+      "head_sha": "c23bdb18dd01c038f509e83b9396150b09716438",
+      "created_at": "2026-08-19T21:29:48Z",
+      "updated_at": "2026-08-19T21:29:52Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32304156332"
+    },
+    {
+      "id": 32304020226,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 288,
       "event": "workflow_run",
       "head_sha": "a13cef39ea04b6f034467a87f26833c8e422fa21",
       "created_at": "2026-08-19T21:28:10Z",
-      "updated_at": "2026-08-19T21:28:13Z",
+      "updated_at": "2026-08-19T21:28:20Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32304020226"
     },
     {
@@ -612,42 +648,6 @@
       "created_at": "2026-08-19T12:01:21Z",
       "updated_at": "2026-08-19T12:01:33Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32250500644"
-    },
-    {
-      "id": 32249928963,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 268,
-      "event": "workflow_run",
-      "head_sha": "a3f9e6d2b1f28c05ce4e445e3f97ec350eeabfe0",
-      "created_at": "2026-08-19T11:54:43Z",
-      "updated_at": "2026-08-19T11:54:57Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32249928963"
-    },
-    {
-      "id": 32249180079,
-      "name": "OMEGA Simulation Telemetry Heartbeat V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 22,
-      "event": "schedule",
-      "head_sha": "a3f9e6d2b1f28c05ce4e445e3f97ec350eeabfe0",
-      "created_at": "2026-08-19T11:45:37Z",
-      "updated_at": "2026-08-19T11:45:47Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32249180079"
-    },
-    {
-      "id": 32249129300,
-      "name": "OMEGA Core SEC CorpAction Filing Probe V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 12,
-      "event": "workflow_dispatch",
-      "head_sha": "4d0c06667bc29a8f19d95ef17d50d0e359754f2b",
-      "created_at": "2026-08-19T11:45:03Z",
-      "updated_at": "2026-08-19T11:54:41Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32249129300"
     }
   ],
   "omega_artifacts": [
