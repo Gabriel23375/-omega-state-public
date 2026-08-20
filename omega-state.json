@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-20T03:18:26Z",
+  "generated_at": "2026-08-20T03:25:55Z",
   "source": {
     "branch": "main",
-    "head_sha": "a58f8c7dd24196fe1f5013069a2e5153b116afe0",
-    "publisher_run_id": 32327749066,
-    "publisher_run_number": 302,
-    "trigger_event": "push"
+    "head_sha": "4683f350e5773244a68341b4aef65cfd7410f5ab",
+    "publisher_run_id": 32328195860,
+    "publisher_run_number": 303,
+    "trigger_event": "schedule"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -50,27 +50,39 @@
   },
   "workflow_runs": [
     {
-      "id": 32327749066,
+      "id": 32328195860,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 303,
+      "event": "schedule",
+      "head_sha": "4683f350e5773244a68341b4aef65cfd7410f5ab",
+      "created_at": "2026-08-20T03:25:49Z",
+      "updated_at": "2026-08-20T03:25:52Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32328195860"
+    },
+    {
+      "id": 32327749066,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 302,
       "event": "push",
       "head_sha": "a58f8c7dd24196fe1f5013069a2e5153b116afe0",
       "created_at": "2026-08-20T03:18:19Z",
-      "updated_at": "2026-08-20T03:18:22Z",
+      "updated_at": "2026-08-20T03:18:29Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32327749066"
     },
     {
       "id": 32327749032,
       "name": "OMEGA Treasury Auction Geometry",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 1,
       "event": "push",
       "head_sha": "a58f8c7dd24196fe1f5013069a2e5153b116afe0",
       "created_at": "2026-08-20T03:18:19Z",
-      "updated_at": "2026-08-20T03:18:22Z",
+      "updated_at": "2026-08-20T03:18:30Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32327749032"
     },
     {
@@ -636,21 +648,22 @@
       "created_at": "2026-08-19T20:44:53Z",
       "updated_at": "2026-08-19T20:45:14Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32300213351"
-    },
-    {
-      "id": 32299285213,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 283,
-      "event": "workflow_run",
-      "head_sha": "0dabab3631bd4ad533aea0f8b61d56856e911e36",
-      "created_at": "2026-08-19T20:34:44Z",
-      "updated_at": "2026-08-19T20:34:57Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32299285213"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9391948847,
+      "name": "omega-treasury-auction-geometry",
+      "size_in_bytes": 256315,
+      "digest": "sha256:7ea2a7cd9883d92d16e11b3b3980d80ab5f7a4b5053983da6e2bdaf7fb5057a9",
+      "expired": false,
+      "created_at": "2026-08-20T03:18:28Z",
+      "updated_at": "2026-08-20T03:18:28Z",
+      "workflow_run": {
+        "id": 32327749032,
+        "head_sha": "a58f8c7dd24196fe1f5013069a2e5153b116afe0"
+      }
+    },
     {
       "id": 9391894426,
       "name": "omega-hsr-et-partition-contract-probe-v1-32327580429",
@@ -1829,19 +1842,6 @@
       "expired": false,
       "created_at": "2026-08-15T12:43:46Z",
       "updated_at": "2026-08-15T12:43:46Z",
-      "workflow_run": {
-        "id": 31884918240,
-        "head_sha": "2666a073e16a7284bd90b719ccf04d451bec2c92"
-      }
-    },
-    {
-      "id": 9247097197,
-      "name": "omega-branch-security-master-2024",
-      "size_in_bytes": 9472,
-      "digest": "sha256:6992db1e458629d223bbebcdbb3b77057062f4482992a9fb4cbff1323fdc33bc",
-      "expired": false,
-      "created_at": "2026-08-15T12:43:38Z",
-      "updated_at": "2026-08-15T12:43:38Z",
       "workflow_run": {
         "id": 31884918240,
         "head_sha": "2666a073e16a7284bd90b719ccf04d451bec2c92"
