@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-20T10:57:59Z",
+  "generated_at": "2026-08-20T11:00:03Z",
   "source": {
     "branch": "main",
-    "head_sha": "3a23c403a49212eec9aa784798b9e25ad25531cc",
-    "publisher_run_id": 32361479642,
-    "publisher_run_number": 314,
+    "head_sha": "88d25131cf04be4120c332e07842fa4c4c141c9d",
+    "publisher_run_id": 32361646750,
+    "publisher_run_number": 315,
     "trigger_event": "push"
   },
   "runtime": {
@@ -50,27 +50,75 @@
   },
   "workflow_runs": [
     {
-      "id": 32361479675,
-      "name": "OMEGA Research CFTC Hedging Pressure Geometry V1",
+      "id": 32361646867,
+      "name": "OMEGA Research CFTC Hedging Pressure Geometry V2",
       "status": "in_progress",
       "conclusion": null,
       "run_number": 1,
       "event": "push",
+      "head_sha": "88d25131cf04be4120c332e07842fa4c4c141c9d",
+      "created_at": "2026-08-20T10:59:55Z",
+      "updated_at": "2026-08-20T10:59:58Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32361646867"
+    },
+    {
+      "id": 32361646750,
+      "name": "OMEGA Public State Bridge",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 315,
+      "event": "push",
+      "head_sha": "88d25131cf04be4120c332e07842fa4c4c141c9d",
+      "created_at": "2026-08-20T10:59:55Z",
+      "updated_at": "2026-08-20T10:59:58Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32361646750"
+    },
+    {
+      "id": 32361624678,
+      "name": "OMEGA Consolidated Evidence Pipeline V2",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 34,
+      "event": "push",
+      "head_sha": "68f94c60f0270d51104793ec238cac53da865f31",
+      "created_at": "2026-08-20T10:59:39Z",
+      "updated_at": "2026-08-20T10:59:44Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32361624678"
+    },
+    {
+      "id": 32361624534,
+      "name": "OMEGA Consolidated Evidence Pipeline",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 34,
+      "event": "push",
+      "head_sha": "68f94c60f0270d51104793ec238cac53da865f31",
+      "created_at": "2026-08-20T10:59:39Z",
+      "updated_at": "2026-08-20T10:59:43Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32361624534"
+    },
+    {
+      "id": 32361479675,
+      "name": "OMEGA Research CFTC Hedging Pressure Geometry V1",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 1,
+      "event": "push",
       "head_sha": "3a23c403a49212eec9aa784798b9e25ad25531cc",
       "created_at": "2026-08-20T10:57:50Z",
-      "updated_at": "2026-08-20T10:57:53Z",
+      "updated_at": "2026-08-20T10:58:13Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32361479675"
     },
     {
       "id": 32361479642,
       "name": "OMEGA Public State Bridge",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 314,
       "event": "push",
       "head_sha": "3a23c403a49212eec9aa784798b9e25ad25531cc",
       "created_at": "2026-08-20T10:57:50Z",
-      "updated_at": "2026-08-20T10:57:53Z",
+      "updated_at": "2026-08-20T10:58:04Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32361479642"
     },
     {
@@ -600,57 +648,100 @@
       "created_at": "2026-08-20T03:15:27Z",
       "updated_at": "2026-08-20T03:15:45Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32327580429"
-    },
-    {
-      "id": 32321187352,
-      "name": "GPT HSR ET Incremental Collector V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "83e4c0eb9f5c4cb03edf7a4cae2cf7578dc45d51",
-      "created_at": "2026-08-20T01:29:23Z",
-      "updated_at": "2026-08-20T01:29:58Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32321187352"
-    },
-    {
-      "id": 32321138679,
-      "name": "GPT HSR ET Range Count V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "2400fe5231d6e6ec248c0bc8d6a98e5dce99a487",
-      "created_at": "2026-08-20T01:28:32Z",
-      "updated_at": "2026-08-20T01:28:44Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32321138679"
-    },
-    {
-      "id": 32321050546,
-      "name": "GPT HSR ET Geometry V1",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "48f1f6ccae416943a9726c65b0ad5b7246a3da92",
-      "created_at": "2026-08-20T01:27:03Z",
-      "updated_at": "2026-08-20T01:27:23Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32321050546"
-    },
-    {
-      "id": 32320972912,
-      "name": "GPT HSR ET API Probe V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 2,
-      "event": "push",
-      "head_sha": "ec33b177eeabdaf4d331c8abf9ee911cc465f485",
-      "created_at": "2026-08-20T01:25:45Z",
-      "updated_at": "2026-08-20T01:25:56Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32320972912"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9403724955,
+      "name": "omega-branch-security-master-2024",
+      "size_in_bytes": 10901145,
+      "digest": "sha256:884eb24b63d86b07c90bd4b42f23ee3ff770bc8a6b1a979920146e85a98d1aa4",
+      "expired": false,
+      "created_at": "2026-08-20T11:00:01Z",
+      "updated_at": "2026-08-20T11:00:01Z",
+      "workflow_run": {
+        "id": 32361624534,
+        "head_sha": "68f94c60f0270d51104793ec238cac53da865f31"
+      }
+    },
+    {
+      "id": 9403722039,
+      "name": "omega-v2-branch-pit-plumbing-replay",
+      "size_in_bytes": 31254110,
+      "digest": "sha256:a4a2d357410c811c5159e4046c13995ecc63e51b950b3efa954c5fa0a9873df0",
+      "expired": false,
+      "created_at": "2026-08-20T10:59:54Z",
+      "updated_at": "2026-08-20T10:59:54Z",
+      "workflow_run": {
+        "id": 32361624678,
+        "head_sha": "68f94c60f0270d51104793ec238cac53da865f31"
+      }
+    },
+    {
+      "id": 9403720935,
+      "name": "omega-v2-branch-security-master-2024",
+      "size_in_bytes": 10900871,
+      "digest": "sha256:7a4496c69d736c4c4b610d53d668a39697d27712c8c437bb28f7092595c086f6",
+      "expired": false,
+      "created_at": "2026-08-20T10:59:52Z",
+      "updated_at": "2026-08-20T10:59:52Z",
+      "workflow_run": {
+        "id": 32361624678,
+        "head_sha": "68f94c60f0270d51104793ec238cac53da865f31"
+      }
+    },
+    {
+      "id": 9403719003,
+      "name": "omega-v2-branch-performance",
+      "size_in_bytes": 1768,
+      "digest": "sha256:b00be425dff3b6aa65ea171d4d92d9e2d1ba266fa042ebc95c6f28f710f60a11",
+      "expired": false,
+      "created_at": "2026-08-20T10:59:48Z",
+      "updated_at": "2026-08-20T10:59:48Z",
+      "workflow_run": {
+        "id": 32361624678,
+        "head_sha": "68f94c60f0270d51104793ec238cac53da865f31"
+      }
+    },
+    {
+      "id": 9403718845,
+      "name": "omega-branch-pit-plumbing-replay",
+      "size_in_bytes": 1856,
+      "digest": "sha256:2a60aab34114821ccc74068f117d6d85fc459ebad7f9e46d7b576d18c01058a6",
+      "expired": false,
+      "created_at": "2026-08-20T10:59:48Z",
+      "updated_at": "2026-08-20T10:59:48Z",
+      "workflow_run": {
+        "id": 32361624534,
+        "head_sha": "68f94c60f0270d51104793ec238cac53da865f31"
+      }
+    },
+    {
+      "id": 9403717452,
+      "name": "omega-branch-performance",
+      "size_in_bytes": 1765,
+      "digest": "sha256:b2a21877e05178a71fe241ecdcb5020cf9dd1d16b96b4af8c7fd44370e27cfa6",
+      "expired": false,
+      "created_at": "2026-08-20T10:59:45Z",
+      "updated_at": "2026-08-20T10:59:45Z",
+      "workflow_run": {
+        "id": 32361624534,
+        "head_sha": "68f94c60f0270d51104793ec238cac53da865f31"
+      }
+    },
+    {
+      "id": 9403672383,
+      "name": "omega-research-cftc-geometry-v1-32361479675",
+      "size_in_bytes": 41651251,
+      "digest": "sha256:d37b9c24c69a42dc3deba4387fe11d9832ea3adc8fcb3701b6e377765892f73b",
+      "expired": false,
+      "created_at": "2026-08-20T10:58:09Z",
+      "updated_at": "2026-08-20T10:58:09Z",
+      "workflow_run": {
+        "id": 32361479675,
+        "head_sha": "3a23c403a49212eec9aa784798b9e25ad25531cc"
+      }
+    },
     {
       "id": 9402509142,
       "name": "omega-fdic-local-deposit-freeze-v1",
@@ -1585,97 +1676,6 @@
       "workflow_run": {
         "id": 32157801370,
         "head_sha": "b4bba15e8df25cf9d310ed5582b9e68a24ab0ba7"
-      }
-    },
-    {
-      "id": 9328335997,
-      "name": "omega-simulation-telemetry-heartbeat-v1-32147448922",
-      "size_in_bytes": 2138,
-      "digest": "sha256:09dc65b5b36eb52b0e99f154297f6f2c333efea4d36f8eec1e94b6256e0a410e",
-      "expired": false,
-      "created_at": "2026-08-18T14:17:46Z",
-      "updated_at": "2026-08-18T14:17:46Z",
-      "workflow_run": {
-        "id": 32147448922,
-        "head_sha": "b4bba15e8df25cf9d310ed5582b9e68a24ab0ba7"
-      }
-    },
-    {
-      "id": 9323032841,
-      "name": "omega-simulation-telemetry-heartbeat-v1-32133413182",
-      "size_in_bytes": 2137,
-      "digest": "sha256:c281c0f2459a325778992614c2636539f4eee606c2069a54025b131cc872947d",
-      "expired": false,
-      "created_at": "2026-08-18T11:46:46Z",
-      "updated_at": "2026-08-18T11:46:46Z",
-      "workflow_run": {
-        "id": 32133413182,
-        "head_sha": "b4bba15e8df25cf9d310ed5582b9e68a24ab0ba7"
-      }
-    },
-    {
-      "id": 9319842895,
-      "name": "omega-simulation-telemetry-heartbeat-v1-32124622595",
-      "size_in_bytes": 2138,
-      "digest": "sha256:f787c07650d2364c9fe292e891f5c0d0d67433ac04cbd17fb859e86aa757ba9a",
-      "expired": false,
-      "created_at": "2026-08-18T10:01:20Z",
-      "updated_at": "2026-08-18T10:01:20Z",
-      "workflow_run": {
-        "id": 32124622595,
-        "head_sha": "b8437b69253c1a3912caebd1dc75d3382399c025"
-      }
-    },
-    {
-      "id": 9315871026,
-      "name": "omega-simulation-telemetry-heartbeat-v1-32113779985",
-      "size_in_bytes": 2139,
-      "digest": "sha256:dad64b831ed9072311231b62b0b25a4588936b68c280790ed86d2eb2b1cc33bd",
-      "expired": false,
-      "created_at": "2026-08-18T07:55:38Z",
-      "updated_at": "2026-08-18T07:55:38Z",
-      "workflow_run": {
-        "id": 32113779985,
-        "head_sha": "b8437b69253c1a3912caebd1dc75d3382399c025"
-      }
-    },
-    {
-      "id": 9311712807,
-      "name": "omega-simulation-telemetry-heartbeat-v1-32101563010",
-      "size_in_bytes": 2138,
-      "digest": "sha256:3661230e9f3c9c9e3f3157444462122133fbdd380b37c0281cb77abdaefbcdcd",
-      "expired": false,
-      "created_at": "2026-08-18T05:05:55Z",
-      "updated_at": "2026-08-18T05:05:55Z",
-      "workflow_run": {
-        "id": 32101563010,
-        "head_sha": "b8437b69253c1a3912caebd1dc75d3382399c025"
-      }
-    },
-    {
-      "id": 9309755041,
-      "name": "omega-simulation-telemetry-heartbeat-v1-32095419839",
-      "size_in_bytes": 2138,
-      "digest": "sha256:53fbe0507a7c30c3d68c11d66027e2a637723509abcccaaa1dc185e9c31b4b63",
-      "expired": false,
-      "created_at": "2026-08-18T03:25:35Z",
-      "updated_at": "2026-08-18T03:25:35Z",
-      "workflow_run": {
-        "id": 32095419839,
-        "head_sha": "b8437b69253c1a3912caebd1dc75d3382399c025"
-      }
-    },
-    {
-      "id": 9305680916,
-      "name": "omega-simulation-telemetry-heartbeat-v1-32082921507",
-      "size_in_bytes": 2136,
-      "digest": "sha256:f54cc9f2c52ee656fb514bb95efc1c69f8e4eddd2b58103d61f338994c11b428",
-      "expired": false,
-      "created_at": "2026-08-18T00:02:27Z",
-      "updated_at": "2026-08-18T00:02:27Z",
-      "workflow_run": {
-        "id": 32082921507,
-        "head_sha": "b8437b69253c1a3912caebd1dc75d3382399c025"
       }
     }
   ]
