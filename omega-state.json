@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-20T17:47:33Z",
+  "generated_at": "2026-08-20T18:02:50Z",
   "source": {
     "branch": "main",
     "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
-    "publisher_run_id": 32399554601,
-    "publisher_run_number": 325,
+    "publisher_run_id": 32400995470,
+    "publisher_run_number": 326,
     "trigger_event": "workflow_run"
   },
   "runtime": {
@@ -50,15 +50,51 @@
   },
   "workflow_runs": [
     {
-      "id": 32399554601,
+      "id": 32400995470,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 326,
+      "event": "workflow_run",
+      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
+      "created_at": "2026-08-20T18:02:40Z",
+      "updated_at": "2026-08-20T18:02:46Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32400995470"
+    },
+    {
+      "id": 32400641694,
+      "name": "OMEGA Simulation Telemetry Heartbeat V1",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 36,
+      "event": "schedule",
+      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
+      "created_at": "2026-08-20T17:59:03Z",
+      "updated_at": "2026-08-20T17:59:18Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32400641694"
+    },
+    {
+      "id": 32399935714,
+      "name": "OMEGA Core SEC CorpAction Filing Probe V1",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 26,
+      "event": "workflow_dispatch",
+      "head_sha": "4455b750a3b79d67b7072c6a650f2db634c4bf92",
+      "created_at": "2026-08-20T17:51:30Z",
+      "updated_at": "2026-08-20T18:02:38Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32399935714"
+    },
+    {
+      "id": 32399554601,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 325,
       "event": "workflow_run",
       "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
       "created_at": "2026-08-20T17:47:24Z",
-      "updated_at": "2026-08-20T17:47:28Z",
+      "updated_at": "2026-08-20T17:47:38Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32399554601"
     },
     {
@@ -612,45 +648,22 @@
       "created_at": "2026-08-20T06:29:04Z",
       "updated_at": "2026-08-20T06:31:00Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32339783893"
-    },
-    {
-      "id": 32339783885,
-      "name": "GPT FAA AD Zero Return Gate V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 7,
-      "event": "pull_request",
-      "head_sha": "52c56da2c56cfd9dbe90d6636a4a1b3132decd3f",
-      "created_at": "2026-08-20T06:29:04Z",
-      "updated_at": "2026-08-20T06:30:20Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32339783885"
-    },
-    {
-      "id": 32339780423,
-      "name": "GPT FAA AD Zero Return Gate V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 6,
-      "event": "push",
-      "head_sha": "52c56da2c56cfd9dbe90d6636a4a1b3132decd3f",
-      "created_at": "2026-08-20T06:29:02Z",
-      "updated_at": "2026-08-20T06:31:42Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32339780423"
-    },
-    {
-      "id": 32339634129,
-      "name": "OMEGA Network FDIC Freeze V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 9,
-      "event": "pull_request",
-      "head_sha": "9baa899a1af841c99ae724632232e250757e3d9d",
-      "created_at": "2026-08-20T06:26:55Z",
-      "updated_at": "2026-08-20T06:29:05Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32339634129"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9418330565,
+      "name": "omega-simulation-telemetry-heartbeat-v1-32400641694",
+      "size_in_bytes": 2138,
+      "digest": "sha256:cb4c10b04a2a07f0ee88ed19031f2b4925ef64645c96b0094eaa7cdf37502005",
+      "expired": false,
+      "created_at": "2026-08-20T17:59:13Z",
+      "updated_at": "2026-08-20T17:59:13Z",
+      "workflow_run": {
+        "id": 32400641694,
+        "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e"
+      }
+    },
     {
       "id": 9414320729,
       "name": "omega-simulation-telemetry-heartbeat-v1-32389730367",
@@ -1761,19 +1774,6 @@
       "name": "omega-branch-pit-plumbing-replay",
       "size_in_bytes": 1846,
       "digest": "sha256:159cb9bc7708797c7644b77c77e5af28a94ed41d741f935af5275633dc0c6fe9",
-      "expired": false,
-      "created_at": "2026-08-20T00:11:56Z",
-      "updated_at": "2026-08-20T00:11:56Z",
-      "workflow_run": {
-        "id": 32316357391,
-        "head_sha": "9bb6040339b57d362f313f95f459b739c776087f"
-      }
-    },
-    {
-      "id": 9388184779,
-      "name": "omega-branch-performance",
-      "size_in_bytes": 1766,
-      "digest": "sha256:d2a5bb1e2c3453d16a8ec697be77181c47c5185d108cbbf2cba4c06867ac0c05",
       "expired": false,
       "created_at": "2026-08-20T00:11:56Z",
       "updated_at": "2026-08-20T00:11:56Z",
