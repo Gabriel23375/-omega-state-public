@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-20T18:02:50Z",
+  "generated_at": "2026-08-20T18:19:58Z",
   "source": {
     "branch": "main",
     "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
-    "publisher_run_id": 32400995470,
-    "publisher_run_number": 326,
+    "publisher_run_id": 32402587264,
+    "publisher_run_number": 327,
     "trigger_event": "workflow_run"
   },
   "runtime": {
@@ -50,15 +50,39 @@
   },
   "workflow_runs": [
     {
-      "id": 32400995470,
+      "id": 32402587264,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 327,
+      "event": "workflow_run",
+      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
+      "created_at": "2026-08-20T18:19:50Z",
+      "updated_at": "2026-08-20T18:19:54Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32402587264"
+    },
+    {
+      "id": 32401420901,
+      "name": "OMEGA Core SEC CorpAction Filing Probe V1",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 27,
+      "event": "workflow_dispatch",
+      "head_sha": "c25d2f16aa353f382bc0d021cfd9633c2b25a56a",
+      "created_at": "2026-08-20T18:07:10Z",
+      "updated_at": "2026-08-20T18:19:48Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32401420901"
+    },
+    {
+      "id": 32400995470,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 326,
       "event": "workflow_run",
       "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
       "created_at": "2026-08-20T18:02:40Z",
-      "updated_at": "2026-08-20T18:02:46Z",
+      "updated_at": "2026-08-20T18:02:55Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32400995470"
     },
     {
@@ -624,30 +648,6 @@
       "created_at": "2026-08-20T07:11:03Z",
       "updated_at": "2026-08-20T07:11:15Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32342829320"
-    },
-    {
-      "id": 32342796743,
-      "name": "GPT FDA Device Reclassification Zero Return V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "3022849b5312ad918585e482540281df6955015e",
-      "created_at": "2026-08-20T07:10:36Z",
-      "updated_at": "2026-08-20T07:10:47Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32342796743"
-    },
-    {
-      "id": 32339783893,
-      "name": "OMEGA Network FDIC Freeze V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 10,
-      "event": "pull_request",
-      "head_sha": "52c56da2c56cfd9dbe90d6636a4a1b3132decd3f",
-      "created_at": "2026-08-20T06:29:04Z",
-      "updated_at": "2026-08-20T06:31:00Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32339783893"
     }
   ],
   "omega_artifacts": [
