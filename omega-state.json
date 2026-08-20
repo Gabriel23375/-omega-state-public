@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-20T00:12:23Z",
+  "generated_at": "2026-08-20T00:12:43Z",
   "source": {
     "branch": "main",
     "head_sha": "2111b6bc3f8cb90c6190ea04132ba5eec370bd14",
-    "publisher_run_id": 32316386311,
-    "publisher_run_number": 295,
-    "trigger_event": "push"
+    "publisher_run_id": 32316409661,
+    "publisher_run_number": 296,
+    "trigger_event": "workflow_run"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -50,27 +50,39 @@
   },
   "workflow_runs": [
     {
-      "id": 32316386311,
+      "id": 32316409661,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 296,
+      "event": "workflow_run",
+      "head_sha": "2111b6bc3f8cb90c6190ea04132ba5eec370bd14",
+      "created_at": "2026-08-20T00:12:36Z",
+      "updated_at": "2026-08-20T00:12:40Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32316409661"
+    },
+    {
+      "id": 32316386311,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 295,
       "event": "push",
       "head_sha": "2111b6bc3f8cb90c6190ea04132ba5eec370bd14",
       "created_at": "2026-08-20T00:12:15Z",
-      "updated_at": "2026-08-20T00:12:19Z",
+      "updated_at": "2026-08-20T00:12:26Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32316386311"
     },
     {
       "id": 32316386304,
       "name": "OMEGA Network FDIC Freeze V1",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "failure",
       "run_number": 2,
       "event": "push",
       "head_sha": "2111b6bc3f8cb90c6190ea04132ba5eec370bd14",
       "created_at": "2026-08-20T00:12:15Z",
-      "updated_at": "2026-08-20T00:12:19Z",
+      "updated_at": "2026-08-20T00:12:33Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32316386304"
     },
     {
@@ -112,13 +124,13 @@
     {
       "id": 32316357382,
       "name": "OMEGA Consolidated Evidence Pipeline V2",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 31,
       "event": "push",
       "head_sha": "9bb6040339b57d362f313f95f459b739c776087f",
       "created_at": "2026-08-20T00:11:50Z",
-      "updated_at": "2026-08-20T00:12:02Z",
+      "updated_at": "2026-08-20T00:12:35Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32316357382"
     },
     {
@@ -636,21 +648,22 @@
       "created_at": "2026-08-19T15:52:00Z",
       "updated_at": "2026-08-19T15:52:13Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32272589797"
-    },
-    {
-      "id": 32271413152,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 275,
-      "event": "workflow_run",
-      "head_sha": "a3f9e6d2b1f28c05ce4e445e3f97ec350eeabfe0",
-      "created_at": "2026-08-19T15:39:58Z",
-      "updated_at": "2026-08-19T15:40:11Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32271413152"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9388198966,
+      "name": "omega-consolidated-v2-master-state",
+      "size_in_bytes": 4276,
+      "digest": "sha256:fdd633670d239722ce0979c579462c5e6841f2c0ce7e3ef1b1c63c93a51af369",
+      "expired": false,
+      "created_at": "2026-08-20T00:12:31Z",
+      "updated_at": "2026-08-20T00:12:31Z",
+      "workflow_run": {
+        "id": 32316357382,
+        "head_sha": "9bb6040339b57d362f313f95f459b739c776087f"
+      }
+    },
     {
       "id": 9388194831,
       "name": "omega-v2-branch-drd-extractor-v2",
@@ -1831,19 +1844,6 @@
       "updated_at": "2026-08-15T12:33:52Z",
       "workflow_run": {
         "id": 31884918240,
-        "head_sha": "2666a073e16a7284bd90b719ccf04d451bec2c92"
-      }
-    },
-    {
-      "id": 9246994510,
-      "name": "omega-financial-runtime-v1-31884918275",
-      "size_in_bytes": 11983,
-      "digest": "sha256:717985a0a38a0457014567a4fc4b0f60512462d8f01f79c07273ff218e2a4145",
-      "expired": false,
-      "created_at": "2026-08-15T12:33:51Z",
-      "updated_at": "2026-08-15T12:33:51Z",
-      "workflow_run": {
-        "id": 31884918275,
         "head_sha": "2666a073e16a7284bd90b719ccf04d451bec2c92"
       }
     }
