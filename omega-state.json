@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-20T18:19:58Z",
+  "generated_at": "2026-08-20T19:18:32Z",
   "source": {
     "branch": "main",
     "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
-    "publisher_run_id": 32402587264,
-    "publisher_run_number": 327,
-    "trigger_event": "workflow_run"
+    "publisher_run_id": 32407947361,
+    "publisher_run_number": 328,
+    "trigger_event": "schedule"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -50,15 +50,27 @@
   },
   "workflow_runs": [
     {
-      "id": 32402587264,
+      "id": 32407947361,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 328,
+      "event": "schedule",
+      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
+      "created_at": "2026-08-20T19:18:23Z",
+      "updated_at": "2026-08-20T19:18:28Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32407947361"
+    },
+    {
+      "id": 32402587264,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 327,
       "event": "workflow_run",
       "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
       "created_at": "2026-08-20T18:19:50Z",
-      "updated_at": "2026-08-20T18:19:54Z",
+      "updated_at": "2026-08-20T18:20:03Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32402587264"
     },
     {
@@ -636,18 +648,6 @@
       "created_at": "2026-08-20T07:11:11Z",
       "updated_at": "2026-08-20T07:11:22Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32342838545"
-    },
-    {
-      "id": 32342829320,
-      "name": "GPT FDA Device Reclassification Zero Return V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 2,
-      "event": "push",
-      "head_sha": "b8858bbfbf078eeef54dc5e4cf98b37d40b12bc5",
-      "created_at": "2026-08-20T07:11:03Z",
-      "updated_at": "2026-08-20T07:11:15Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32342829320"
     }
   ],
   "omega_artifacts": [
