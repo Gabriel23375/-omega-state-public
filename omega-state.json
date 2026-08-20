@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-20T11:05:47Z",
+  "generated_at": "2026-08-20T11:08:20Z",
   "source": {
     "branch": "main",
     "head_sha": "166264661865d5ba2e7c7ed77133e536da6c5e95",
-    "publisher_run_id": 32362118993,
-    "publisher_run_number": 320,
+    "publisher_run_id": 32362320332,
+    "publisher_run_number": 321,
     "trigger_event": "workflow_run"
   },
   "runtime": {
@@ -50,15 +50,27 @@
   },
   "workflow_runs": [
     {
-      "id": 32362118993,
+      "id": 32362320332,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 321,
+      "event": "workflow_run",
+      "head_sha": "166264661865d5ba2e7c7ed77133e536da6c5e95",
+      "created_at": "2026-08-20T11:08:08Z",
+      "updated_at": "2026-08-20T11:08:12Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32362320332"
+    },
+    {
+      "id": 32362118993,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 320,
       "event": "workflow_run",
       "head_sha": "166264661865d5ba2e7c7ed77133e536da6c5e95",
       "created_at": "2026-08-20T11:05:38Z",
-      "updated_at": "2026-08-20T11:05:42Z",
+      "updated_at": "2026-08-20T11:05:51Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32362118993"
     },
     {
@@ -88,13 +100,13 @@
     {
       "id": 32361934589,
       "name": "OMEGA Consolidated Evidence Pipeline",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 36,
       "event": "push",
       "head_sha": "b4037aae69ba5a372f0e64a773798845f82ce048",
       "created_at": "2026-08-20T11:03:24Z",
-      "updated_at": "2026-08-20T11:05:41Z",
+      "updated_at": "2026-08-20T11:08:07Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32361934589"
     },
     {
@@ -636,21 +648,48 @@
       "created_at": "2026-08-20T06:25:37Z",
       "updated_at": "2026-08-20T06:27:57Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32339543781"
-    },
-    {
-      "id": 32339541093,
-      "name": "GPT FAA AD Zero Return Gate V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 2,
-      "event": "push",
-      "head_sha": "bc63e3491acbad1bda6fb05be11d67313ea2fa16",
-      "created_at": "2026-08-20T06:25:35Z",
-      "updated_at": "2026-08-20T06:26:23Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32339541093"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9403958693,
+      "name": "omega-consolidated-master-state",
+      "size_in_bytes": 3948,
+      "digest": "sha256:c9c718364e5f6826e0a0400d9a0ee62da9d67092b92b9f92b5ae235945f0796f",
+      "expired": false,
+      "created_at": "2026-08-20T11:08:03Z",
+      "updated_at": "2026-08-20T11:08:03Z",
+      "workflow_run": {
+        "id": 32361934589,
+        "head_sha": "b4037aae69ba5a372f0e64a773798845f82ce048"
+      }
+    },
+    {
+      "id": 9403953423,
+      "name": "omega-branch-drd-extractor-v2",
+      "size_in_bytes": 25602,
+      "digest": "sha256:676caf628c142a1669a4f615c5a268c10026b1883c402063e90a36056e512704",
+      "expired": false,
+      "created_at": "2026-08-20T11:07:52Z",
+      "updated_at": "2026-08-20T11:07:52Z",
+      "workflow_run": {
+        "id": 32361934589,
+        "head_sha": "b4037aae69ba5a372f0e64a773798845f82ce048"
+      }
+    },
+    {
+      "id": 9403896092,
+      "name": "omega-branch-security-master-2024",
+      "size_in_bytes": 10900930,
+      "digest": "sha256:71ea7220a8d7b30e946242783dc986856ca070994f5f69fa5d1caef839b0a22e",
+      "expired": false,
+      "created_at": "2026-08-20T11:05:53Z",
+      "updated_at": "2026-08-20T11:05:53Z",
+      "workflow_run": {
+        "id": 32361934589,
+        "head_sha": "b4037aae69ba5a372f0e64a773798845f82ce048"
+      }
+    },
     {
       "id": 9403892729,
       "name": "omega-branch-performance",
@@ -1741,19 +1780,6 @@
       "workflow_run": {
         "id": 32304164194,
         "head_sha": "006293447b14def7a35279da6f5d7a5436cbbc12"
-      }
-    },
-    {
-      "id": 9384004726,
-      "name": "omega-research-nyse-significant-imbalance-sample-v1-32303888940",
-      "size_in_bytes": 35631292,
-      "digest": "sha256:1cc9a2a626fe47a3faf5d75c43c0d1971bdb718f0589e7a2970bbda074ee57db",
-      "expired": false,
-      "created_at": "2026-08-19T21:26:56Z",
-      "updated_at": "2026-08-19T21:26:56Z",
-      "workflow_run": {
-        "id": 32303888940,
-        "head_sha": "a13cef39ea04b6f034467a87f26833c8e422fa21"
       }
     }
   ]
