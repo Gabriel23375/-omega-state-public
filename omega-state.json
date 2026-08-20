@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-20T11:00:03Z",
+  "generated_at": "2026-08-20T11:00:37Z",
   "source": {
     "branch": "main",
     "head_sha": "88d25131cf04be4120c332e07842fa4c4c141c9d",
-    "publisher_run_id": 32361646750,
-    "publisher_run_number": 315,
-    "trigger_event": "push"
+    "publisher_run_id": 32361696953,
+    "publisher_run_number": 316,
+    "trigger_event": "workflow_run"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -50,39 +50,51 @@
   },
   "workflow_runs": [
     {
-      "id": 32361646867,
-      "name": "OMEGA Research CFTC Hedging Pressure Geometry V2",
+      "id": 32361696953,
+      "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 316,
+      "event": "workflow_run",
+      "head_sha": "88d25131cf04be4120c332e07842fa4c4c141c9d",
+      "created_at": "2026-08-20T11:00:30Z",
+      "updated_at": "2026-08-20T11:00:34Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32361696953"
+    },
+    {
+      "id": 32361646867,
+      "name": "OMEGA Research CFTC Hedging Pressure Geometry V2",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 1,
       "event": "push",
       "head_sha": "88d25131cf04be4120c332e07842fa4c4c141c9d",
       "created_at": "2026-08-20T10:59:55Z",
-      "updated_at": "2026-08-20T10:59:58Z",
+      "updated_at": "2026-08-20T11:00:17Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32361646867"
     },
     {
       "id": 32361646750,
       "name": "OMEGA Public State Bridge",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 315,
       "event": "push",
       "head_sha": "88d25131cf04be4120c332e07842fa4c4c141c9d",
       "created_at": "2026-08-20T10:59:55Z",
-      "updated_at": "2026-08-20T10:59:58Z",
+      "updated_at": "2026-08-20T11:00:06Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32361646750"
     },
     {
       "id": 32361624678,
       "name": "OMEGA Consolidated Evidence Pipeline V2",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 34,
       "event": "push",
       "head_sha": "68f94c60f0270d51104793ec238cac53da865f31",
       "created_at": "2026-08-20T10:59:39Z",
-      "updated_at": "2026-08-20T10:59:44Z",
+      "updated_at": "2026-08-20T11:00:28Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32361624678"
     },
     {
@@ -636,21 +648,48 @@
       "created_at": "2026-08-20T03:18:19Z",
       "updated_at": "2026-08-20T03:18:30Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32327749032"
-    },
-    {
-      "id": 32327580429,
-      "name": "GPT HSR ET Partition Contract Probe V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "0ed80bfd45d346a5a873dc707e20446aceebb83e",
-      "created_at": "2026-08-20T03:15:27Z",
-      "updated_at": "2026-08-20T03:15:45Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32327580429"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9403735445,
+      "name": "omega-consolidated-v2-master-state",
+      "size_in_bytes": 4275,
+      "digest": "sha256:6f4a35fb611153dfbaaabaaa375889ea1018c03cfe574092444450604c10ebd9",
+      "expired": false,
+      "created_at": "2026-08-20T11:00:23Z",
+      "updated_at": "2026-08-20T11:00:23Z",
+      "workflow_run": {
+        "id": 32361624678,
+        "head_sha": "68f94c60f0270d51104793ec238cac53da865f31"
+      }
+    },
+    {
+      "id": 9403730774,
+      "name": "omega-research-cftc-geometry-v2-32361646867",
+      "size_in_bytes": 41650721,
+      "digest": "sha256:3762ddc47f017d81b0df50880ff63d0402b4d19cc8aa3cce256623b96c9e779e",
+      "expired": false,
+      "created_at": "2026-08-20T11:00:13Z",
+      "updated_at": "2026-08-20T11:00:13Z",
+      "workflow_run": {
+        "id": 32361646867,
+        "head_sha": "88d25131cf04be4120c332e07842fa4c4c141c9d"
+      }
+    },
+    {
+      "id": 9403729253,
+      "name": "omega-v2-branch-drd-extractor-v2",
+      "size_in_bytes": 10723,
+      "digest": "sha256:4aee742bc32b622e4221ce9cb6a38bafff27ade8e43fbfb5ae208785a1ffda56",
+      "expired": false,
+      "created_at": "2026-08-20T11:00:10Z",
+      "updated_at": "2026-08-20T11:00:10Z",
+      "workflow_run": {
+        "id": 32361624678,
+        "head_sha": "68f94c60f0270d51104793ec238cac53da865f31"
+      }
+    },
     {
       "id": 9403724955,
       "name": "omega-branch-security-master-2024",
@@ -1637,45 +1676,6 @@
       "workflow_run": {
         "id": 32187364318,
         "head_sha": "084eec795bbf061f0ed367ffae168e5d5ca5f5f4"
-      }
-    },
-    {
-      "id": 9339871799,
-      "name": "omega-simulation-telemetry-heartbeat-v1-32178442793",
-      "size_in_bytes": 2138,
-      "digest": "sha256:1ad61cc866fb5691f321a61fff0f5be6a0dc95f0a7b0771dd6a837ab33bc58a5",
-      "expired": false,
-      "created_at": "2026-08-18T19:45:53Z",
-      "updated_at": "2026-08-18T19:45:53Z",
-      "workflow_run": {
-        "id": 32178442793,
-        "head_sha": "b4bba15e8df25cf9d310ed5582b9e68a24ab0ba7"
-      }
-    },
-    {
-      "id": 9336248417,
-      "name": "omega-simulation-telemetry-heartbeat-v1-32168261767",
-      "size_in_bytes": 2138,
-      "digest": "sha256:b4498a028c46c43366cc26f29e20b7b402c2c10deadaf55cd8829369dda27b64",
-      "expired": false,
-      "created_at": "2026-08-18T17:56:19Z",
-      "updated_at": "2026-08-18T17:56:19Z",
-      "workflow_run": {
-        "id": 32168261767,
-        "head_sha": "b4bba15e8df25cf9d310ed5582b9e68a24ab0ba7"
-      }
-    },
-    {
-      "id": 9332370063,
-      "name": "omega-simulation-telemetry-heartbeat-v1-32157801370",
-      "size_in_bytes": 2137,
-      "digest": "sha256:b35934bf09aabccc65501aa7f96ad7207bdade77befa686ee19d1d52bf3d879b",
-      "expired": false,
-      "created_at": "2026-08-18T15:59:57Z",
-      "updated_at": "2026-08-18T15:59:57Z",
-      "workflow_run": {
-        "id": 32157801370,
-        "head_sha": "b4bba15e8df25cf9d310ed5582b9e68a24ab0ba7"
       }
     }
   ]
