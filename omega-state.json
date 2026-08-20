@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-20T05:51:39Z",
+  "generated_at": "2026-08-20T06:26:22Z",
   "source": {
     "branch": "main",
-    "head_sha": "d942c19bb54ad2d7028d4be3ac5670318afc185d",
-    "publisher_run_id": 32337216782,
-    "publisher_run_number": 304,
-    "trigger_event": "schedule"
+    "head_sha": "b579e58524c256320a89cfd1464acdde73999180",
+    "publisher_run_id": 32339588339,
+    "publisher_run_number": 305,
+    "trigger_event": "push"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -50,15 +50,99 @@
   },
   "workflow_runs": [
     {
-      "id": 32337216782,
+      "id": 32339588339,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 305,
+      "event": "push",
+      "head_sha": "b579e58524c256320a89cfd1464acdde73999180",
+      "created_at": "2026-08-20T06:26:15Z",
+      "updated_at": "2026-08-20T06:26:18Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32339588339"
+    },
+    {
+      "id": 32339588241,
+      "name": "OMEGA RegSHO Rule201 Geometry V1",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "b579e58524c256320a89cfd1464acdde73999180",
+      "created_at": "2026-08-20T06:26:15Z",
+      "updated_at": "2026-08-20T06:26:19Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32339588241"
+    },
+    {
+      "id": 32339543792,
+      "name": "GPT FAA AD Zero Return Gate V1",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 3,
+      "event": "pull_request",
+      "head_sha": "bc63e3491acbad1bda6fb05be11d67313ea2fa16",
+      "created_at": "2026-08-20T06:25:37Z",
+      "updated_at": "2026-08-20T06:26:14Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32339543792"
+    },
+    {
+      "id": 32339543781,
+      "name": "OMEGA Network FDIC Freeze V1",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 8,
+      "event": "pull_request",
+      "head_sha": "bc63e3491acbad1bda6fb05be11d67313ea2fa16",
+      "created_at": "2026-08-20T06:25:37Z",
+      "updated_at": "2026-08-20T06:25:40Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32339543781"
+    },
+    {
+      "id": 32339541093,
+      "name": "GPT FAA AD Zero Return Gate V1",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 2,
+      "event": "push",
+      "head_sha": "bc63e3491acbad1bda6fb05be11d67313ea2fa16",
+      "created_at": "2026-08-20T06:25:35Z",
+      "updated_at": "2026-08-20T06:25:39Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32339541093"
+    },
+    {
+      "id": 32339515262,
+      "name": "OMEGA Network FDIC Freeze V1",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 7,
+      "event": "pull_request",
+      "head_sha": "5fce9101b3f1ad3facd8fc280654d3d2be84253e",
+      "created_at": "2026-08-20T06:25:14Z",
+      "updated_at": "2026-08-20T06:25:17Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32339515262"
+    },
+    {
+      "id": 32339496495,
+      "name": "GPT FAA AD Zero Return Gate V1",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "5fce9101b3f1ad3facd8fc280654d3d2be84253e",
+      "created_at": "2026-08-20T06:24:59Z",
+      "updated_at": "2026-08-20T06:26:03Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32339496495"
+    },
+    {
+      "id": 32337216782,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 304,
       "event": "schedule",
       "head_sha": "d942c19bb54ad2d7028d4be3ac5670318afc185d",
       "created_at": "2026-08-20T05:51:32Z",
-      "updated_at": "2026-08-20T05:51:35Z",
+      "updated_at": "2026-08-20T05:51:43Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32337216782"
     },
     {
@@ -564,90 +648,6 @@
       "created_at": "2026-08-19T21:26:35Z",
       "updated_at": "2026-08-19T21:26:46Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32303888880"
-    },
-    {
-      "id": 32303836326,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 286,
-      "event": "push",
-      "head_sha": "03d9c4b2e4cd6e301e115a8946667dc4b4af36e0",
-      "created_at": "2026-08-19T21:25:57Z",
-      "updated_at": "2026-08-19T21:26:11Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32303836326"
-    },
-    {
-      "id": 32303836322,
-      "name": "OMEGA Research NYSE Significant Imbalance Sample V1",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 3,
-      "event": "push",
-      "head_sha": "03d9c4b2e4cd6e301e115a8946667dc4b4af36e0",
-      "created_at": "2026-08-19T21:25:57Z",
-      "updated_at": "2026-08-19T21:26:28Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32303836322"
-    },
-    {
-      "id": 32303809439,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 285,
-      "event": "workflow_run",
-      "head_sha": "c778b0ef1b81f72a5297959dc0e19775d3c5d14c",
-      "created_at": "2026-08-19T21:25:38Z",
-      "updated_at": "2026-08-19T21:25:51Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32303809439"
-    },
-    {
-      "id": 32303718930,
-      "name": "OMEGA Core SEC CorpAction Filing Probe V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 22,
-      "event": "workflow_dispatch",
-      "head_sha": "a0b923b29ffca098068fe2fb3673d05dd3410ed9",
-      "created_at": "2026-08-19T21:24:34Z",
-      "updated_at": "2026-08-19T21:25:36Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32303718930"
-    },
-    {
-      "id": 32303599087,
-      "name": "GPT AD-CVD Geometry Probe V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 7,
-      "event": "pull_request",
-      "head_sha": "4b9870a653e8bb8576815b2af3743284e48078a7",
-      "created_at": "2026-08-19T21:23:12Z",
-      "updated_at": "2026-08-19T21:23:39Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32303599087"
-    },
-    {
-      "id": 32303555889,
-      "name": "GPT AD-CVD Geometry Probe V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 6,
-      "event": "pull_request",
-      "head_sha": "c3a457ce44ccf51ad5531b978065fee24b39f972",
-      "created_at": "2026-08-19T21:22:41Z",
-      "updated_at": "2026-08-19T21:23:07Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32303555889"
-    },
-    {
-      "id": 32303552672,
-      "name": "GPT AD-CVD Power Gate V2",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "c3a457ce44ccf51ad5531b978065fee24b39f972",
-      "created_at": "2026-08-19T21:22:39Z",
-      "updated_at": "2026-08-19T21:22:54Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32303552672"
     }
   ],
   "omega_artifacts": [
@@ -1803,45 +1803,6 @@
       "expired": false,
       "created_at": "2026-08-15T12:44:31Z",
       "updated_at": "2026-08-15T12:44:31Z",
-      "workflow_run": {
-        "id": 31884918270,
-        "head_sha": "2666a073e16a7284bd90b719ccf04d451bec2c92"
-      }
-    },
-    {
-      "id": 9247104315,
-      "name": "omega-branch-drd-extractor-v2",
-      "size_in_bytes": 10724,
-      "digest": "sha256:d67904d5765b712b79276e43e4dcce9bf31268e13e8e281adec08745b9febad8",
-      "expired": false,
-      "created_at": "2026-08-15T12:44:20Z",
-      "updated_at": "2026-08-15T12:44:20Z",
-      "workflow_run": {
-        "id": 31884918270,
-        "head_sha": "2666a073e16a7284bd90b719ccf04d451bec2c92"
-      }
-    },
-    {
-      "id": 9247102507,
-      "name": "omega-branch-security-master-2024",
-      "size_in_bytes": 10901088,
-      "digest": "sha256:d905b5271c1b79575cb269bcf23b63f53a742345193ac15194bd08339ab2a20c",
-      "expired": false,
-      "created_at": "2026-08-15T12:44:09Z",
-      "updated_at": "2026-08-15T12:44:09Z",
-      "workflow_run": {
-        "id": 31884918270,
-        "head_sha": "2666a073e16a7284bd90b719ccf04d451bec2c92"
-      }
-    },
-    {
-      "id": 9247101008,
-      "name": "omega-branch-pit-plumbing-replay",
-      "size_in_bytes": 31253924,
-      "digest": "sha256:ed9d6b345f9fd49ce6b333e0d3207ebbec3982ede14819fbe74ff4ed52ea0257",
-      "expired": false,
-      "created_at": "2026-08-15T12:44:01Z",
-      "updated_at": "2026-08-15T12:44:01Z",
       "workflow_run": {
         "id": 31884918270,
         "head_sha": "2666a073e16a7284bd90b719ccf04d451bec2c92"
