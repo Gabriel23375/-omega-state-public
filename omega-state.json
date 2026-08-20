@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-20T06:26:22Z",
+  "generated_at": "2026-08-20T06:26:58Z",
   "source": {
     "branch": "main",
-    "head_sha": "b579e58524c256320a89cfd1464acdde73999180",
-    "publisher_run_id": 32339588339,
-    "publisher_run_number": 305,
+    "head_sha": "749681cd4706cb18ab2083b58c637ad6d735cae1",
+    "publisher_run_id": 32339627553,
+    "publisher_run_number": 306,
     "trigger_event": "push"
   },
   "runtime": {
@@ -50,15 +50,75 @@
   },
   "workflow_runs": [
     {
-      "id": 32339588339,
+      "id": 32339634129,
+      "name": "OMEGA Network FDIC Freeze V1",
+      "status": "queued",
+      "conclusion": null,
+      "run_number": 9,
+      "event": "pull_request",
+      "head_sha": "9baa899a1af841c99ae724632232e250757e3d9d",
+      "created_at": "2026-08-20T06:26:55Z",
+      "updated_at": "2026-08-20T06:26:55Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32339634129"
+    },
+    {
+      "id": 32339633582,
+      "name": "GPT FAA AD Zero Return Gate V1",
+      "status": "queued",
+      "conclusion": null,
+      "run_number": 5,
+      "event": "pull_request",
+      "head_sha": "9baa899a1af841c99ae724632232e250757e3d9d",
+      "created_at": "2026-08-20T06:26:54Z",
+      "updated_at": "2026-08-20T06:26:54Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32339633582"
+    },
+    {
+      "id": 32339630582,
+      "name": "GPT FAA AD Zero Return Gate V1",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 4,
+      "event": "push",
+      "head_sha": "9baa899a1af841c99ae724632232e250757e3d9d",
+      "created_at": "2026-08-20T06:26:51Z",
+      "updated_at": "2026-08-20T06:26:55Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32339630582"
+    },
+    {
+      "id": 32339627662,
+      "name": "OMEGA RegSHO Rule201 Geometry V1",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 2,
+      "event": "push",
+      "head_sha": "749681cd4706cb18ab2083b58c637ad6d735cae1",
+      "created_at": "2026-08-20T06:26:49Z",
+      "updated_at": "2026-08-20T06:26:52Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32339627662"
+    },
+    {
+      "id": 32339627553,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 306,
+      "event": "push",
+      "head_sha": "749681cd4706cb18ab2083b58c637ad6d735cae1",
+      "created_at": "2026-08-20T06:26:49Z",
+      "updated_at": "2026-08-20T06:26:53Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32339627553"
+    },
+    {
+      "id": 32339588339,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 305,
       "event": "push",
       "head_sha": "b579e58524c256320a89cfd1464acdde73999180",
       "created_at": "2026-08-20T06:26:15Z",
-      "updated_at": "2026-08-20T06:26:18Z",
+      "updated_at": "2026-08-20T06:26:26Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32339588339"
     },
     {
@@ -100,13 +160,13 @@
     {
       "id": 32339541093,
       "name": "GPT FAA AD Zero Return Gate V1",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 2,
       "event": "push",
       "head_sha": "bc63e3491acbad1bda6fb05be11d67313ea2fa16",
       "created_at": "2026-08-20T06:25:35Z",
-      "updated_at": "2026-08-20T06:25:39Z",
+      "updated_at": "2026-08-20T06:26:23Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32339541093"
     },
     {
@@ -588,66 +648,6 @@
       "created_at": "2026-08-19T21:29:53Z",
       "updated_at": "2026-08-19T21:30:23Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32304164194"
-    },
-    {
-      "id": 32304156332,
-      "name": "OMEGA Core SEC CorpAction Filing Probe V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 24,
-      "event": "workflow_dispatch",
-      "head_sha": "c23bdb18dd01c038f509e83b9396150b09716438",
-      "created_at": "2026-08-19T21:29:48Z",
-      "updated_at": "2026-08-19T21:30:48Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32304156332"
-    },
-    {
-      "id": 32304020226,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 288,
-      "event": "workflow_run",
-      "head_sha": "a13cef39ea04b6f034467a87f26833c8e422fa21",
-      "created_at": "2026-08-19T21:28:10Z",
-      "updated_at": "2026-08-19T21:28:20Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32304020226"
-    },
-    {
-      "id": 32303905225,
-      "name": "OMEGA Core SEC CorpAction Filing Probe V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 23,
-      "event": "workflow_dispatch",
-      "head_sha": "62fdd8ab19234340b0ce1cfce26a441ef85f02a1",
-      "created_at": "2026-08-19T21:26:47Z",
-      "updated_at": "2026-08-19T21:28:08Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32303905225"
-    },
-    {
-      "id": 32303888940,
-      "name": "OMEGA Research NYSE Significant Imbalance Sample V1",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 4,
-      "event": "push",
-      "head_sha": "a13cef39ea04b6f034467a87f26833c8e422fa21",
-      "created_at": "2026-08-19T21:26:35Z",
-      "updated_at": "2026-08-19T21:27:00Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32303888940"
-    },
-    {
-      "id": 32303888880,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 287,
-      "event": "push",
-      "head_sha": "a13cef39ea04b6f034467a87f26833c8e422fa21",
-      "created_at": "2026-08-19T21:26:35Z",
-      "updated_at": "2026-08-19T21:26:46Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32303888880"
     }
   ],
   "omega_artifacts": [
