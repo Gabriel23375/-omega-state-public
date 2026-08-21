@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-21T14:19:08Z",
+  "generated_at": "2026-08-21T17:01:53Z",
   "source": {
     "branch": "main",
     "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
-    "publisher_run_id": 32491480938,
-    "publisher_run_number": 349,
+    "publisher_run_id": 32505994127,
+    "publisher_run_number": 350,
     "trigger_event": "schedule"
   },
   "runtime": {
@@ -50,15 +50,51 @@
   },
   "workflow_runs": [
     {
-      "id": 32491480938,
+      "id": 32505994127,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 350,
+      "event": "schedule",
+      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
+      "created_at": "2026-08-21T17:01:46Z",
+      "updated_at": "2026-08-21T17:01:49Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32505994127"
+    },
+    {
+      "id": 32500773847,
+      "name": "OMEGA Simulation Telemetry Heartbeat V1",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 46,
+      "event": "schedule",
+      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
+      "created_at": "2026-08-21T16:01:41Z",
+      "updated_at": "2026-08-21T16:01:54Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32500773847"
+    },
+    {
+      "id": 32491590527,
+      "name": "OMEGA Simulation Telemetry Heartbeat V1",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 45,
+      "event": "schedule",
+      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
+      "created_at": "2026-08-21T14:20:14Z",
+      "updated_at": "2026-08-21T14:20:28Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32491590527"
+    },
+    {
+      "id": 32491480938,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 349,
       "event": "schedule",
       "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
       "created_at": "2026-08-21T14:19:01Z",
-      "updated_at": "2026-08-21T14:19:05Z",
+      "updated_at": "2026-08-21T14:19:12Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32491480938"
     },
     {
@@ -612,45 +648,35 @@
       "created_at": "2026-08-20T17:51:30Z",
       "updated_at": "2026-08-20T18:02:38Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32399935714"
-    },
-    {
-      "id": 32399554601,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 325,
-      "event": "workflow_run",
-      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
-      "created_at": "2026-08-20T17:47:24Z",
-      "updated_at": "2026-08-20T17:47:38Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32399554601"
-    },
-    {
-      "id": 32398463048,
-      "name": "OMEGA Core SEC CorpAction Filing Probe V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 25,
-      "event": "workflow_dispatch",
-      "head_sha": "9c9dadf283bbad687a12c8741d6fc515cc78e8fc",
-      "created_at": "2026-08-20T17:35:35Z",
-      "updated_at": "2026-08-20T17:47:22Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32398463048"
-    },
-    {
-      "id": 32395303480,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 324,
-      "event": "schedule",
-      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
-      "created_at": "2026-08-20T17:01:41Z",
-      "updated_at": "2026-08-20T17:01:54Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32395303480"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9453386478,
+      "name": "omega-simulation-telemetry-heartbeat-v1-32500773847",
+      "size_in_bytes": 2139,
+      "digest": "sha256:3cae64e5e65477344eb4abc99ed689c7e499ad4fad6f0d22e207b39ec5157b70",
+      "expired": false,
+      "created_at": "2026-08-21T16:01:49Z",
+      "updated_at": "2026-08-21T16:01:49Z",
+      "workflow_run": {
+        "id": 32500773847,
+        "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e"
+      }
+    },
+    {
+      "id": 9449944719,
+      "name": "omega-simulation-telemetry-heartbeat-v1-32491590527",
+      "size_in_bytes": 2138,
+      "digest": "sha256:281fc8cc416d504425e9e124e81ffb1631cd73f49679ee127f9c77bfefe5ca9b",
+      "expired": false,
+      "created_at": "2026-08-21T14:20:23Z",
+      "updated_at": "2026-08-21T14:20:23Z",
+      "workflow_run": {
+        "id": 32491590527,
+        "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e"
+      }
+    },
     {
       "id": 9445384646,
       "name": "omega-simulation-telemetry-heartbeat-v1-32479131029",
@@ -1754,32 +1780,6 @@
       "workflow_run": {
         "id": 32316611734,
         "head_sha": "5a0ad2f0a7a028222d444d42d3b34abbf8d03014"
-      }
-    },
-    {
-      "id": 9388330548,
-      "name": "omega-fdic-local-deposit-freeze-v1",
-      "size_in_bytes": 20810630,
-      "digest": "sha256:bb846646df498c02d3402b3a196b65884875b17d08e496e1626e74d4963db730",
-      "expired": false,
-      "created_at": "2026-08-20T00:17:57Z",
-      "updated_at": "2026-08-20T00:17:57Z",
-      "workflow_run": {
-        "id": 32316622625,
-        "head_sha": "0a987bc7c884dd209d54613560d817b0a26300e0"
-      }
-    },
-    {
-      "id": 9388238435,
-      "name": "omega-consolidated-master-state",
-      "size_in_bytes": 3949,
-      "digest": "sha256:40939232726ed6130f8a7749778d7b94922c0875721560b1edf972fc085d7db9",
-      "expired": false,
-      "created_at": "2026-08-20T00:14:11Z",
-      "updated_at": "2026-08-20T00:14:11Z",
-      "workflow_run": {
-        "id": 32316357391,
-        "head_sha": "9bb6040339b57d362f313f95f459b739c776087f"
       }
     }
   ]
