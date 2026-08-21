@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-21T00:05:22Z",
+  "generated_at": "2026-08-21T00:10:43Z",
   "source": {
     "branch": "main",
     "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
-    "publisher_run_id": 32431285411,
-    "publisher_run_number": 340,
+    "publisher_run_id": 32431640484,
+    "publisher_run_number": 341,
     "trigger_event": "workflow_run"
   },
   "runtime": {
@@ -50,15 +50,39 @@
   },
   "workflow_runs": [
     {
-      "id": 32431285411,
+      "id": 32431640484,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 341,
+      "event": "workflow_run",
+      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
+      "created_at": "2026-08-21T00:10:33Z",
+      "updated_at": "2026-08-21T00:10:37Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32431640484"
+    },
+    {
+      "id": 32431451815,
+      "name": "OMEGA Core SEC CorpAction Filing Probe V1",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 37,
+      "event": "workflow_dispatch",
+      "head_sha": "09d1a72faf9e90a1657521867a2f9f8a9a0027e2",
+      "created_at": "2026-08-21T00:07:41Z",
+      "updated_at": "2026-08-21T00:10:31Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32431451815"
+    },
+    {
+      "id": 32431285411,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 340,
       "event": "workflow_run",
       "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
       "created_at": "2026-08-21T00:05:14Z",
-      "updated_at": "2026-08-21T00:05:17Z",
+      "updated_at": "2026-08-21T00:05:26Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32431285411"
     },
     {
@@ -624,30 +648,6 @@
       "created_at": "2026-08-20T11:00:30Z",
       "updated_at": "2026-08-20T11:00:41Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32361696953"
-    },
-    {
-      "id": 32361646867,
-      "name": "OMEGA Research CFTC Hedging Pressure Geometry V2",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 1,
-      "event": "push",
-      "head_sha": "88d25131cf04be4120c332e07842fa4c4c141c9d",
-      "created_at": "2026-08-20T10:59:55Z",
-      "updated_at": "2026-08-20T11:00:17Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32361646867"
-    },
-    {
-      "id": 32361646750,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 315,
-      "event": "push",
-      "head_sha": "88d25131cf04be4120c332e07842fa4c4c141c9d",
-      "created_at": "2026-08-20T10:59:55Z",
-      "updated_at": "2026-08-20T11:00:06Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32361646750"
     }
   ],
   "omega_artifacts": [
