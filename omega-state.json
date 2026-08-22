@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-22T17:00:19Z",
+  "generated_at": "2026-08-22T17:57:15Z",
   "source": {
     "branch": "main",
     "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
-    "publisher_run_id": 32586410020,
-    "publisher_run_number": 367,
+    "publisher_run_id": 32589280488,
+    "publisher_run_number": 368,
     "trigger_event": "schedule"
   },
   "runtime": {
@@ -50,15 +50,39 @@
   },
   "workflow_runs": [
     {
-      "id": 32586410020,
+      "id": 32589280488,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 368,
+      "event": "schedule",
+      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
+      "created_at": "2026-08-22T17:57:08Z",
+      "updated_at": "2026-08-22T17:57:12Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32589280488"
+    },
+    {
+      "id": 32588450343,
+      "name": "OMEGA Simulation Telemetry Heartbeat V1",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 60,
+      "event": "schedule",
+      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
+      "created_at": "2026-08-22T17:40:35Z",
+      "updated_at": "2026-08-22T17:40:45Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32588450343"
+    },
+    {
+      "id": 32586410020,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 367,
       "event": "schedule",
       "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
       "created_at": "2026-08-22T17:00:09Z",
-      "updated_at": "2026-08-22T17:00:13Z",
+      "updated_at": "2026-08-22T17:00:22Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32586410020"
     },
     {
@@ -624,33 +648,22 @@
       "created_at": "2026-08-21T08:09:17Z",
       "updated_at": "2026-08-21T08:09:31Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32461864335"
-    },
-    {
-      "id": 32461239719,
-      "name": "OMEGA Simulation Telemetry Heartbeat V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 42,
-      "event": "schedule",
-      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
-      "created_at": "2026-08-21T08:01:19Z",
-      "updated_at": "2026-08-21T08:01:32Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32461239719"
-    },
-    {
-      "id": 32452238644,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 345,
-      "event": "schedule",
-      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
-      "created_at": "2026-08-21T05:53:35Z",
-      "updated_at": "2026-08-21T05:53:48Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32452238644"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9479661935,
+      "name": "omega-simulation-telemetry-heartbeat-v1-32588450343",
+      "size_in_bytes": 2138,
+      "digest": "sha256:023d31423f78e1cb407f25f2c0db1f31cf0f6dfb72fff7dfabbecc2e6773ee6d",
+      "expired": false,
+      "created_at": "2026-08-22T17:40:41Z",
+      "updated_at": "2026-08-22T17:40:41Z",
+      "workflow_run": {
+        "id": 32588450343,
+        "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e"
+      }
+    },
     {
       "id": 9478379607,
       "name": "omega-simulation-telemetry-heartbeat-v1-32583395124",
