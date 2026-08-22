@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-22T03:11:27Z",
+  "generated_at": "2026-08-22T04:59:26Z",
   "source": {
     "branch": "main",
     "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
-    "publisher_run_id": 32548288459,
-    "publisher_run_number": 357,
+    "publisher_run_id": 32553153705,
+    "publisher_run_number": 358,
     "trigger_event": "schedule"
   },
   "runtime": {
@@ -50,15 +50,39 @@
   },
   "workflow_runs": [
     {
-      "id": 32548288459,
+      "id": 32553153705,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 358,
+      "event": "schedule",
+      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
+      "created_at": "2026-08-22T04:59:18Z",
+      "updated_at": "2026-08-22T04:59:21Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32553153705"
+    },
+    {
+      "id": 32548800015,
+      "name": "OMEGA Simulation Telemetry Heartbeat V1",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 51,
+      "event": "schedule",
+      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
+      "created_at": "2026-08-22T03:22:38Z",
+      "updated_at": "2026-08-22T03:22:51Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32548800015"
+    },
+    {
+      "id": 32548288459,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 357,
       "event": "schedule",
       "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
       "created_at": "2026-08-22T03:11:18Z",
-      "updated_at": "2026-08-22T03:11:22Z",
+      "updated_at": "2026-08-22T03:11:32Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32548288459"
     },
     {
@@ -624,33 +648,22 @@
       "created_at": "2026-08-20T22:02:19Z",
       "updated_at": "2026-08-20T22:10:50Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32422372000"
-    },
-    {
-      "id": 32422162618,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 331,
-      "event": "workflow_run",
-      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
-      "created_at": "2026-08-20T21:59:48Z",
-      "updated_at": "2026-08-20T22:00:04Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32422162618"
-    },
-    {
-      "id": 32421754899,
-      "name": "OMEGA Simulation Telemetry Heartbeat V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 38,
-      "event": "schedule",
-      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
-      "created_at": "2026-08-20T21:54:48Z",
-      "updated_at": "2026-08-20T21:54:57Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32421754899"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9469383221,
+      "name": "omega-simulation-telemetry-heartbeat-v1-32548800015",
+      "size_in_bytes": 2137,
+      "digest": "sha256:3eecce757f5d7343de9624d29fd9702467bdf286b5364dadf4f14e0dad066eb4",
+      "expired": false,
+      "created_at": "2026-08-22T03:22:46Z",
+      "updated_at": "2026-08-22T03:22:46Z",
+      "workflow_run": {
+        "id": 32548800015,
+        "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e"
+      }
+    },
     {
       "id": 9466006188,
       "name": "omega-simulation-telemetry-heartbeat-v1-32537872009",
@@ -1767,19 +1780,6 @@
       "workflow_run": {
         "id": 32321187352,
         "head_sha": "83e4c0eb9f5c4cb03edf7a4cae2cf7578dc45d51"
-      }
-    },
-    {
-      "id": 9389783536,
-      "name": "omega-hsr-et-range-count-v1-32321138679",
-      "size_in_bytes": 1863,
-      "digest": "sha256:7b08b891224b244b8b4cc3fc17d7ad50faccb3b27cd4163e98fd7ea9a750c4d4",
-      "expired": false,
-      "created_at": "2026-08-20T01:28:40Z",
-      "updated_at": "2026-08-20T01:28:40Z",
-      "workflow_run": {
-        "id": 32321138679,
-        "head_sha": "2400fe5231d6e6ec248c0bc8d6a98e5dce99a487"
       }
     }
   ]
