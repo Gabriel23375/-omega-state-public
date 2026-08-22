@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-21T23:59:04Z",
+  "generated_at": "2026-08-22T03:11:27Z",
   "source": {
     "branch": "main",
     "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
-    "publisher_run_id": 32538795385,
-    "publisher_run_number": 356,
+    "publisher_run_id": 32548288459,
+    "publisher_run_number": 357,
     "trigger_event": "schedule"
   },
   "runtime": {
@@ -50,15 +50,27 @@
   },
   "workflow_runs": [
     {
-      "id": 32538795385,
+      "id": 32548288459,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 357,
+      "event": "schedule",
+      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
+      "created_at": "2026-08-22T03:11:18Z",
+      "updated_at": "2026-08-22T03:11:22Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32548288459"
+    },
+    {
+      "id": 32538795385,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 356,
       "event": "schedule",
       "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
       "created_at": "2026-08-21T23:58:56Z",
-      "updated_at": "2026-08-21T23:59:00Z",
+      "updated_at": "2026-08-21T23:59:09Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32538795385"
     },
     {
@@ -636,18 +648,6 @@
       "created_at": "2026-08-20T21:54:48Z",
       "updated_at": "2026-08-20T21:54:57Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32421754899"
-    },
-    {
-      "id": 32421746572,
-      "name": "OMEGA Core SEC CorpAction Filing Probe V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 29,
-      "event": "workflow_dispatch",
-      "head_sha": "fc47bc184055d494c6165821b6c25b41d5befac7",
-      "created_at": "2026-08-20T21:54:42Z",
-      "updated_at": "2026-08-20T21:59:46Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32421746572"
     }
   ],
   "omega_artifacts": [
