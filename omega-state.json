@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-23T17:53:28Z",
+  "generated_at": "2026-08-23T19:11:27Z",
   "source": {
     "branch": "main",
     "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
-    "publisher_run_id": 32656279237,
-    "publisher_run_number": 388,
+    "publisher_run_id": 32660448325,
+    "publisher_run_number": 389,
     "trigger_event": "schedule"
   },
   "runtime": {
@@ -50,15 +50,27 @@
   },
   "workflow_runs": [
     {
-      "id": 32656279237,
+      "id": 32660448325,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 389,
+      "event": "schedule",
+      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
+      "created_at": "2026-08-23T19:11:20Z",
+      "updated_at": "2026-08-23T19:11:24Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32660448325"
+    },
+    {
+      "id": 32656279237,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 388,
       "event": "schedule",
       "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
       "created_at": "2026-08-23T17:53:20Z",
-      "updated_at": "2026-08-23T17:53:24Z",
+      "updated_at": "2026-08-23T17:53:33Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32656279237"
     },
     {
@@ -636,18 +648,6 @@
       "created_at": "2026-08-22T12:03:37Z",
       "updated_at": "2026-08-22T12:03:45Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32571960338"
-    },
-    {
-      "id": 32571849227,
-      "name": "OMEGA Simulation Telemetry Heartbeat V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 56,
-      "event": "schedule",
-      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
-      "created_at": "2026-08-22T12:01:10Z",
-      "updated_at": "2026-08-22T12:01:21Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32571849227"
     }
   ],
   "omega_artifacts": [
