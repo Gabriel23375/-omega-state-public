@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-23T22:39:44Z",
+  "generated_at": "2026-08-23T22:55:12Z",
   "source": {
     "branch": "main",
-    "head_sha": "1478eaa60ecd18883c893a85c16ab2bfd9d07db2",
-    "publisher_run_id": 32671261971,
-    "publisher_run_number": 402,
+    "head_sha": "3664608636361e8c9b0a7a7a8a60992a281e86cb",
+    "publisher_run_id": 32672046137,
+    "publisher_run_number": 403,
     "trigger_event": "push"
   },
   "runtime": {
@@ -50,27 +50,75 @@
   },
   "workflow_runs": [
     {
-      "id": 32671262000,
-      "name": "OMEGA Zero Spend Public Data Probe V1",
+      "id": 32672046138,
+      "name": "OMEGA Forward CEF Watch V1",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 1,
+      "event": "push",
+      "head_sha": "3664608636361e8c9b0a7a7a8a60992a281e86cb",
+      "created_at": "2026-08-23T22:55:04Z",
+      "updated_at": "2026-08-23T22:55:08Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32672046138"
+    },
+    {
+      "id": 32672046137,
+      "name": "OMEGA Public State Bridge",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 403,
+      "event": "push",
+      "head_sha": "3664608636361e8c9b0a7a7a8a60992a281e86cb",
+      "created_at": "2026-08-23T22:55:04Z",
+      "updated_at": "2026-08-23T22:55:08Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32672046137"
+    },
+    {
+      "id": 32672036338,
+      "name": "OMEGA Consolidated Evidence Pipeline V2",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 38,
+      "event": "push",
+      "head_sha": "5e9bb3f8e1de7bc62d95c77512c08bdb4d1d9371",
+      "created_at": "2026-08-23T22:54:54Z",
+      "updated_at": "2026-08-23T22:55:02Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32672036338"
+    },
+    {
+      "id": 32672036315,
+      "name": "OMEGA Consolidated Evidence Pipeline",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 38,
+      "event": "push",
+      "head_sha": "5e9bb3f8e1de7bc62d95c77512c08bdb4d1d9371",
+      "created_at": "2026-08-23T22:54:54Z",
+      "updated_at": "2026-08-23T22:54:59Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32672036315"
+    },
+    {
+      "id": 32671262000,
+      "name": "OMEGA Zero Spend Public Data Probe V1",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 5,
       "event": "push",
       "head_sha": "1478eaa60ecd18883c893a85c16ab2bfd9d07db2",
       "created_at": "2026-08-23T22:39:38Z",
-      "updated_at": "2026-08-23T22:39:41Z",
+      "updated_at": "2026-08-23T22:40:42Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32671262000"
     },
     {
       "id": 32671261971,
       "name": "OMEGA Public State Bridge",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 402,
       "event": "push",
       "head_sha": "1478eaa60ecd18883c893a85c16ab2bfd9d07db2",
       "created_at": "2026-08-23T22:39:38Z",
-      "updated_at": "2026-08-23T22:39:41Z",
+      "updated_at": "2026-08-23T22:39:49Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32671261971"
     },
     {
@@ -600,57 +648,74 @@
       "created_at": "2026-08-23T13:48:40Z",
       "updated_at": "2026-08-23T13:48:43Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32643483562"
-    },
-    {
-      "id": 32643455854,
-      "name": "OMEGA Core SEC CorpAction Filing Probe V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 42,
-      "event": "workflow_dispatch",
-      "head_sha": "7b9346cd6d198361f7ea8c0de7c8f2f668b1f290",
-      "created_at": "2026-08-23T13:48:09Z",
-      "updated_at": "2026-08-23T13:48:40Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32643455854"
-    },
-    {
-      "id": 32643121745,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 382,
-      "event": "workflow_run",
-      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
-      "created_at": "2026-08-23T13:41:36Z",
-      "updated_at": "2026-08-23T13:41:49Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32643121745"
-    },
-    {
-      "id": 32643093619,
-      "name": "OMEGA Core SEC CorpAction Filing Probe V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 41,
-      "event": "workflow_dispatch",
-      "head_sha": "a9649002a9a80188f62a96af17b708e0a4c2faaa",
-      "created_at": "2026-08-23T13:41:06Z",
-      "updated_at": "2026-08-23T13:41:35Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32643093619"
-    },
-    {
-      "id": 32642487917,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 381,
-      "event": "workflow_run",
-      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
-      "created_at": "2026-08-23T13:29:15Z",
-      "updated_at": "2026-08-23T13:29:25Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32642487917"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9501637243,
+      "name": "omega-v2-branch-pit-plumbing-replay",
+      "size_in_bytes": 31253875,
+      "digest": "sha256:0447268eebc633d5bf6b34627592d1f5674bfb230bb16b354c6407ecb99fc7ab",
+      "expired": false,
+      "created_at": "2026-08-23T22:55:04Z",
+      "updated_at": "2026-08-23T22:55:04Z",
+      "workflow_run": {
+        "id": 32672036338,
+        "head_sha": "5e9bb3f8e1de7bc62d95c77512c08bdb4d1d9371"
+      }
+    },
+    {
+      "id": 9501636830,
+      "name": "omega-v2-branch-performance",
+      "size_in_bytes": 1762,
+      "digest": "sha256:879bd52a7aee7ebf18dc7245ca21859d79ab65eca50ba2b68eaa9f327a4dc18f",
+      "expired": false,
+      "created_at": "2026-08-23T22:55:02Z",
+      "updated_at": "2026-08-23T22:55:02Z",
+      "workflow_run": {
+        "id": 32672036338,
+        "head_sha": "5e9bb3f8e1de7bc62d95c77512c08bdb4d1d9371"
+      }
+    },
+    {
+      "id": 9501636639,
+      "name": "omega-branch-performance",
+      "size_in_bytes": 1765,
+      "digest": "sha256:5b1092237a6d43944706d98e8093eae2768bc6ea0b3105c0155aa1a2503de0f9",
+      "expired": false,
+      "created_at": "2026-08-23T22:55:01Z",
+      "updated_at": "2026-08-23T22:55:01Z",
+      "workflow_run": {
+        "id": 32672036315,
+        "head_sha": "5e9bb3f8e1de7bc62d95c77512c08bdb4d1d9371"
+      }
+    },
+    {
+      "id": 9501636527,
+      "name": "omega-branch-pit-plumbing-replay",
+      "size_in_bytes": 1854,
+      "digest": "sha256:f062478af5dee65c598fc0383518d7fb3dc85020b6082937c90f0a2657734aff",
+      "expired": false,
+      "created_at": "2026-08-23T22:55:01Z",
+      "updated_at": "2026-08-23T22:55:01Z",
+      "workflow_run": {
+        "id": 32672036315,
+        "head_sha": "5e9bb3f8e1de7bc62d95c77512c08bdb4d1d9371"
+      }
+    },
+    {
+      "id": 9501446526,
+      "name": "omega-zero-spend-public-data-probe-v1",
+      "size_in_bytes": 2050,
+      "digest": "sha256:8fde5bc1ddd027710df44118b1b061842ec30d97895782c415f933ef198a61e9",
+      "expired": false,
+      "created_at": "2026-08-23T22:40:38Z",
+      "updated_at": "2026-08-23T22:40:38Z",
+      "workflow_run": {
+        "id": 32671262000,
+        "head_sha": "1478eaa60ecd18883c893a85c16ab2bfd9d07db2"
+      }
+    },
     {
       "id": 9501323871,
       "name": "omega-zero-spend-public-data-probe-v1",
@@ -1884,32 +1949,6 @@
       "workflow_run": {
         "id": 32361624534,
         "head_sha": "68f94c60f0270d51104793ec238cac53da865f31"
-      }
-    },
-    {
-      "id": 9403672383,
-      "name": "omega-research-cftc-geometry-v1-32361479675",
-      "size_in_bytes": 41651251,
-      "digest": "sha256:d37b9c24c69a42dc3deba4387fe11d9832ea3adc8fcb3701b6e377765892f73b",
-      "expired": false,
-      "created_at": "2026-08-20T10:58:09Z",
-      "updated_at": "2026-08-20T10:58:09Z",
-      "workflow_run": {
-        "id": 32361479675,
-        "head_sha": "3a23c403a49212eec9aa784798b9e25ad25531cc"
-      }
-    },
-    {
-      "id": 9402509142,
-      "name": "omega-fdic-local-deposit-freeze-v1",
-      "size_in_bytes": 20810627,
-      "digest": "sha256:3fdf2ce9039426cba7fb61ecd2a1568541c56493cc2dbf65b1f589f432ff4bc2",
-      "expired": false,
-      "created_at": "2026-08-20T10:18:36Z",
-      "updated_at": "2026-08-20T10:18:36Z",
-      "workflow_run": {
-        "id": 32358133672,
-        "head_sha": "0435aab1faa68ff315784ac3f57ac94ce0bd4b3e"
       }
     }
   ]
