@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-23T22:23:37Z",
+  "generated_at": "2026-08-23T22:26:24Z",
   "source": {
     "branch": "main",
-    "head_sha": "91f73203584cce4b8055bec913886e276ca43178",
-    "publisher_run_id": 32670432179,
-    "publisher_run_number": 397,
+    "head_sha": "5add6be8f8542a130d5d3db33187d161dc3be19d",
+    "publisher_run_id": 32670575933,
+    "publisher_run_number": 398,
     "trigger_event": "push"
   },
   "runtime": {
@@ -50,27 +50,63 @@
   },
   "workflow_runs": [
     {
-      "id": 32670432179,
+      "id": 32670575949,
+      "name": "OMEGA Zero Spend Public Data Probe V1",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_number": 2,
+      "event": "push",
+      "head_sha": "5add6be8f8542a130d5d3db33187d161dc3be19d",
+      "created_at": "2026-08-23T22:26:17Z",
+      "updated_at": "2026-08-23T22:26:19Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32670575949"
+    },
+    {
+      "id": 32670575933,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 398,
+      "event": "push",
+      "head_sha": "5add6be8f8542a130d5d3db33187d161dc3be19d",
+      "created_at": "2026-08-23T22:26:17Z",
+      "updated_at": "2026-08-23T22:26:20Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32670575933"
+    },
+    {
+      "id": 32670565571,
+      "name": "OMEGA Zero Spend Public Data Probe V1",
+      "status": "completed",
+      "conclusion": "failure",
+      "run_number": 2,
+      "event": "push",
+      "head_sha": "bd502c13fd30204d0eaab512150f0c56a382a820",
+      "created_at": "2026-08-23T22:26:06Z",
+      "updated_at": "2026-08-23T22:26:18Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32670565571"
+    },
+    {
+      "id": 32670432179,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 397,
       "event": "push",
       "head_sha": "91f73203584cce4b8055bec913886e276ca43178",
       "created_at": "2026-08-23T22:23:27Z",
-      "updated_at": "2026-08-23T22:23:30Z",
+      "updated_at": "2026-08-23T22:23:42Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32670432179"
     },
     {
       "id": 32670432166,
       "name": "OMEGA Zero Spend Public Data Probe V1",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "failure",
       "run_number": 1,
       "event": "push",
       "head_sha": "91f73203584cce4b8055bec913886e276ca43178",
       "created_at": "2026-08-23T22:23:27Z",
-      "updated_at": "2026-08-23T22:23:30Z",
+      "updated_at": "2026-08-23T22:23:36Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32670432166"
     },
     {
@@ -612,42 +648,6 @@
       "created_at": "2026-08-23T07:52:00Z",
       "updated_at": "2026-08-23T07:52:14Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32626713526"
-    },
-    {
-      "id": 32625364623,
-      "name": "OMEGA Simulation Telemetry Heartbeat V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 67,
-      "event": "schedule",
-      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
-      "created_at": "2026-08-23T07:21:49Z",
-      "updated_at": "2026-08-23T07:22:02Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32625364623"
-    },
-    {
-      "id": 32621353434,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 376,
-      "event": "schedule",
-      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
-      "created_at": "2026-08-23T05:50:14Z",
-      "updated_at": "2026-08-23T05:50:28Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32621353434"
-    },
-    {
-      "id": 32619504052,
-      "name": "OMEGA Simulation Telemetry Heartbeat V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 66,
-      "event": "schedule",
-      "head_sha": "1ae5704dc47ba7d234862b48755e77950c68430e",
-      "created_at": "2026-08-23T05:05:57Z",
-      "updated_at": "2026-08-23T05:06:10Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32619504052"
     }
   ],
   "omega_artifacts": [
