@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-23T22:57:38Z",
+  "generated_at": "2026-08-23T22:57:52Z",
   "source": {
     "branch": "main",
     "head_sha": "7c61a921a65616d12ba61ab678acba427d857be6",
-    "publisher_run_id": 32672162951,
-    "publisher_run_number": 408,
-    "trigger_event": "push"
+    "publisher_run_id": 32672178771,
+    "publisher_run_number": 409,
+    "trigger_event": "schedule"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -50,27 +50,39 @@
   },
   "workflow_runs": [
     {
-      "id": 32672162951,
+      "id": 32672178771,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 409,
+      "event": "schedule",
+      "head_sha": "7c61a921a65616d12ba61ab678acba427d857be6",
+      "created_at": "2026-08-23T22:57:44Z",
+      "updated_at": "2026-08-23T22:57:47Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32672178771"
+    },
+    {
+      "id": 32672162951,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 408,
       "event": "push",
       "head_sha": "7c61a921a65616d12ba61ab678acba427d857be6",
       "created_at": "2026-08-23T22:57:26Z",
-      "updated_at": "2026-08-23T22:57:34Z",
+      "updated_at": "2026-08-23T22:57:42Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32672162951"
     },
     {
       "id": 32672162939,
       "name": "OMEGA Forward CEF Watch V1",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 4,
       "event": "push",
       "head_sha": "7c61a921a65616d12ba61ab678acba427d857be6",
       "created_at": "2026-08-23T22:57:26Z",
-      "updated_at": "2026-08-23T22:57:30Z",
+      "updated_at": "2026-08-23T22:57:37Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32672162939"
     },
     {
@@ -130,7 +142,7 @@
       "event": "push",
       "head_sha": "39f02e324f6f72beaa83b54563e36b8a15266829",
       "created_at": "2026-08-23T22:57:11Z",
-      "updated_at": "2026-08-23T22:57:16Z",
+      "updated_at": "2026-08-23T22:57:48Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32672150459"
     },
     {
@@ -636,21 +648,22 @@
       "created_at": "2026-08-23T19:39:51Z",
       "updated_at": "2026-08-23T19:40:06Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32661951896"
-    },
-    {
-      "id": 32661826965,
-      "name": "OMEGA Network FDIC Freeze V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 15,
-      "event": "pull_request",
-      "head_sha": "c7599c92a6dff76d6472b655d474e97d4e2373e6",
-      "created_at": "2026-08-23T19:37:31Z",
-      "updated_at": "2026-08-23T19:39:43Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32661826965"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9501669983,
+      "name": "omega-v2-branch-drd-extractor-v2",
+      "size_in_bytes": 10714,
+      "digest": "sha256:e78130ca78507171235c94f7d3b23b9753ed1e7817042d6ba196a6e116ab6c4d",
+      "expired": false,
+      "created_at": "2026-08-23T22:57:42Z",
+      "updated_at": "2026-08-23T22:57:42Z",
+      "workflow_run": {
+        "id": 32672150459,
+        "head_sha": "39f02e324f6f72beaa83b54563e36b8a15266829"
+      }
+    },
     {
       "id": 9501668353,
       "name": "omega-forward-cef-watch-32672162939",
@@ -1933,19 +1946,6 @@
       "expired": false,
       "created_at": "2026-08-20T11:04:16Z",
       "updated_at": "2026-08-20T11:04:16Z",
-      "workflow_run": {
-        "id": 32361934559,
-        "head_sha": "b4037aae69ba5a372f0e64a773798845f82ce048"
-      }
-    },
-    {
-      "id": 9403841228,
-      "name": "omega-v2-branch-pit-plumbing-replay",
-      "size_in_bytes": 31254017,
-      "digest": "sha256:0f80a8187f9f7fdc3ce4efe37ea328891e95e0f414938c852e472e4e435703ba",
-      "expired": false,
-      "created_at": "2026-08-20T11:04:00Z",
-      "updated_at": "2026-08-20T11:04:00Z",
       "workflow_run": {
         "id": 32361934559,
         "head_sha": "b4037aae69ba5a372f0e64a773798845f82ce048"
