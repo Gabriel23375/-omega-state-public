@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-24T14:04:36Z",
+  "generated_at": "2026-08-24T16:06:08Z",
   "source": {
     "branch": "main",
     "head_sha": "eeacf460ca53a3112f159d6de237218a321ec9c3",
-    "publisher_run_id": 32736436350,
-    "publisher_run_number": 422,
+    "publisher_run_id": 32748839019,
+    "publisher_run_number": 423,
     "trigger_event": "schedule"
   },
   "runtime": {
@@ -50,15 +50,39 @@
   },
   "workflow_runs": [
     {
-      "id": 32736436350,
+      "id": 32748839019,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 423,
+      "event": "schedule",
+      "head_sha": "eeacf460ca53a3112f159d6de237218a321ec9c3",
+      "created_at": "2026-08-24T16:05:59Z",
+      "updated_at": "2026-08-24T16:06:03Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32748839019"
+    },
+    {
+      "id": 32736852780,
+      "name": "OMEGA Simulation Telemetry Heartbeat V1",
+      "status": "completed",
+      "conclusion": "failure",
+      "run_number": 82,
+      "event": "schedule",
+      "head_sha": "eeacf460ca53a3112f159d6de237218a321ec9c3",
+      "created_at": "2026-08-24T14:08:26Z",
+      "updated_at": "2026-08-24T14:08:35Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32736852780"
+    },
+    {
+      "id": 32736436350,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 422,
       "event": "schedule",
       "head_sha": "eeacf460ca53a3112f159d6de237218a321ec9c3",
       "created_at": "2026-08-24T14:04:26Z",
-      "updated_at": "2026-08-24T14:04:30Z",
+      "updated_at": "2026-08-24T14:04:40Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32736436350"
     },
     {
@@ -624,30 +648,6 @@
       "created_at": "2026-08-23T22:57:11Z",
       "updated_at": "2026-08-23T23:07:23Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32672150516"
-    },
-    {
-      "id": 32672150461,
-      "name": "OMEGA Forward CEF Watch V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 3,
-      "event": "push",
-      "head_sha": "39f02e324f6f72beaa83b54563e36b8a15266829",
-      "created_at": "2026-08-23T22:57:11Z",
-      "updated_at": "2026-08-23T22:57:22Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32672150461"
-    },
-    {
-      "id": 32672150459,
-      "name": "OMEGA Consolidated Evidence Pipeline V2",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 40,
-      "event": "push",
-      "head_sha": "39f02e324f6f72beaa83b54563e36b8a15266829",
-      "created_at": "2026-08-23T22:57:11Z",
-      "updated_at": "2026-08-23T22:57:56Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32672150459"
     }
   ],
   "omega_artifacts": [
