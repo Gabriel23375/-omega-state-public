@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-25T20:51:07Z",
+  "generated_at": "2026-08-25T22:00:15Z",
   "source": {
     "branch": "main",
     "head_sha": "4c50a837809fbc7de6bf239737a29b2532e98d2f",
-    "publisher_run_id": 32897709754,
-    "publisher_run_number": 436,
+    "publisher_run_id": 32903964118,
+    "publisher_run_number": 437,
     "trigger_event": "schedule"
   },
   "runtime": {
@@ -50,15 +50,75 @@
   },
   "workflow_runs": [
     {
-      "id": 32897709754,
+      "id": 32903964118,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 437,
+      "event": "schedule",
+      "head_sha": "4c50a837809fbc7de6bf239737a29b2532e98d2f",
+      "created_at": "2026-08-25T22:00:07Z",
+      "updated_at": "2026-08-25T22:00:10Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32903964118"
+    },
+    {
+      "id": 32901260234,
+      "name": "OMEGA Continuous Intelligence tests",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 4,
+      "event": "pull_request",
+      "head_sha": "b34ebc732d54abb47b6e45f770c533932a23845f",
+      "created_at": "2026-08-25T21:29:18Z",
+      "updated_at": "2026-08-25T21:30:12Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32901260234"
+    },
+    {
+      "id": 32900779840,
+      "name": "OMEGA Continuous Intelligence tests",
+      "status": "completed",
+      "conclusion": "failure",
+      "run_number": 3,
+      "event": "pull_request",
+      "head_sha": "f399b8d26c1947e59917b958c66a79a03bb4b947",
+      "created_at": "2026-08-25T21:23:51Z",
+      "updated_at": "2026-08-25T21:24:41Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32900779840"
+    },
+    {
+      "id": 32899877083,
+      "name": "OMEGA Forward CEF Watch V1",
+      "status": "completed",
+      "conclusion": "failure",
+      "run_number": 6,
+      "event": "schedule",
+      "head_sha": "4c50a837809fbc7de6bf239737a29b2532e98d2f",
+      "created_at": "2026-08-25T21:13:54Z",
+      "updated_at": "2026-08-25T21:14:08Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32899877083"
+    },
+    {
+      "id": 32898328749,
+      "name": "OMEGA Simulation Telemetry Heartbeat V1",
+      "status": "completed",
+      "conclusion": "failure",
+      "run_number": 96,
+      "event": "schedule",
+      "head_sha": "4c50a837809fbc7de6bf239737a29b2532e98d2f",
+      "created_at": "2026-08-25T20:57:32Z",
+      "updated_at": "2026-08-25T20:57:44Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32898328749"
+    },
+    {
+      "id": 32897709754,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 436,
       "event": "schedule",
       "head_sha": "4c50a837809fbc7de6bf239737a29b2532e98d2f",
       "created_at": "2026-08-25T20:51:00Z",
-      "updated_at": "2026-08-25T20:51:03Z",
+      "updated_at": "2026-08-25T20:51:11Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32897709754"
     },
     {
@@ -588,66 +648,6 @@
       "created_at": "2026-08-24T11:36:03Z",
       "updated_at": "2026-08-24T11:36:20Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32722681265"
-    },
-    {
-      "id": 32722252103,
-      "name": "OMEGA Research Factory Mechanical Validation V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 13,
-      "event": "push",
-      "head_sha": "f6d137ab056ab8810792a97386f7cc468d3adab8",
-      "created_at": "2026-08-24T11:31:01Z",
-      "updated_at": "2026-08-24T11:31:13Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32722252103"
-    },
-    {
-      "id": 32720801301,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 421,
-      "event": "workflow_run",
-      "head_sha": "ac1f734dffe66f1cc72df173754830ca9f0e5001",
-      "created_at": "2026-08-24T11:13:59Z",
-      "updated_at": "2026-08-24T11:14:12Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32720801301"
-    },
-    {
-      "id": 32720719737,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 420,
-      "event": "workflow_run",
-      "head_sha": "ac1f734dffe66f1cc72df173754830ca9f0e5001",
-      "created_at": "2026-08-24T11:13:03Z",
-      "updated_at": "2026-08-24T11:13:20Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32720719737"
-    },
-    {
-      "id": 32720545158,
-      "name": "OMEGA Consolidated Evidence Pipeline V2",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 42,
-      "event": "push",
-      "head_sha": "ac1f734dffe66f1cc72df173754830ca9f0e5001",
-      "created_at": "2026-08-24T11:11:06Z",
-      "updated_at": "2026-08-24T11:13:01Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32720545158"
-    },
-    {
-      "id": 32720545143,
-      "name": "OMEGA Consolidated Evidence Pipeline",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 42,
-      "event": "push",
-      "head_sha": "ac1f734dffe66f1cc72df173754830ca9f0e5001",
-      "created_at": "2026-08-24T11:11:06Z",
-      "updated_at": "2026-08-24T11:13:57Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32720545143"
     }
   ],
   "omega_artifacts": [
