@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-26T03:39:10Z",
+  "generated_at": "2026-08-26T05:59:31Z",
   "source": {
     "branch": "main",
     "head_sha": "4c50a837809fbc7de6bf239737a29b2532e98d2f",
-    "publisher_run_id": 32927240180,
-    "publisher_run_number": 439,
+    "publisher_run_id": 32936230478,
+    "publisher_run_number": 440,
     "trigger_event": "schedule"
   },
   "runtime": {
@@ -50,15 +50,39 @@
   },
   "workflow_runs": [
     {
-      "id": 32927240180,
+      "id": 32936230478,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 440,
+      "event": "schedule",
+      "head_sha": "4c50a837809fbc7de6bf239737a29b2532e98d2f",
+      "created_at": "2026-08-26T05:59:24Z",
+      "updated_at": "2026-08-26T05:59:27Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32936230478"
+    },
+    {
+      "id": 32933489548,
+      "name": "OMEGA Simulation Telemetry Heartbeat V1",
+      "status": "completed",
+      "conclusion": "failure",
+      "run_number": 99,
+      "event": "schedule",
+      "head_sha": "4c50a837809fbc7de6bf239737a29b2532e98d2f",
+      "created_at": "2026-08-26T05:17:39Z",
+      "updated_at": "2026-08-26T05:17:51Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32933489548"
+    },
+    {
+      "id": 32927240180,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 439,
       "event": "schedule",
       "head_sha": "4c50a837809fbc7de6bf239737a29b2532e98d2f",
       "created_at": "2026-08-26T03:39:02Z",
-      "updated_at": "2026-08-26T03:39:06Z",
+      "updated_at": "2026-08-26T03:39:14Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32927240180"
     },
     {
@@ -624,30 +648,6 @@
       "created_at": "2026-08-24T19:05:52Z",
       "updated_at": "2026-08-24T19:06:24Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32766181559"
-    },
-    {
-      "id": 32765924209,
-      "name": "OMEGA C3 preflight tests",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 1,
-      "event": "pull_request",
-      "head_sha": "5c846f85f24044965b53c7ba33eb328c0a556be2",
-      "created_at": "2026-08-24T19:03:18Z",
-      "updated_at": "2026-08-24T19:03:39Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32765924209"
-    },
-    {
-      "id": 32765924203,
-      "name": "OMEGA Network FDIC Freeze V1",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 22,
-      "event": "pull_request",
-      "head_sha": "5c846f85f24044965b53c7ba33eb328c0a556be2",
-      "created_at": "2026-08-24T19:03:18Z",
-      "updated_at": "2026-08-24T19:05:10Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/32765924203"
     }
   ],
   "omega_artifacts": [
