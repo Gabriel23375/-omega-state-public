@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-28T21:55:08Z",
+  "generated_at": "2026-08-28T22:23:24Z",
   "source": {
     "branch": "main",
     "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
-    "publisher_run_id": 33214604780,
-    "publisher_run_number": 452,
+    "publisher_run_id": 33216587243,
+    "publisher_run_number": 453,
     "trigger_event": "schedule"
   },
   "runtime": {
@@ -50,15 +50,39 @@
   },
   "workflow_runs": [
     {
-      "id": 33214604780,
+      "id": 33216587243,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 453,
+      "event": "schedule",
+      "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
+      "created_at": "2026-08-28T22:23:17Z",
+      "updated_at": "2026-08-28T22:23:20Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33216587243"
+    },
+    {
+      "id": 33214988261,
+      "name": "OMEGA Forward CEF Watch V1",
+      "status": "completed",
+      "conclusion": "failure",
+      "run_number": 8,
+      "event": "schedule",
+      "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
+      "created_at": "2026-08-28T22:00:18Z",
+      "updated_at": "2026-08-28T22:00:28Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33214988261"
+    },
+    {
+      "id": 33214604780,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 452,
       "event": "schedule",
       "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
       "created_at": "2026-08-28T21:54:58Z",
-      "updated_at": "2026-08-28T21:55:01Z",
+      "updated_at": "2026-08-28T21:55:12Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33214604780"
     },
     {
@@ -624,30 +648,6 @@
       "created_at": "2026-08-27T21:22:11Z",
       "updated_at": "2026-08-27T21:31:40Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33117821987"
-    },
-    {
-      "id": 33114229370,
-      "name": "OMEGA Network FDIC Freeze V1",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 48,
-      "event": "pull_request",
-      "head_sha": "ee7a7554cd335cb73b39a42539ca4943497b9745",
-      "created_at": "2026-08-27T20:37:29Z",
-      "updated_at": "2026-08-27T20:39:34Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33114229370"
-    },
-    {
-      "id": 33114229334,
-      "name": "OMEGA Continuous Intelligence tests",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 29,
-      "event": "pull_request",
-      "head_sha": "ee7a7554cd335cb73b39a42539ca4943497b9745",
-      "created_at": "2026-08-27T20:37:29Z",
-      "updated_at": "2026-08-27T20:38:45Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33114229334"
     }
   ],
   "omega_artifacts": [
