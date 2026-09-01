@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-01T22:26:53Z",
+  "generated_at": "2026-09-01T23:24:21Z",
   "source": {
     "branch": "main",
     "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
-    "publisher_run_id": 33566325696,
-    "publisher_run_number": 551,
+    "publisher_run_id": 33570861875,
+    "publisher_run_number": 552,
     "trigger_event": "schedule"
   },
   "runtime": {
@@ -50,15 +50,39 @@
   },
   "workflow_runs": [
     {
-      "id": 33566325696,
+      "id": 33570861875,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 552,
+      "event": "schedule",
+      "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
+      "created_at": "2026-09-01T23:24:15Z",
+      "updated_at": "2026-09-01T23:24:18Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33570861875"
+    },
+    {
+      "id": 33567817052,
+      "name": "OMEGA Simulation Telemetry Heartbeat V1",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 202,
+      "event": "schedule",
+      "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
+      "created_at": "2026-09-01T22:45:18Z",
+      "updated_at": "2026-09-01T22:45:31Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33567817052"
+    },
+    {
+      "id": 33566325696,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 551,
       "event": "schedule",
       "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
       "created_at": "2026-09-01T22:26:45Z",
-      "updated_at": "2026-09-01T22:26:49Z",
+      "updated_at": "2026-09-01T22:26:58Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33566325696"
     },
     {
@@ -624,33 +648,22 @@
       "created_at": "2026-09-01T17:31:18Z",
       "updated_at": "2026-09-01T17:31:31Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33538257988"
-    },
-    {
-      "id": 33538257975,
-      "name": "OMEGA Treasury Auction Geometry",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 2,
-      "event": "push",
-      "head_sha": "7b2d8f46033fac471548ec943b4977f586b20c40",
-      "created_at": "2026-09-01T17:31:18Z",
-      "updated_at": "2026-09-01T17:32:22Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33538257975"
-    },
-    {
-      "id": 33538257967,
-      "name": "OMEGA Core Close Validator V5",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 2,
-      "event": "push",
-      "head_sha": "7b2d8f46033fac471548ec943b4977f586b20c40",
-      "created_at": "2026-09-01T17:31:18Z",
-      "updated_at": "2026-09-01T17:31:30Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33538257967"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9823800302,
+      "name": "omega-simulation-telemetry-heartbeat-v1-33567817052",
+      "size_in_bytes": 2138,
+      "digest": "sha256:6b39f1545207247b8dffa506b9139ef8a9ed882a236e17ef70e1d2fe6d19a21f",
+      "expired": false,
+      "created_at": "2026-09-01T22:45:26Z",
+      "updated_at": "2026-09-01T22:45:26Z",
+      "workflow_run": {
+        "id": 33567817052,
+        "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f"
+      }
+    },
     {
       "id": 9821907322,
       "name": "omega-simulation-telemetry-heartbeat-v1-33562801484",
@@ -1933,19 +1946,6 @@
       "expired": false,
       "created_at": "2026-08-23T22:56:39Z",
       "updated_at": "2026-08-23T22:56:39Z",
-      "workflow_run": {
-        "id": 32672098438,
-        "head_sha": "4cfda573a849432bbc0c89835e1ce45dab4e3c3e"
-      }
-    },
-    {
-      "id": 9501655028,
-      "name": "omega-v2-branch-security-master-2024",
-      "size_in_bytes": 10901192,
-      "digest": "sha256:066592a8b33d1834b2603b26fb6fe4f4bf492808ef82cae90a1676b11a654345",
-      "expired": false,
-      "created_at": "2026-08-23T22:56:31Z",
-      "updated_at": "2026-08-23T22:56:31Z",
       "workflow_run": {
         "id": 32672098438,
         "head_sha": "4cfda573a849432bbc0c89835e1ce45dab4e3c3e"
