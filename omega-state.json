@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-02T00:36:49Z",
+  "generated_at": "2026-09-02T01:26:51Z",
   "source": {
     "branch": "main",
     "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
-    "publisher_run_id": 33576039632,
-    "publisher_run_number": 553,
+    "publisher_run_id": 33579408690,
+    "publisher_run_number": 554,
     "trigger_event": "schedule"
   },
   "runtime": {
@@ -50,15 +50,39 @@
   },
   "workflow_runs": [
     {
-      "id": 33576039632,
+      "id": 33579408690,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 554,
+      "event": "schedule",
+      "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
+      "created_at": "2026-09-02T01:26:44Z",
+      "updated_at": "2026-09-02T01:26:47Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33579408690"
+    },
+    {
+      "id": 33576937164,
+      "name": "OMEGA Simulation Telemetry Heartbeat V1",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 204,
+      "event": "schedule",
+      "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
+      "created_at": "2026-09-02T00:50:05Z",
+      "updated_at": "2026-09-02T00:50:14Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33576937164"
+    },
+    {
+      "id": 33576039632,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 553,
       "event": "schedule",
       "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
       "created_at": "2026-09-02T00:36:43Z",
-      "updated_at": "2026-09-02T00:36:46Z",
+      "updated_at": "2026-09-02T00:36:53Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33576039632"
     },
     {
@@ -624,33 +648,22 @@
       "created_at": "2026-09-01T18:59:27Z",
       "updated_at": "2026-09-01T19:01:25Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33546870840"
-    },
-    {
-      "id": 33546870778,
-      "name": "OMEGA Core Close Validator V5",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 3,
-      "event": "push",
-      "head_sha": "d44693c464f6866fedd5825c9aadba14dd057ef1",
-      "created_at": "2026-09-01T18:59:27Z",
-      "updated_at": "2026-09-01T18:59:38Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33546870778"
-    },
-    {
-      "id": 33546870707,
-      "name": "OMEGA Decision Relevance V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 8,
-      "event": "push",
-      "head_sha": "d44693c464f6866fedd5825c9aadba14dd057ef1",
-      "created_at": "2026-09-01T18:59:26Z",
-      "updated_at": "2026-09-01T18:59:40Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33546870707"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9826957563,
+      "name": "omega-simulation-telemetry-heartbeat-v1-33576937164",
+      "size_in_bytes": 2138,
+      "digest": "sha256:c40838ec100d468783a9cf6b88695cc697952a777cebaaeb4768aeffd37a520e",
+      "expired": false,
+      "created_at": "2026-09-02T00:50:11Z",
+      "updated_at": "2026-09-02T00:50:11Z",
+      "workflow_run": {
+        "id": 33576937164,
+        "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f"
+      }
+    },
     {
       "id": 9826264255,
       "name": "omega-fdic-local-deposit-freeze-v1",
@@ -1930,19 +1943,6 @@
       "name": "omega-branch-pit-plumbing-replay",
       "size_in_bytes": 1850,
       "digest": "sha256:1df893224ae02e0b6c002bf255882c126d3de98dc784e50de6d3fdfab2ad127f",
-      "expired": false,
-      "created_at": "2026-08-23T22:57:22Z",
-      "updated_at": "2026-08-23T22:57:22Z",
-      "workflow_run": {
-        "id": 32672150516,
-        "head_sha": "39f02e324f6f72beaa83b54563e36b8a15266829"
-      }
-    },
-    {
-      "id": 9501665862,
-      "name": "omega-branch-performance",
-      "size_in_bytes": 1771,
-      "digest": "sha256:590895f52cf8b9c793347c17122e0714f7e32cc64de62ff53657b873217feab2",
       "expired": false,
       "created_at": "2026-08-23T22:57:22Z",
       "updated_at": "2026-08-23T22:57:22Z",
