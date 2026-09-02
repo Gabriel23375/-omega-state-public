@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-02T07:28:37Z",
+  "generated_at": "2026-09-02T08:30:22Z",
   "source": {
     "branch": "main",
     "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
-    "publisher_run_id": 33603742753,
-    "publisher_run_number": 560,
+    "publisher_run_id": 33609051850,
+    "publisher_run_number": 561,
     "trigger_event": "schedule"
   },
   "runtime": {
@@ -50,15 +50,39 @@
   },
   "workflow_runs": [
     {
-      "id": 33603742753,
+      "id": 33609051850,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 561,
+      "event": "schedule",
+      "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
+      "created_at": "2026-09-02T08:30:14Z",
+      "updated_at": "2026-09-02T08:30:18Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33609051850"
+    },
+    {
+      "id": 33605305098,
+      "name": "OMEGA Simulation Telemetry Heartbeat V1",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 211,
+      "event": "schedule",
+      "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
+      "created_at": "2026-09-02T07:47:01Z",
+      "updated_at": "2026-09-02T07:47:11Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33605305098"
+    },
+    {
+      "id": 33603742753,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 560,
       "event": "schedule",
       "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
       "created_at": "2026-09-02T07:28:26Z",
-      "updated_at": "2026-09-02T07:28:32Z",
+      "updated_at": "2026-09-02T07:28:42Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33603742753"
     },
     {
@@ -624,33 +648,22 @@
       "created_at": "2026-09-01T19:47:42Z",
       "updated_at": "2026-09-01T19:47:56Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33551570964"
-    },
-    {
-      "id": 33551570946,
-      "name": "OMEGA RegSHO Rule201 Geometry V1",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 5,
-      "event": "push",
-      "head_sha": "44cb51afec29ee775561683b506653ff0d2916ab",
-      "created_at": "2026-09-01T19:47:42Z",
-      "updated_at": "2026-09-01T19:50:40Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33551570946"
-    },
-    {
-      "id": 33551570942,
-      "name": "OMEGA Treasury Auction Geometry",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 4,
-      "event": "push",
-      "head_sha": "44cb51afec29ee775561683b506653ff0d2916ab",
-      "created_at": "2026-09-01T19:47:42Z",
-      "updated_at": "2026-09-01T19:47:56Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33551570942"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 9836744320,
+      "name": "omega-simulation-telemetry-heartbeat-v1-33605305098",
+      "size_in_bytes": 2138,
+      "digest": "sha256:a16d9730195d61f40ce782ca7db07ff41971e73cbe542280cfccf4026b140db2",
+      "expired": false,
+      "created_at": "2026-09-02T07:47:07Z",
+      "updated_at": "2026-09-02T07:47:07Z",
+      "workflow_run": {
+        "id": 33605305098,
+        "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f"
+      }
+    },
     {
       "id": 9835064560,
       "name": "omega-simulation-telemetry-heartbeat-v1-33600733601",
@@ -1936,19 +1949,6 @@
       "workflow_run": {
         "id": 32672261550,
         "head_sha": "064db4514f2a0e760dcaa2b773d9452a93e55b6d"
-      }
-    },
-    {
-      "id": 9501692164,
-      "name": "omega-branch-drd-extractor-v2",
-      "size_in_bytes": 25619,
-      "digest": "sha256:e6ac124e342898d1fdfbe4218af087c1fb0a85b6a7b0cc3082d1fd86e172474d",
-      "expired": false,
-      "created_at": "2026-08-23T22:59:32Z",
-      "updated_at": "2026-08-23T22:59:32Z",
-      "workflow_run": {
-        "id": 32672150516,
-        "head_sha": "39f02e324f6f72beaa83b54563e36b8a15266829"
       }
     }
   ]
