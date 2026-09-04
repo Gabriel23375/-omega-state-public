@@ -1,8 +1,8 @@
 {
   "actual_simulation_count": null,
   "artifact": {
-    "artifact_digest": "f3325764e73146196eb76efcf4d5267963a534f1d060217a26ea2dfef544aa52",
-    "artifact_id": 9941750155
+    "artifact_digest": "bf07d95d7409999501b471e5e987a4c6539ea03d6ca39d766422ea924232f29c",
+    "artifact_id": 9943992228
   },
   "baseline_mean_terminal_wealth": null,
   "batch_id": null,
@@ -17,7 +17,7 @@
   "data_hashes": null,
   "decision": "UNDECIDED",
   "financial_replay_allowed": false,
-  "generated_at": "2026-09-04T14:47:32.700345+00:00",
+  "generated_at": "2026-09-04T15:47:03.295588+00:00",
   "historical_window_count": null,
   "job_id": null,
   "known_cost_parameters": {
@@ -71,5 +71,5 @@
   "throughput_simulations_per_hour": null,
   "turnover": null,
   "win_rate": null,
-  "workflow_run_id": 33885757946
+  "workflow_run_id": 33891447627
 }
