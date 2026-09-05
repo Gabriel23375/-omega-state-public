@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-05T15:26:42Z",
+  "generated_at": "2026-09-05T16:27:30Z",
   "source": {
     "branch": "main",
     "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
-    "publisher_run_id": 33974812756,
-    "publisher_run_number": 638,
+    "publisher_run_id": 33977916605,
+    "publisher_run_number": 639,
     "trigger_event": "schedule"
   },
   "runtime": {
@@ -50,27 +50,51 @@
   },
   "workflow_runs": [
     {
-      "id": 33974812756,
+      "id": 33977916605,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 639,
+      "event": "schedule",
+      "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
+      "created_at": "2026-09-05T16:27:22Z",
+      "updated_at": "2026-09-05T16:27:25Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33977916605"
+    },
+    {
+      "id": 33975735068,
+      "name": "OMEGA Simulation Telemetry Heartbeat V1",
+      "status": "completed",
+      "conclusion": "failure",
+      "run_number": 289,
+      "event": "schedule",
+      "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
+      "created_at": "2026-09-05T15:44:55Z",
+      "updated_at": "2026-09-05T15:45:06Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33975735068"
+    },
+    {
+      "id": 33974812756,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 638,
       "event": "schedule",
       "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
       "created_at": "2026-09-05T15:26:34Z",
-      "updated_at": "2026-09-05T15:26:38Z",
+      "updated_at": "2026-09-05T15:26:46Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33974812756"
     },
     {
       "id": 33974599891,
       "name": "OMEGA Continuous Intelligence tests",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "failure",
       "run_number": 188,
       "event": "pull_request",
       "head_sha": "764dff88fe9628b65c9e8a897155a471c1a6d28c",
       "created_at": "2026-09-05T15:22:27Z",
-      "updated_at": "2026-09-05T15:22:30Z",
+      "updated_at": "2026-09-05T15:37:30Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33974599891"
     },
     {
@@ -88,13 +112,13 @@
     {
       "id": 33974599837,
       "name": "OMEGA Empirical Factory V4",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "failure",
       "run_number": 178,
       "event": "pull_request",
       "head_sha": "764dff88fe9628b65c9e8a897155a471c1a6d28c",
       "created_at": "2026-09-05T15:22:27Z",
-      "updated_at": "2026-09-05T15:22:31Z",
+      "updated_at": "2026-09-05T15:37:17Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33974599837"
     },
     {
@@ -624,30 +648,6 @@
       "created_at": "2026-09-05T07:45:10Z",
       "updated_at": "2026-09-05T07:45:23Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33953408530"
-    },
-    {
-      "id": 33952813193,
-      "name": "OMEGA Continuous Intelligence tests",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 178,
-      "event": "pull_request",
-      "head_sha": "cf3173937f8d80dfe6da06c43ae2eeccc8187ee8",
-      "created_at": "2026-09-05T07:31:51Z",
-      "updated_at": "2026-09-05T07:33:44Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33952813193"
-    },
-    {
-      "id": 33952813186,
-      "name": "OMEGA Network FDIC Freeze V1",
-      "status": "completed",
-      "conclusion": "success",
-      "run_number": 197,
-      "event": "pull_request",
-      "head_sha": "cf3173937f8d80dfe6da06c43ae2eeccc8187ee8",
-      "created_at": "2026-09-05T07:31:51Z",
-      "updated_at": "2026-09-05T07:33:55Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/33952813186"
     }
   ],
   "omega_artifacts": [
