@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-11-02T13:40:58Z",
+  "generated_at": "2026-11-02T16:15:04Z",
   "source": {
     "branch": "main",
     "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
-    "publisher_run_id": 41455062759,
-    "publisher_run_number": 1002,
-    "trigger_event": "workflow_run"
+    "publisher_run_id": 41479588912,
+    "publisher_run_number": 1003,
+    "trigger_event": "schedule"
   },
   "runtime": {
     "canonical_execution_runtime": "github-actions",
@@ -50,15 +50,63 @@
   },
   "workflow_runs": [
     {
-      "id": 41455062759,
+      "id": 41479588912,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 1003,
+      "event": "schedule",
+      "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
+      "created_at": "2026-11-02T16:14:56Z",
+      "updated_at": "2026-11-02T16:15:00Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/41479588912"
+    },
+    {
+      "id": 41460262525,
+      "name": "OMEGA Continuous Intelligence tests",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "run_number": 723,
+      "event": "pull_request",
+      "head_sha": "a0326ab48cd46d2d324c1d1cf5245249cbdd12ba",
+      "created_at": "2026-11-02T14:15:50Z",
+      "updated_at": "2026-11-02T14:36:56Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/41460262525"
+    },
+    {
+      "id": 41460262522,
+      "name": "OMEGA Network FDIC Freeze V1",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 793,
+      "event": "pull_request",
+      "head_sha": "a0326ab48cd46d2d324c1d1cf5245249cbdd12ba",
+      "created_at": "2026-11-02T14:15:50Z",
+      "updated_at": "2026-11-02T14:18:05Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/41460262522"
+    },
+    {
+      "id": 41460262520,
+      "name": "OMEGA Empirical Factory V4",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "run_number": 713,
+      "event": "pull_request",
+      "head_sha": "a0326ab48cd46d2d324c1d1cf5245249cbdd12ba",
+      "created_at": "2026-11-02T14:15:50Z",
+      "updated_at": "2026-11-02T14:41:34Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/41460262520"
+    },
+    {
+      "id": 41455062759,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 1002,
       "event": "workflow_run",
       "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
       "created_at": "2026-11-02T13:40:50Z",
-      "updated_at": "2026-11-02T13:40:54Z",
+      "updated_at": "2026-11-02T13:41:03Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/41455062759"
     },
     {
@@ -600,57 +648,22 @@
       "created_at": "2026-10-31T14:35:15Z",
       "updated_at": "2026-10-31T14:35:18Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/41210826487"
-    },
-    {
-      "id": 41207620474,
-      "name": "OMEGA Domains Shadow v0.3",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 47,
-      "event": "pull_request",
-      "head_sha": "836111039e5b50e3304e23ee46126afa30790827",
-      "created_at": "2026-10-31T13:53:48Z",
-      "updated_at": "2026-10-31T13:53:52Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/41207620474"
-    },
-    {
-      "id": 41207620469,
-      "name": "OMEGA Network FDIC Freeze V1",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 783,
-      "event": "pull_request",
-      "head_sha": "836111039e5b50e3304e23ee46126afa30790827",
-      "created_at": "2026-10-31T13:53:48Z",
-      "updated_at": "2026-10-31T13:53:51Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/41207620469"
-    },
-    {
-      "id": 41202103411,
-      "name": "OMEGA Public State Bridge",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 992,
-      "event": "schedule",
-      "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
-      "created_at": "2026-10-31T12:39:49Z",
-      "updated_at": "2026-10-31T12:39:52Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/41202103411"
-    },
-    {
-      "id": 41190669549,
-      "name": "OMEGA Simulation Telemetry Heartbeat V1",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 632,
-      "event": "schedule",
-      "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
-      "created_at": "2026-10-31T09:55:56Z",
-      "updated_at": "2026-10-31T09:56:00Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/41190669549"
     }
   ],
   "omega_artifacts": [
+    {
+      "id": 13148797450,
+      "name": "omega-fdic-local-deposit-freeze-v1",
+      "size_in_bytes": 20861626,
+      "digest": "sha256:ad29d963e7dac474329318d23a91a94c90530291360461c984d6a91bc80cc48c",
+      "expired": false,
+      "created_at": "2026-11-02T14:18:01Z",
+      "updated_at": "2026-11-02T14:18:01Z",
+      "workflow_run": {
+        "id": 41460262522,
+        "head_sha": "a0326ab48cd46d2d324c1d1cf5245249cbdd12ba"
+      }
+    },
     {
       "id": 13146975189,
       "name": "omega-v2-branch-security-master-2024",
@@ -1936,19 +1949,6 @@
       "workflow_run": {
         "id": 33848696030,
         "head_sha": "4da1df15c52ea5ece1a3fece48435c07010649f6"
-      }
-    },
-    {
-      "id": 9927454608,
-      "name": "omega-fdic-local-deposit-freeze-v1",
-      "size_in_bytes": 20838946,
-      "digest": "sha256:55493b93bc645c2c96e93cdf1a98ee549ee627d2be7c472b393c586cc726a050",
-      "expired": false,
-      "created_at": "2026-09-04T07:24:46Z",
-      "updated_at": "2026-09-04T07:24:46Z",
-      "workflow_run": {
-        "id": 33848371738,
-        "head_sha": "e13869e14a4126ca4662d753d7ef7d44a06a8682"
       }
     }
   ]
