@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-11-06T02:30:55Z",
+  "generated_at": "2026-11-06T10:59:17Z",
   "source": {
     "branch": "main",
     "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
-    "publisher_run_id": 42150784258,
-    "publisher_run_number": 1015,
+    "publisher_run_id": 42206775393,
+    "publisher_run_number": 1016,
     "trigger_event": "schedule"
   },
   "runtime": {
@@ -50,15 +50,39 @@
   },
   "workflow_runs": [
     {
-      "id": 42150784258,
+      "id": 42206775393,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 1016,
+      "event": "schedule",
+      "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
+      "created_at": "2026-11-06T10:59:07Z",
+      "updated_at": "2026-11-06T10:59:11Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/42206775393"
+    },
+    {
+      "id": 42180380210,
+      "name": "OMEGA Simulation Telemetry Heartbeat V1",
+      "status": "completed",
+      "conclusion": "failure",
+      "run_number": 654,
+      "event": "schedule",
+      "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
+      "created_at": "2026-11-06T07:21:52Z",
+      "updated_at": "2026-11-06T07:22:03Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/42180380210"
+    },
+    {
+      "id": 42150784258,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 1015,
       "event": "schedule",
       "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
       "created_at": "2026-11-06T02:30:45Z",
-      "updated_at": "2026-11-06T02:30:48Z",
+      "updated_at": "2026-11-06T02:31:00Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/42150784258"
     },
     {
@@ -624,30 +648,6 @@
       "created_at": "2026-11-04T16:31:05Z",
       "updated_at": "2026-11-04T16:33:24Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/41868015264"
-    },
-    {
-      "id": 41868015231,
-      "name": "OMEGA Continuous Intelligence tests",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "run_number": 730,
-      "event": "pull_request",
-      "head_sha": "6b2ee414240d573bf49d1b6beaeab1898dfb7629",
-      "created_at": "2026-11-04T16:31:05Z",
-      "updated_at": "2026-11-04T16:51:37Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/41868015231"
-    },
-    {
-      "id": 41868015178,
-      "name": "OMEGA Empirical Factory V4",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "run_number": 720,
-      "event": "pull_request",
-      "head_sha": "6b2ee414240d573bf49d1b6beaeab1898dfb7629",
-      "created_at": "2026-11-04T16:31:05Z",
-      "updated_at": "2026-11-04T16:56:27Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/41868015178"
     }
   ],
   "omega_artifacts": [
