@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-11-07T20:56:00Z",
+  "generated_at": "2026-11-08T00:42:10Z",
   "source": {
     "branch": "main",
     "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
-    "publisher_run_id": 42413394187,
-    "publisher_run_number": 1022,
+    "publisher_run_id": 42430941830,
+    "publisher_run_number": 1023,
     "trigger_event": "schedule"
   },
   "runtime": {
@@ -50,15 +50,51 @@
   },
   "workflow_runs": [
     {
-      "id": 42413394187,
+      "id": 42430941830,
       "name": "OMEGA Public State Bridge",
       "status": "in_progress",
       "conclusion": null,
+      "run_number": 1023,
+      "event": "schedule",
+      "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
+      "created_at": "2026-11-08T00:42:02Z",
+      "updated_at": "2026-11-08T00:42:05Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/42430941830"
+    },
+    {
+      "id": 42426089898,
+      "name": "OMEGA Forward CEF Watch V1",
+      "status": "completed",
+      "conclusion": "failure",
+      "run_number": 82,
+      "event": "schedule",
+      "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
+      "created_at": "2026-11-07T23:37:28Z",
+      "updated_at": "2026-11-07T23:37:40Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/42426089898"
+    },
+    {
+      "id": 42423181489,
+      "name": "OMEGA Simulation Telemetry Heartbeat V1",
+      "status": "completed",
+      "conclusion": "failure",
+      "run_number": 661,
+      "event": "schedule",
+      "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
+      "created_at": "2026-11-07T23:00:02Z",
+      "updated_at": "2026-11-07T23:00:18Z",
+      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/42423181489"
+    },
+    {
+      "id": 42413394187,
+      "name": "OMEGA Public State Bridge",
+      "status": "completed",
+      "conclusion": "success",
       "run_number": 1022,
       "event": "schedule",
       "head_sha": "151768cda32b14ea9094cccbe45ee7666dd7661f",
       "created_at": "2026-11-07T20:55:51Z",
-      "updated_at": "2026-11-07T20:55:55Z",
+      "updated_at": "2026-11-07T20:56:04Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/42413394187"
     },
     {
@@ -612,42 +648,6 @@
       "created_at": "2026-11-06T14:44:42Z",
       "updated_at": "2026-11-06T15:05:03Z",
       "html_url": "https://github.com/Gabriel23375/runway/actions/runs/42236645899"
-    },
-    {
-      "id": 42236645857,
-      "name": "OMEGA Network FDIC Freeze V1",
-      "status": "completed",
-      "conclusion": "failure",
-      "run_number": 822,
-      "event": "pull_request",
-      "head_sha": "1a4b6212053809ff7725d46593031ba27c02f7ab",
-      "created_at": "2026-11-06T14:44:42Z",
-      "updated_at": "2026-11-06T14:46:12Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/42236645857"
-    },
-    {
-      "id": 42232177080,
-      "name": "OMEGA Continuous Intelligence tests",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "run_number": 741,
-      "event": "pull_request",
-      "head_sha": "5f17d8a9ebc978b916e2c26b716caeaa7d320b99",
-      "created_at": "2026-11-06T14:14:39Z",
-      "updated_at": "2026-11-06T14:34:57Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/42232177080"
-    },
-    {
-      "id": 42232176862,
-      "name": "OMEGA Empirical Factory V4",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "run_number": 731,
-      "event": "pull_request",
-      "head_sha": "5f17d8a9ebc978b916e2c26b716caeaa7d320b99",
-      "created_at": "2026-11-06T14:14:39Z",
-      "updated_at": "2026-11-06T14:39:58Z",
-      "html_url": "https://github.com/Gabriel23375/runway/actions/runs/42232176862"
     }
   ],
   "omega_artifacts": [
